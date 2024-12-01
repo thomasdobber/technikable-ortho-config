@@ -59,10 +59,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp Q  &kp W  &kp E      &kp R      &kp T     &kp LS(LPAR)          &kp LS(RPAR)  &kp Y               &kp U     &kp I      &kp O    &kp P
-&kp A  &kp S  &kp D      &kp F      &kp G     &kp MINUS             &kp EQUAL     &kp H               &kp J     &kp K      &kp L    &kp SEMI
-&kp Z  &kp X  &kp C      &kp V      &kp B     &kp LBKT              &kp RBKT      &kp N               &kp M     &kp COMMA  &kp DOT  &kp FSLH
-              &kp GRAVE  &kp SPACE  &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT     &lt 1 SINGLE_QUOTE  &kp BSLH
+&kp Q  &kp W  &kp E     &kp R      &kp T      &kp LEFT_PARENTHESIS          &kp RIGHT_PARENTHESIS  &kp Y  &kp U         &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D     &kp F      &kp G      &kp LEFT_BRACE                &kp RIGHT_BRACE        &kp H  &kp J         &kp K      &kp L    &kp SEMI
+&kp Z  &kp X  &kp C     &kp V      &kp B      &kp LBKT                      &kp RBKT               &kp N  &kp M         &kp COMMA  &kp DOT  &kp FSLH
+              &kp EXCL  &kp SPACE  &kp GRAVE  &kp LT                &kp GT  &kp SINGLE_QUOTE       &mo 1  &kp QUESTION
             >;
         };
 
@@ -70,8 +70,8 @@
             label = "Num";
             bindings = <
 &trans            &kp N7       &kp N8       &kp N9             &trans  &trans         &trans  &trans  &kp MINUS             &kp UP_ARROW   &kp EQUAL       &trans
-&kp LEFT_CONTROL  &mt LALT N4  &mt LGUI N5  &mt LEFT_SHIFT N6  &trans  &trans         &trans  &trans  &mt RIGHT_SHIFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RIGHT_CONTROL SQT
-&trans            &kp N1       &kp N2       &kp N3             &trans  &trans         &trans  &trans  &kp GRAVE             &kp LBKT       &kp RBKT        &kp BSLH
+&kp LEFT_CONTROL  &mt LALT N4  &mt LGUI N5  &mt LEFT_SHIFT N6  &trans  &trans         &trans  &trans  &mt RIGHT_SHIFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &trans
+&trans            &kp N1       &kp N2       &kp N3             &trans  &trans         &trans  &trans  &trans                &trans         &trans          &kp BSLH
                                &kp N0       &mo 4              &trans  &none   &none  &trans  &trans  &trans
             >;
         };
