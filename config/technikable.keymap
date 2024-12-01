@@ -24,8 +24,8 @@
         compatible = "zmk,conditional-layers";
 
         tri_layer {
-            if-layers = <2 1>;
-            then-layer = <3>;
+            if-layers = <4 1>;
+            then-layer = <2>;
         };
     };
 
@@ -69,10 +69,28 @@
         num_layer {
             label = "Num";
             bindings = <
-&trans  &kp N7       &kp N8       &kp N9             &trans  &trans         &trans  &trans  &trans                &kp UP_ARROW   &trans          &trans
-&trans  &mt LALT N4  &mt LGUI N5  &mt LEFT_SHIFT N6  &trans  &trans         &trans  &trans  &mt RIGHT_SHIFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &trans
-&trans  &kp N1       &kp N2       &kp N3             &trans  &trans         &trans  &trans  &trans                &trans         &trans          &trans
-                     &kp N0       &mo 2              &trans  &none   &none  &trans  &trans  &trans
+&trans            &kp N7       &kp N8       &kp N9             &trans  &trans         &trans  &trans  &kp MINUS             &kp UP_ARROW   &kp EQUAL       &trans
+&kp LEFT_CONTROL  &mt LALT N4  &mt LGUI N5  &mt LEFT_SHIFT N6  &trans  &trans         &trans  &trans  &mt RIGHT_SHIFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RIGHT_CONTROL SQT
+&trans            &kp N1       &kp N2       &kp N3             &trans  &trans         &trans  &trans  &kp GRAVE             &kp LBKT       &kp RBKT        &kp BSLH
+                               &kp N0       &mo 4              &trans  &none   &none  &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans             &trans           &trans                 &trans  &trans          &trans  &trans  &kp AMPERSAND  &kp ASTERISK  &trans     &trans
+&kp LT  &kp LEFT_BRACKET   &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &trans  &trans          &trans  &trans  &kp DOLLAR     &kp PERCENT   &kp CARET  &kp SEMI
+&kp GT  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &trans  &trans          &trans  &trans  &kp EXCL       &kp AT        &kp HASH   &kp QUESTION
+                           &trans           &trans                 &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
