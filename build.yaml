@@ -18,5 +18,5 @@
 #
 ---
 include:
-  - board: technikable
+#  - board: technikable
   - board: technikable@1.1
