@@ -46,7 +46,7 @@
         { "label":    "GUI", "row": 3, "col":  2, "x":  2, "y": 3 },
         { "label":    "LWR", "row": 3, "col":  3, "x":  3, "y": 3 },
         { "label":    "SPC", "row": 3, "col":  4, "x":  4, "y": 3, "w": 2 },
-        { "label":    "SPC", "row": 3, "col":  4, "x":  4, "y": 3, "w": 2 },
+        { "label":    "SPC", "row": 3, "col":  7, "x":  4, "y": 3, "w": 2 },
         { "label":    "RSE", "row": 3, "col":  8, "x":  8, "y": 3 },
         { "label":    "ALT", "row": 3, "col":  9, "x":  9, "y": 3 }
       ]
