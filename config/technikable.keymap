@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    chosen { zmk,matrix_transform = &ortho_transform; };
+    chosen { zmk,matrix_transform = &dual_2u_transform; };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
