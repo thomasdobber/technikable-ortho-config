@@ -63,7 +63,7 @@
             label = "Base";
             bindings = <
 &kp TAB           &kp Q  &kp W     &kp E         &kp R        &kp T         &kp Y  &kp U              &kp I       &kp O    &kp P     &kp BSPC
-&kp LEFT_CONTROL  &kp A  &kp S     &kp D         &mt LSHFT F  &kp G         &kp H  &mt RIGHT_SHIFT J  &kp K       &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LEFT_CONTROL  &kp A  &kp S     &mt LGUI D    &mt LSHFT F  &kp G         &kp H  &mt RIGHT_SHIFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &kp LSHFT         &kp Z  &kp X     &kp C         &kp V        &kp B         &kp N  &kp M              &kp COMMA   &kp DOT  &kp FSLH  &kp RET
                          &kp LALT  &kp LEFT_GUI  &kp SPACE           &mo 1         &mo 2              &kp ESCAPE
             >;
@@ -72,10 +72,10 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&trans  &kp EXCL   &kp AT_SIGN           &kp HASH               &kp DOLLAR        &kp PERCENT                &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &trans
-&trans  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp COLON      &kp DOUBLE_QUOTES
-&trans  &kp TILDE  &kp LT                &kp GT                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp UNDER  &kp MINUS      &kp EQUAL     &kp PLUS   &kp QUESTION   &trans
-                   &trans                &trans                 &mo 3                                &trans             &trans         &trans
+&trans  &kp EXCL                &kp AT_SIGN                &kp HASH                    &kp DOLLAR                 &kp PERCENT                &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &trans
+&trans  &mt LEFT_CONTROL GRAVE  &mt LALT LEFT_PARENTHESIS  &mt LGUI RIGHT_PARENTHESIS  &mt LEFT_SHIFT LEFT_BRACE  &kp RIGHT_BRACE            &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp COLON      &kp DOUBLE_QUOTES
+&trans  &kp TILDE               &kp LT                     &kp GT                      &kp LEFT_BRACKET           &kp RIGHT_BRACKET          &kp UNDER  &kp MINUS      &kp EQUAL     &kp PLUS   &kp QUESTION   &trans
+                                &trans                     &trans                      &mo 3                                         &trans             &trans         &trans
             >;
         };
 
