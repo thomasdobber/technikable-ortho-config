@@ -16,12 +16,12 @@ layers:
   - LEFT CONTROL
   - A
   - S
-  - D
+  - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - K
+  - {t: K, h: RGUI}
   - L
   - ;
   - ''''
@@ -57,10 +57,10 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - (
-  - )
-  - '{'
+  - {t: '`', h: LEFT CONTROL}
+  - {t: (, h: LALT}
+  - {t: ), h: LGUI}
+  - {t: '{', h: LEFT SHIFT}
   - '}'
   - LEFT
   - DOWN
