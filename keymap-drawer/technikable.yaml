@@ -39,10 +39,53 @@ layers:
   - RET
   - LALT
   - LEFT GUI
-  - SPACE
-  - Sym
-  - Num
+  - {t: SPACE, h: Num}
+  - {t: BACKSPACE, h: Sym}
+  - {t: RIGHT SHIFT, h: sticky}
   - ESCAPE
+  Num:
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '7'
+  - '8'
+  - '9'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - ''
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '1'
+  - '2'
+  - '3'
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '0'
+  - ''
+  - ''
   Sym:
   - {t: ▽, type: trans}
   - '!'
@@ -82,55 +125,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Bluetooth
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Num:
-  - {t: ▽, type: trans}
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - '0'
-  - '4'
-  - '5'
-  - '6'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: '0', h: LGUI}
-  - ''
-  - ''
-  - {type: held}
-  - ''
   Bluetooth:
   - ''
+  - BT CLR
   - ''
   - ''
   - ''
@@ -144,7 +145,6 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
@@ -155,10 +155,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
@@ -167,11 +168,10 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
-  - {type: held}
-  - {type: held}
   - ''
-  - BT CLR
+  - ''
+  - ''
+  - ''
 combos:
 - p: [16, 15]
   k: TAB
