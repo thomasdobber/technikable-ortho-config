@@ -1,7 +1,48 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_2x2u}
 layers:
-  Base: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LEFT CONTROL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, RET, LALT, LEFT GUI, SPACE,
-    Sym, Num, ESCAPE]
+  Base:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LEFT CONTROL
+  - A
+  - S
+  - D
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RIGHT SHIFT}
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RET
+  - LALT
+  - LEFT GUI
+  - SPACE
+  - Sym
+  - Num
+  - ESCAPE
   Sym:
   - {t: ▽, type: trans}
   - '!'
@@ -140,7 +181,8 @@ combos:
   k: ENTER
 - p: [14, 15, 16]
   k: ESCAPE
-- p: [14, 15, 16, 13]
+- p: [16, 19]
   k: '&caps_word'
+  l: [Base]
 - p: [32, 31]
   k: DEL
