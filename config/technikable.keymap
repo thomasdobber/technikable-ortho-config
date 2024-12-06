@@ -18,12 +18,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <16 3>;
+            key-positions = <16 15>;
         };
 
         bspc {
             bindings = <&kp BACKSPACE>;
-            key-positions = <19 8>;
+            key-positions = <19 20>;
         };
 
         ent {
@@ -43,7 +43,7 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <19 32>;
+            key-positions = <32 31>;
         };
     };
 
@@ -63,7 +63,7 @@
         sym_layer {
             label = "Sym";
             bindings = <
-&trans  &kp EXCL   &kp AMPERSAND         &kp HASH               &kp DOLLAR        &kp PERCENT                &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &trans
+&trans  &kp EXCL   &kp AT_SIGN           &kp HASH               &kp DOLLAR        &kp PERCENT                &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &trans
 &trans  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp LEFT   &kp DOWN       &kp UP_ARROW  &kp RIGHT  &kp COLON      &kp DOUBLE_QUOTES
 &trans  &kp TILDE  &kp LT                &kp GT                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp UNDER  &kp MINUS      &kp EQUAL     &kp PLUS   &kp QUESTION   &trans
                    &trans                &trans                 &mo 3                                &trans             &trans         &trans
