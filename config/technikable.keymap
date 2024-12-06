@@ -13,7 +13,29 @@
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <16 14>;
+        };
+
+        bspc {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <21 19>;
+        };
+
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <21 20 19>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <14 15 16>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
