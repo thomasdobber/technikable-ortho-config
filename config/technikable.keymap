@@ -11,6 +11,11 @@
 &caps_word {
 };
 
+&mt {
+    require-prior-idle-ms = <150>;
+    flavor = "balanced";
+};
+
 / {
     chosen { zmk,matrix_transform = &dual_2u_transform; };
 
