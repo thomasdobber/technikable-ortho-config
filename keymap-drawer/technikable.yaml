@@ -13,14 +13,14 @@ layers:
   - O
   - P
   - BSPC
-  - LEFT CONTROL
+  - LCTRL
   - A
   - S
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
+  - {t: J, h: RSHIFT}
   - {t: K, h: RGUI}
   - L
   - ;
@@ -38,10 +38,10 @@ layers:
   - /
   - RET
   - LALT
-  - LEFT GUI
+  - LGUI
   - {t: SPACE, h: Num}
   - {t: BACKSPACE, h: Sym}
-  - {t: RIGHT SHIFT, h: sticky}
+  - {t: RSHIFT, h: sticky}
   - ESCAPE
   Num:
   - {t: ▽, type: trans}
@@ -107,7 +107,7 @@ layers:
   - '}'
   - LEFT
   - DOWN
-  - UP ARROW
+  - UP
   - RIGHT
   - ':'
   - '"'
@@ -176,11 +176,11 @@ combos:
 - p: [16, 15]
   k: TAB
 - p: [19, 20]
-  k: BACKSPACE
+  k: BSPC
 - p: [21, 20, 19]
   k: ENTER
 - p: [14, 15, 16]
-  k: ESCAPE
+  k: ESC
 - p: [16, 19]
   k: '&caps_word'
   l: [Base]
