@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_2x2u}
 layers:
   Base:
-  - TAB
+  - '='
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - LCTRL
+  - '-'
+  - '&caps_word'
   - A
   - S
   - {t: D, h: LGUI}
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: '`', h: LSHFT}
+  - '`'
   - Z
   - X
   - C
@@ -36,55 +36,12 @@ layers:
   - ','
   - .
   - /
-  - RET
-  - LALT
+  - \
+  - {t: ▽, type: trans}
   - Shortcuts
   - {t: SPACE, h: Num}
   - {t: BSPC, h: Sym}
   - {t: RSHIFT, h: sticky}
-  - {t: ▽, type: trans}
-  Shortcuts:
-  - {t: ▽, type: trans}
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ E
-  - Gui+ R
-  - Gui+ T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Gui+ A, h: LCTRL}
-  - {t: Gui+ S, h: LALT}
-  - {t: Gui+ D, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
-  - Gui+ G
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Gui+ B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
   - {t: ▽, type: trans}
@@ -130,42 +87,42 @@ layers:
   - ''
   - ''
   Sym:
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - +
   - ^
   - '&'
   - '*'
-  - '|'
-  - \
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '`', h: LEFT CONTROL}
-  - {t: (, h: LALT}
-  - {t: ), h: LGUI}
-  - {t: '{', h: LEFT SHIFT}
-  - '}'
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - {t: ▽, type: trans}
+  - {t: '!', h: LCTRL}
+  - {t: '@', h: LALT}
+  - {t: '#', h: LGUI}
+  - {t: $, h: LSHIFT}
+  - '%'
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - UP
   - RIGHT
   - ':'
   - '"'
-  - {t: ▽, type: trans}
   - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - <
   - '>'
-  - '['
-  - ']'
-  - _
-  - '-'
-  - '='
-  - +
   - '?'
-  - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,6 +172,49 @@ layers:
   - ''
   - ''
   - ''
+  Shortcuts:
+  - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ E
+  - Gui+ R
+  - Gui+ T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - _
+  - {t: ▽, type: trans}
+  - {t: Gui+ A, h: LCTRL}
+  - {t: Gui+ S, h: LALT}
+  - {t: Gui+ D, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ':'
+  - '"'
+  - LSHFT
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Gui+ B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - <
+  - '>'
+  - '?'
+  - '|'
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [16, 15]
   k: TAB
