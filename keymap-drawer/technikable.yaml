@@ -40,9 +40,9 @@ layers:
   - LALT
   - LGUI
   - {t: SPACE, h: Num}
-  - {t: BACKSPACE, h: Sym}
+  - {t: BSPC, h: Sym}
   - {t: RSHIFT, h: sticky}
-  - ESCAPE
+  - {t: ▽, type: trans}
   Num:
   - {t: ▽, type: trans}
   - ''
