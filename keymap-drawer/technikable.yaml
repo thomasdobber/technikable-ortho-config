@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - LSHFT
+  - {t: '`', h: LSHFT}
   - Z
   - X
   - C
@@ -38,10 +38,53 @@ layers:
   - /
   - RET
   - LALT
-  - LGUI
+  - Shortcuts
   - {t: SPACE, h: Num}
   - {t: BSPC, h: Sym}
   - {t: RSHIFT, h: sticky}
+  - {t: ▽, type: trans}
+  Shortcuts:
+  - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ E
+  - Gui+ R
+  - Gui+ T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+ A, h: LCTRL}
+  - {t: Gui+ S, h: LALT}
+  - {t: Gui+ D, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Gui+ B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num:
   - {t: ▽, type: trans}
