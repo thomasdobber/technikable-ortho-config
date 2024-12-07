@@ -4,12 +4,12 @@ layers:
   - '='
   - Q
   - W
-  - E
+  - {t: E, h: LALT}
   - R
   - T
   - Y
   - U
-  - I
+  - {t: I, h: LALT}
   - O
   - P
   - '-'
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - '`'
+  - {t: '`', h: LSHFT}
   - Z
   - X
   - C
@@ -37,85 +37,42 @@ layers:
   - .
   - /
   - \
-  - {t: ▽, type: trans}
-  - Shortcuts
-  - {t: SPACE, h: Num}
+  - LALT
+  - LGUI
+  - {t: SPACE, h: Sym}
   - {t: BSPC, h: Sym}
   - {t: RSHIFT, h: sticky}
   - {t: ▽, type: trans}
-  Num:
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '7'
-  - '8'
-  - '9'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
-  - ''
-  - ''
-  - '4'
-  - '5'
-  - '6'
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '1'
-  - '2'
-  - '3'
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - '0'
-  - ''
-  - ''
   Sym:
   - +
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: ▽, type: trans}
+  - '4'
+  - {t: LALT, h: '5'}
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - UP
+  - {t: ▽, type: trans}
+  - {t: LALT, h: UP}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - {t: '!', h: LCTRL}
-  - {t: '@', h: LALT}
-  - {t: '#', h: LGUI}
-  - {t: $, h: LSHIFT}
-  - '%'
+  - '0'
+  - {t: '1', h: LCTRL}
+  - {t: '2', h: LGUI}
+  - {t: '3', h: LSHIFT}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: RSHFT, h: LEFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: RCTRL}
   - ':'
   - '"'
   - '~'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,8 +82,8 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Bluetooth:
@@ -172,49 +129,6 @@ layers:
   - ''
   - ''
   - ''
-  Shortcuts:
-  - {t: ▽, type: trans}
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ E
-  - Gui+ R
-  - Gui+ T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - {t: ▽, type: trans}
-  - {t: Gui+ A, h: LCTRL}
-  - {t: Gui+ S, h: LALT}
-  - {t: Gui+ D, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
-  - Gui+ G
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ':'
-  - '"'
-  - LSHFT
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Gui+ B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
-  - '?'
-  - '|'
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [16, 15]
   k: TAB
