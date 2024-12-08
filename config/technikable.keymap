@@ -62,18 +62,18 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp EQUAL        &kp Q  &kp W        &mt LALT E  &kp R        &kp T              &kp Y  &kp U         &mt LALT I  &kp O        &kp P     &kp MINUS
-&caps_word       &kp A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F  &kp G              &kp H  &mt RSHIFT J  &mt RGUI K  &mt RCTRL L  &kp SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z  &kp X        &kp C       &kp V        &kp B              &kp N  &kp M         &kp COMMA   &kp DOT      &kp FSLH  &kp BSLH
-                        &kp LALT     &mo 1       &lt 2 SPACE         &lt 3 BSPC         &sk RSHFT     &mo 4
+&kp EQUAL   &kp Q  &kp W        &mt LALT E  &kp R        &kp T              &kp Y  &kp U         &mt LALT I  &kp O        &kp P     &kp MINUS
+&caps_word  &kp A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F  &kp G              &kp H  &mt RSHIFT J  &mt RGUI K  &mt RCTRL L  &kp SEMI  &kp SINGLE_QUOTE
+&kp GRAVE   &kp Z  &kp X        &kp C       &kp V        &kp B              &kp N  &kp M         &kp COMMA   &kp DOT      &kp FSLH  &kp BSLH
+                   &kp LALT     &mo 1       &lt 2 SPACE         &lt 3 BSPC         &sk RSHFT     &mo 4
             >;
         };
 
         shortcut_num_layer {
             bindings = <
-&trans     &kp LG(Q)  &kp LG(W)        &mt LALT LG(E)  &kp LG(R)        &kp LG(T)          &trans  &kp N4        &mt LALT N5  &kp N6        &trans  &trans
-&trans     &kp LG(A)  &mt LCTRL LG(S)  &mt LGUI LG(D)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &mt RSHFT N1  &mt RGUI N2  &mt RCTRL N3  &trans  &trans
-&kp LSHFT  &kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &kp N7        &kp N8       &kp N9        &trans  &trans
+&trans     &kp LG(Q)  &kp LG(W)        &mt LALT LG(E)  &kp LG(R)        &kp LG(T)          &kp N1  &kp N2        &mt LALT N3  &trans     &trans  &trans
+&trans     &kp LG(A)  &mt LCTRL LG(S)  &mt LGUI LG(D)  &mt LSHFT LG(F)  &kp LG(G)          &kp N4  &mt RSHFT N5  &mt RGUI N6  &kp RCTRL  &trans  &trans
+&kp LSHFT  &kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)        &kp LG(B)          &kp N7  &kp N8        &kp N9       &trans     &trans  &trans
                       &trans           &trans          &trans                      &kp N0          &trans        &trans
             >;
 
@@ -83,10 +83,10 @@
         brackets_sym_layer {
             label = "BRC & SYM";
             bindings = <
-&kp PLUS   &trans  &trans     &mt LALT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &trans  &kp DOLLAR      &mt LALT PERCENT  &kp CARET       &trans        &kp UNDERSCORE
-&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE        &mt LSHIFT RIGHT_BRACE  &trans          &trans  &mt RSHFT EXCL  &mt RGUI AT       &mt RCTRL HASH  &kp COLON     &kp DOUBLE_QUOTES
-&kp TILDE  &trans  &trans     &kp LEFT_BRACKET           &kp RIGHT_BRACKET       &trans          &trans  &kp AMPERSAND   &kp ASTERISK      &trans          &kp QUESTION  &kp PIPE
-                   &trans     &trans                     &trans                          &trans          &trans          &trans
+&kp PLUS   &trans  &trans     &mt LALT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &kp EXCL       &kp AT             &mt LALT HASH   &trans     &trans        &kp UNDERSCORE
+&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE        &mt LSHIFT RIGHT_BRACE  &trans          &kp DOLLAR     &mt RSHFT PERCENT  &mt RGUI CARET  &kp RCTRL  &kp COLON     &kp DOUBLE_QUOTES
+&kp TILDE  &trans  &trans     &kp LEFT_BRACKET           &kp RIGHT_BRACKET       &trans          &kp AMPERSAND  &kp ASTERISK       &kp LT          &kp GT     &kp QUESTION  &kp PIPE
+                   &trans     &trans                     &trans                          &trans                 &trans             &trans
             >;
         };
 
