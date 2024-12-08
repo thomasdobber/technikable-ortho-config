@@ -24,6 +24,16 @@
     combos {
         compatible = "zmk,combos";
 
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <14 15 16>;
+        };
+
+        ent {
+            bindings = <&kp ENTER>;
+            key-positions = <21 20 19>;
+        };
+
         tab {
             bindings = <&kp TAB>;
             key-positions = <16 15>;
@@ -32,16 +42,6 @@
         bspc {
             bindings = <&kp BSPC>;
             key-positions = <19 20>;
-        };
-
-        ent {
-            bindings = <&kp ENTER>;
-            key-positions = <21 20 19>;
-        };
-
-        esc {
-            bindings = <&kp ESC>;
-            key-positions = <14 15 16>;
         };
 
         caps_word {
