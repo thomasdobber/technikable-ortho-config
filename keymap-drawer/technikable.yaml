@@ -15,14 +15,14 @@ layers:
   - '-'
   - '&caps_word'
   - A
-  - S
+  - {t: S, h: LCTRL}
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RSHIFT}
   - {t: K, h: RGUI}
-  - L
+  - {t: L, h: RCTRL}
   - ;
   - ''''
   - {t: '`', h: LSHFT}
