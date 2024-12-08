@@ -101,7 +101,7 @@ layers:
   - _
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: ▽, type: trans}
   - {t: '{', h: LGUI}
   - {t: '}', h: LSHIFT}
   - {t: ▽, type: trans}
