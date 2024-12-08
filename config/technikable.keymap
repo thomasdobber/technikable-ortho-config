@@ -71,32 +71,32 @@
 
         shortcut_num_layer {
             bindings = <
-&trans  &kp LG(Q)  &kp LG(W)        &mt LALT LG(E)  &kp LG(R)        &kp LG(T)          &trans  &kp N4        &mt LALT N5  &kp N6        &trans  &trans
-&trans  &kp LG(A)  &mt LCTRL LG(S)  &mt LGUI LG(D)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &mt RSHFT N1  &mt RGUI N2  &mt RCTRL N3  &trans  &trans
-&trans  &kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &kp N7        &kp N8       &kp N9        &trans  &trans
-                   &trans           &trans          &trans                      &kp N0          &trans        &trans
+&trans     &kp LG(Q)  &kp LG(W)        &mt LALT LG(E)  &kp LG(R)        &kp LG(T)          &trans  &kp N4        &mt LALT N5  &kp N6        &trans  &trans
+&trans     &kp LG(A)  &mt LCTRL LG(S)  &mt LGUI LG(D)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &mt RSHFT N1  &mt RGUI N2  &mt RCTRL N3  &trans  &trans
+&kp LSHFT  &kp LG(Z)  &kp LG(X)        &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &kp N7        &kp N8       &kp N9        &trans  &trans
+                      &trans           &trans          &trans                      &kp N0          &trans        &trans
             >;
 
             label = "Shortcut & Num";
         };
 
-        sym_layer {
-            label = "Sym";
+        brackets_sym_layer {
+            label = "Brackets & Sym";
             bindings = <
-&kp PLUS   &trans  &kp N4        &mt N5 LALT  &kp N6         &trans          &trans  &trans          &mt UP LALT    &trans           &trans        &kp UNDERSCORE
-&trans     &kp N0  &mt LCTRL N1  &mt LGUI N2  &mt LSHIFT N3  &trans          &trans  &mt LEFT RSHFT  &mt RGUI DOWN  &mt RCTRL RIGHT  &kp COLON     &kp DOUBLE_QUOTES
-&kp TILDE  &trans  &kp N7        &kp N8       &kp N9         &trans          &trans  &kp AMPERSAND   &kp ASTERISK   &trans           &kp QUESTION  &kp PIPE
-                   &trans        &trans       &trans                 &trans          &trans          &trans
+&kp PLUS   &trans  &trans     &mt N5 LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &trans  &kp DOLLAR      &mt LALT PERCENT  &kp CARET       &trans        &kp UNDERSCORE
+&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE      &mt LSHIFT RIGHT_BRACE  &trans          &trans  &mt RSHFT EXCL  &mt RGUI AT       &mt RCTRL HASH  &kp COLON     &kp DOUBLE_QUOTES
+&kp TILDE  &trans  &trans     &kp LEFT_BRACKET         &kp RIGHT_BRACKET       &trans          &trans  &kp AMPERSAND   &kp ASTERISK      &trans          &kp QUESTION  &kp PIPE
+                   &trans     &trans                   &trans                          &trans          &trans          &trans
             >;
         };
 
         bluetooth_layer {
             label = "Bluetooth";
             bindings = <
-&none  &bt BT_CLR    &none         &none         &none         &none                &none  &none       &none       &none  &none  &none
-&none  &none         &none         &none         &none         &none                &none  &bt BT_PRV  &bt BT_NXT  &none  &none  &none
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &none  &none       &none       &none  &none  &none
-                     &none         &none         &none                       &none         &none       &none
+&none  &bt BT_CLR    &none         &none         &none         &none                &none  &none   &none   &none  &none  &none
+&none  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                &none  &trans  &trans  &none  &none  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &none  &none   &none   &none  &none  &none
+                     &none         &none         &none                       &none         &none   &none
             >;
         };
     };
