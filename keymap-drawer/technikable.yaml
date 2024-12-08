@@ -37,22 +37,65 @@ layers:
   - .
   - /
   - \
-  - LALT
-  - GUI & NUM
-  - {t: SPACE, h: BRC & SYM}
-  - {t: BSPC, h: NAV}
+  - {t: ▽, type: trans}
+  - GUI & NAV
+  - {t: SPACE, h: BRC & NUM}
   - {t: RSHFT, h: sticky}
-  - BLT
-  GUI & NUM:
+  - GUI & NAV
+  - {t: ▽, type: trans}
+  BRC & NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: (, h: LALT}
+  - )
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - {t: '2', h: LALT}
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: '{', h: LGUI}
+  - {t: '}', h: LSHFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '4', h: RSHFT}
+  - {t: '5', h: RGUI}
+  - {t: '6', h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GUI & NAV:
   - {t: ▽, type: trans}
   - Gui+ Q
   - Gui+ W
   - {t: Gui+ E, h: LALT}
   - Gui+ R
   - Gui+ T
-  - '1'
-  - '2'
-  - {t: '3', h: LALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: UP, h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,10 +105,10 @@ layers:
   - {t: Gui+ D, h: LGUI}
   - {t: Gui+ F, h: LSHFT}
   - Gui+ G
-  - '4'
-  - {t: '5', h: RSHFT}
-  - {t: '6', h: RGUI}
   - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -74,94 +117,6 @@ layers:
   - Gui+ C
   - Gui+ V
   - Gui+ B
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BRC & SYM:
-  - +
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: (, h: LALT}
-  - )
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - {t: '#', h: LALT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '{', h: LGUI}
-  - {t: '}', h: LSHIFT}
-  - {t: ▽, type: trans}
-  - $
-  - {t: '%', h: RSHFT}
-  - {t: ^, h: RGUI}
-  - {t: ▽, type: trans}
-  - ':'
-  - '"'
-  - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - '&'
-  - '*'
-  - <
-  - '>'
-  - '?'
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NAV:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,6 +125,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
@@ -210,11 +167,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ESC
