@@ -39,8 +39,8 @@ layers:
   - \
   - LALT
   - Shortcut & Num
-  - {t: SPACE, h: Sym}
-  - {t: BSPC, h: Sym}
+  - {t: SPACE, h: Brackets & Sym}
+  - {t: BSPC, h: Brackets & Sym}
   - {t: RSHIFT, h: sticky}
   - Bluetooth
   Shortcut & Num:
@@ -68,7 +68,7 @@ layers:
   - {t: '3', h: RCTRL}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHFT
   - Gui+ Z
   - Gui+ X
   - Gui+ C
@@ -86,36 +86,36 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Sym:
+  Brackets & Sym:
   - +
   - {t: ▽, type: trans}
-  - '4'
-  - {t: LALT, h: '5'}
-  - '6'
+  - {t: ▽, type: trans}
+  - {t: (, h: '5'}
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LALT, h: UP}
-  - {t: ▽, type: trans}
+  - $
+  - {t: '%', h: LALT}
+  - ^
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
-  - '0'
-  - {t: '1', h: LCTRL}
-  - {t: '2', h: LGUI}
-  - {t: '3', h: LSHIFT}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: '{', h: LGUI}
+  - {t: '}', h: LSHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RSHFT, h: LEFT}
-  - {t: DOWN, h: RGUI}
-  - {t: RIGHT, h: RCTRL}
+  - {t: '!', h: RSHFT}
+  - {t: '@', h: RGUI}
+  - {t: '#', h: RCTRL}
   - ':'
   - '"'
   - '~'
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&'
@@ -143,14 +143,14 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - BT PRV
   - BT NXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
