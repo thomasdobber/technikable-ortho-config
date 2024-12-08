@@ -41,7 +41,7 @@ layers:
   - GUI & NUM
   - {t: SPACE, h: BRC & SYM}
   - {t: BSPC, h: NAV}
-  - {t: RSHIFT, h: sticky}
+  - {t: RSHFT, h: sticky}
   - BLT
   GUI & NUM:
   - {t: ▽, type: trans}
