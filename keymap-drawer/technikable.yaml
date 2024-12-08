@@ -216,14 +216,14 @@ layers:
   - ''
   - {type: held}
 combos:
+- p: [14, 15, 16]
+  k: ESC
+- p: [21, 20, 19]
+  k: ENTER
 - p: [16, 15]
   k: TAB
 - p: [19, 20]
   k: BSPC
-- p: [21, 20, 19]
-  k: ENTER
-- p: [14, 15, 16]
-  k: ESC
 - p: [16, 19]
   k: '&caps_word'
   l: [Base]
