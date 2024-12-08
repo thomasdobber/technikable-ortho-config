@@ -65,7 +65,7 @@
 &kp EQUAL        &kp Q  &kp W     &mt LALT E  &kp R        &kp T              &kp Y  &kp U         &mt LALT I  &kp O    &kp P     &kp MINUS
 &caps_word       &kp A  &kp S     &mt LGUI D  &mt LSHFT F  &kp G              &kp H  &mt RSHIFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &mt LSHFT GRAVE  &kp Z  &kp X     &kp C       &kp V        &kp B              &kp N  &kp M         &kp COMMA   &kp DOT  &kp FSLH  &kp BSLH
-                        &kp LALT  &mo 1       &lt 2 SPACE         &lt 2 BSPC         &sk RSHIFT    &mo 3
+                        &kp LALT  &mo 1       &lt 2 SPACE         &lt 3 BSPC         &sk RSHIFT    &mo 4
             >;
         };
 
@@ -77,21 +77,32 @@
                       &trans           &trans          &trans                      &kp N0          &trans        &trans
             >;
 
-            label = "Shortcut & Num";
+            label = "GUI & NUM";
         };
 
         brackets_sym_layer {
-            label = "Brackets & Sym";
+            label = "BRC & SYM";
             bindings = <
-&kp PLUS   &trans  &trans     &mt N5 LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &trans  &kp DOLLAR      &mt LALT PERCENT  &kp CARET       &trans        &kp UNDERSCORE
-&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE      &mt LSHIFT RIGHT_BRACE  &trans          &trans  &mt RSHFT EXCL  &mt RGUI AT       &mt RCTRL HASH  &kp COLON     &kp DOUBLE_QUOTES
-&kp TILDE  &trans  &trans     &kp LEFT_BRACKET         &kp RIGHT_BRACKET       &trans          &trans  &kp AMPERSAND   &kp ASTERISK      &trans          &kp QUESTION  &kp PIPE
-                   &trans     &trans                   &trans                          &trans          &trans          &trans
+&kp PLUS   &trans  &trans     &mt LALT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &trans  &kp DOLLAR      &mt LALT PERCENT  &kp CARET       &trans        &kp UNDERSCORE
+&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE        &mt LSHIFT RIGHT_BRACE  &trans          &trans  &mt RSHFT EXCL  &mt RGUI AT       &mt RCTRL HASH  &kp COLON     &kp DOUBLE_QUOTES
+&kp TILDE  &trans  &trans     &kp LEFT_BRACKET           &kp RIGHT_BRACKET       &trans          &trans  &kp AMPERSAND   &kp ASTERISK      &trans          &kp QUESTION  &kp PIPE
+                   &trans     &trans                     &trans                          &trans          &trans          &trans
             >;
         };
 
+        nav_layer {
+            bindings = <
+&trans  &trans  &trans     &kp LALT  &trans     &trans          &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp LCTRL  &kp LGUI  &kp LSHFT  &trans          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans     &trans    &trans     &trans          &trans  &trans    &trans    &trans     &trans  &trans
+                &trans     &trans    &trans             &trans          &trans    &trans
+            >;
+
+            label = "NAV";
+        };
+
         bluetooth_layer {
-            label = "Bluetooth";
+            label = "BLT";
             bindings = <
 &none  &bt BT_CLR    &none         &none         &none         &none                &none  &none   &none   &none  &none  &none
 &none  &bt BT_PRV    &bt BT_NXT    &none         &none         &none                &none  &trans  &trans  &none  &none  &none
