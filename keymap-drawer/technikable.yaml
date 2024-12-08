@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RCTRL}
   - ;
   - ''''
-  - {t: '`', h: LSHFT}
+  - '`'
   - Z
   - X
   - C
@@ -50,10 +50,10 @@ layers:
   - {t: Gui+ E, h: LALT}
   - Gui+ R
   - Gui+ T
+  - '1'
+  - '2'
+  - {t: '3', h: LALT}
   - {t: ▽, type: trans}
-  - '4'
-  - {t: '5', h: LALT}
-  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,10 +62,10 @@ layers:
   - {t: Gui+ D, h: LGUI}
   - {t: Gui+ F, h: LSHFT}
   - Gui+ G
-  - {t: ▽, type: trans}
-  - {t: '1', h: RSHFT}
-  - {t: '2', h: RGUI}
-  - {t: '3', h: RCTRL}
+  - '4'
+  - {t: '5', h: RSHFT}
+  - {t: '6', h: RGUI}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
@@ -74,10 +74,10 @@ layers:
   - Gui+ C
   - Gui+ V
   - Gui+ B
-  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,10 +93,10 @@ layers:
   - {t: (, h: LALT}
   - )
   - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - {t: '#', h: LALT}
   - {t: ▽, type: trans}
-  - $
-  - {t: '%', h: LALT}
-  - ^
   - {t: ▽, type: trans}
   - _
   - {t: ▽, type: trans}
@@ -105,10 +105,10 @@ layers:
   - {t: '{', h: LGUI}
   - {t: '}', h: LSHIFT}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '!', h: RSHFT}
-  - {t: '@', h: RGUI}
-  - {t: '#', h: RCTRL}
+  - $
+  - {t: '%', h: RSHFT}
+  - {t: ^, h: RGUI}
+  - RCTRL
   - ':'
   - '"'
   - '~'
@@ -117,10 +117,10 @@ layers:
   - '['
   - ']'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '&'
   - '*'
-  - {t: ▽, type: trans}
+  - <
+  - '>'
   - '?'
   - '|'
   - {t: ▽, type: trans}
