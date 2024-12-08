@@ -38,10 +38,53 @@ layers:
   - /
   - \
   - LALT
-  - LGUI
+  - Shortcut & Num
   - {t: SPACE, h: Sym}
   - {t: BSPC, h: Sym}
   - {t: RSHIFT, h: sticky}
+  - Bluetooth
+  Shortcut & Num:
+  - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - {t: Gui+ E, h: LALT}
+  - Gui+ R
+  - Gui+ T
+  - {t: ▽, type: trans}
+  - '4'
+  - {t: '5', h: LALT}
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ A
+  - {t: Gui+ S, h: LCTRL}
+  - {t: Gui+ D, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - {t: '1', h: RSHFT}
+  - {t: '2', h: RGUI}
+  - {t: '3', h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Gui+ B
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
   - +
@@ -128,7 +171,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
 combos:
 - p: [16, 15]
   k: TAB
