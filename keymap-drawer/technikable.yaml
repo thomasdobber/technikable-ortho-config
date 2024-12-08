@@ -38,12 +38,12 @@ layers:
   - /
   - \
   - LALT
-  - Shortcut & Num
-  - {t: SPACE, h: Brackets & Sym}
-  - {t: BSPC, h: Brackets & Sym}
+  - GUI & NUM
+  - {t: SPACE, h: BRC & SYM}
+  - {t: BSPC, h: NAV}
   - {t: RSHIFT, h: sticky}
-  - Bluetooth
-  Shortcut & Num:
+  - BLT
+  GUI & NUM:
   - {t: ▽, type: trans}
   - Gui+ Q
   - Gui+ W
@@ -86,11 +86,11 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Brackets & Sym:
+  BRC & SYM:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: (, h: '5'}
+  - {t: (, h: LALT}
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,7 +129,50 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Bluetooth:
+  NAV:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BLT:
   - ''
   - BT CLR
   - ''
