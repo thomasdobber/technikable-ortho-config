@@ -45,11 +45,11 @@ layers:
   - BLT
   NUM:
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -61,7 +61,7 @@ layers:
   - LALT
   - LGUI
   - LSHFT
-  - ''
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
@@ -69,11 +69,11 @@ layers:
   - ']'
   - '`'
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -84,15 +84,15 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '0'
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '!'
   - '@'
   - '#'
@@ -104,7 +104,7 @@ layers:
   - LALT
   - LGUI
   - LSHFT
-  - ''
+  - {t: ▽, type: trans}
   - $
   - '%'
   - ^
@@ -112,11 +112,11 @@ layers:
   - '}'
   - '~'
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&'
   - '*'
   - (
@@ -125,10 +125,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
