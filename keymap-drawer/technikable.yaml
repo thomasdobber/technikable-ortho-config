@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '-'
-  - '&caps_word'
+  - NUM
   - A
   - {t: S, h: LCTRL}
   - {t: D, h: LGUI}
@@ -38,42 +38,42 @@ layers:
   - /
   - \
   - LALT
-  - GUI & NUM
-  - {t: SPACE, h: BRC & SYM}
+  - LGUI
+  - {t: SPACE, h: SYM}
   - {t: BSPC, h: NAV}
   - {t: RSHFT, h: sticky}
   - BLT
-  GUI & NUM:
+  NUM:
   - {t: ▽, type: trans}
-  - Gui+ Q
-  - Gui+ W
-  - {t: Gui+ E, h: LALT}
-  - Gui+ R
-  - Gui+ T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - {t: '3', h: LALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - Gui+ A
-  - {t: Gui+ S, h: LCTRL}
-  - {t: Gui+ D, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
-  - Gui+ G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '4'
   - {t: '5', h: RSHFT}
   - {t: '6', h: RGUI}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LSHFT
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Gui+ B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
@@ -81,12 +81,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BRC & SYM:
+  SYM:
   - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,8 +133,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: (, h: LALT}
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,8 +145,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '{', h: LGUI}
+  - {t: '}', h: LSHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -157,8 +157,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
