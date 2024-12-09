@@ -83,10 +83,10 @@
         brackets_sym_layer {
             label = "BRC & SYM";
             bindings = <
-&kp PLUS   &trans  &trans     &mt LALT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &kp EXCL       &kp AT             &mt LALT HASH   &trans  &trans        &kp UNDERSCORE
-&trans     &trans  &kp LCTRL  &mt LGUI LEFT_BRACE        &mt LSHIFT RIGHT_BRACE  &trans          &kp DOLLAR     &mt RSHFT PERCENT  &mt RGUI CARET  &trans  &kp COLON     &kp DOUBLE_QUOTES
-&kp TILDE  &trans  &trans     &kp LEFT_BRACKET           &kp RIGHT_BRACKET       &trans          &kp AMPERSAND  &kp ASTERISK       &kp LT          &kp GT  &kp QUESTION  &kp PIPE
-                   &trans     &trans                     &trans                          &trans                 &trans             &trans
+&kp PLUS   &trans  &trans  &mt LALT LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &trans          &kp EXCL       &kp AT             &mt LALT HASH   &trans  &trans        &kp UNDERSCORE
+&trans     &trans  &trans  &mt LGUI LEFT_BRACE        &mt LSHIFT RIGHT_BRACE  &trans          &kp DOLLAR     &mt RSHFT PERCENT  &mt RGUI CARET  &trans  &kp COLON     &kp DOUBLE_QUOTES
+&kp TILDE  &trans  &trans  &kp LEFT_BRACKET           &kp RIGHT_BRACKET       &trans          &kp AMPERSAND  &kp ASTERISK       &kp LT          &kp GT  &kp QUESTION  &kp PIPE
+                   &trans  &trans                     &trans                          &trans                 &trans             &trans
             >;
         };
 
