@@ -71,10 +71,10 @@
 
         num_layer {
             bindings = <
-&trans  &none      &none     &none     &none      &none          &kp N1  &kp N2  &kp N3  &kp MINUS  &kp EQUAL  &trans
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none          &kp N4  &kp N5  &kp N6  &kp LBKT   &kp RBKT   &kp GRAVE
-&trans  &none      &none     &none     &none      &none          &kp N7  &kp N8  &kp N9  &trans     &kp BSLH   &trans
-                   &trans    &trans    &none             &kp N0          &none   &none
+&trans  &trans     &trans    &trans    &trans     &trans          &kp N1  &kp N2  &kp N3  &kp MINUS  &kp EQUAL  &trans
+&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &kp N4  &kp N5  &kp N6  &kp LBKT   &kp RBKT   &kp GRAVE
+&trans  &trans     &trans    &trans    &trans     &trans          &kp N7  &kp N8  &kp N9  &trans     &kp BSLH   &trans
+                   &trans    &trans    &trans             &kp N0          &trans  &trans
             >;
 
             label = "NUM";
@@ -83,10 +83,10 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&trans  &none      &none     &none     &none      &none          &kp EXCL       &kp AT       &kp HASH              &kp UNDER              &kp PLUS         &trans
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none          &kp DOLLAR     &kp PERCENT  &kp CARET             &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp TILDE
-&trans  &none      &none     &none     &none      &none          &kp AMPERSAND  &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE         &trans
-                   &trans    &trans    &none             &trans                 &none        &none
+&trans  &trans     &trans    &trans    &trans     &trans          &kp EXCL       &kp AT       &kp HASH              &kp UNDER              &kp PLUS         &trans
+&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &kp DOLLAR     &kp PERCENT  &kp CARET             &kp LEFT_BRACE         &kp RIGHT_BRACE  &kp TILDE
+&trans  &trans     &trans    &trans    &trans     &trans          &kp AMPERSAND  &kp ASTRK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE         &trans
+                   &trans    &trans    &trans             &trans                 &trans       &trans
             >;
         };
 
