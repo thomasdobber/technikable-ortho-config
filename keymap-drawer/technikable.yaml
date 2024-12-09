@@ -216,13 +216,10 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
 combos:
-- p: [21, 20, 19]
-  k: ENTER
 - p: [14, 15, 16]
   k: ENTER
-- p: [16, 19]
-  k: '&caps_word'
-  l: [Base]
+- p: [21, 20, 19]
+  k: ENTER
 - p: [7, 8]
   k: UP
 - p: [19, 20]
@@ -231,3 +228,6 @@ combos:
   k: LEFT
 - p: [20, 8]
   k: RIGHT
+- p: [16, 19]
+  k: '&caps_word'
+  l: [Base]
