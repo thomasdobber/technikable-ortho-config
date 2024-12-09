@@ -24,20 +24,14 @@
     combos {
         compatible = "zmk,combos";
 
-        rent {
-            bindings = <&kp ENTER>;
-            key-positions = <21 20 19>;
-        };
-
         lent {
             bindings = <&kp ENTER>;
             key-positions = <14 15 16>;
         };
 
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <16 19>;
-            layers = <0>;
+        rent {
+            bindings = <&kp ENTER>;
+            key-positions = <21 20 19>;
         };
 
         up {
@@ -58,6 +52,12 @@
         right {
             bindings = <&kp RIGHT>;
             key-positions = <20 8>;
+        };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <16 19>;
+            layers = <0>;
         };
     };
 
