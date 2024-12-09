@@ -39,11 +39,11 @@ layers:
   - RET
   - LALT
   - LGUI
-  - {t: SPACE, h: Numbers}
-  - {t: BACKSPACE, h: Symbols}
-  - {t: ESC, h: Arrows}
-  - Bluetooth
-  Numbers:
+  - {t: SPACE, h: NUM}
+  - {t: BACKSPACE, h: SYM}
+  - {t: ESC, h: NAV}
+  - BLT
+  NUM:
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -86,7 +86,7 @@ layers:
   - '0'
   - ''
   - ''
-  Symbols:
+  SYM:
   - {t: ▽, type: trans}
   - ''
   - ''
@@ -129,7 +129,7 @@ layers:
   - {type: held}
   - ''
   - ''
-  Arrows:
+  NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,48 +172,48 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  Bluetooth:
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT PRV
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
+  BLT:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT PRV
+  - {t: ▽, type: trans}
+  - BT NXT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
   - {type: held}
 combos:
 - p: [16, 15]
