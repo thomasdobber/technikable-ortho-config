@@ -40,7 +40,7 @@ layers:
   - LALT
   - LGUI
   - {t: SPACE, h: NUM}
-  - {t: BACKSPACE, h: SYM}
+  - {t: BSPC, h: SYM}
   - {t: ESC, h: NAV}
   - BLT
   NUM:
