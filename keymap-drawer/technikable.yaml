@@ -39,35 +39,32 @@ layers:
   - RET
   - LALT
   - LGUI
-  - {t: SPACE, h: SYM}
-  - BACKSPACE
-  - ESC
+  - SPACE
+  - SYM
+  - {t: ESC, h: NAV}
   - BLT
   SYM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
-  - '5'
+  - {t: '5', h: LSHFT}
   - '6'
-  - '['
+  - {t: ▽, type: trans}
+  - {t: '[', h: RSHIFT}
   - ']'
-  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,19 +74,62 @@ layers:
   - '7'
   - '8'
   - '9'
-  - '0'
+  - {t: ▽, type: trans}
+  - '`'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - '0'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NAV:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   BLT:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -98,14 +138,17 @@ layers:
   - {t: BT, h: '3'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT PRV
   - {t: ▽, type: trans}
   - BT NXT
@@ -125,23 +168,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
 combos:
 - p: [14, 15, 16]
   k: ENTER
-- p: [21, 20, 19]
+- p: [20, 21, 19]
   k: ENTER
-- p: [7, 8]
-  k: UP
-- p: [19, 20]
-  k: DOWN
-- p: [19, 7]
-  k: LEFT
-- p: [20, 8]
-  k: RIGHT
 - p: [16, 19]
   k: '&caps_word'
   l: [Base]
