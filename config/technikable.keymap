@@ -24,12 +24,12 @@
     combos {
         compatible = "zmk,combos";
 
-        lent {
-            bindings = <&kp ENTER>;
+        esc {
+            bindings = <&kp ESC>;
             key-positions = <14 15 16>;
         };
 
-        rent {
+        ent {
             bindings = <&kp ENTER>;
             key-positions = <20 21 19>;
         };
@@ -49,17 +49,17 @@
             bindings = <
 &kp TAB          &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
 &kp LCTRL        &kp A  &kp S     &kp D     &mt LSHFT F  &kp G              &kp H  &mt RSHFT J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RET
-                        &kp LALT  &kp LGUI  &kp SPACE           &lt 1 BSPC         &kp ESC      &mo 2
+&mt LSHFT GRAVE  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT BACKSLASH
+                        &kp LALT  &kp LGUI  &kp SPACE           &lt 1 BSPC         &caps_word   &mo 2
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3        &trans          &trans    &kp LBKT         &kp RBKT   &trans         &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &mt LSHFT N6  &trans          &kp LEFT  &mt RSHIFT DOWN  &kp UP     &kp RIGHT      &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9        &trans          &trans    &kp MINUS        &kp EQUAL  &kp BACKSLASH  &trans  &trans
-                &trans  &trans  &kp N0                &trans            &trans           &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3        &trans          &kp LBKT      &kp MINUS        &kp EQUAL   &kp RBKT       &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &mt LSHFT N6  &trans          &kp LEFT      &mt RSHIFT DOWN  &kp UP      &kp RIGHT      &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9        &trans          &kp LA(LEFT)  &kp RG(DOWN)     &kp RG(UP)  &kp LA(RIGHT)  &trans  &trans
+                &trans  &trans  &kp N0                &trans                &trans           &trans
             >;
 
             label = "SYM";
