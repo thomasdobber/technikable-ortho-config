@@ -36,12 +36,12 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: RSHFT}
+  - ENTER
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: SYM}
   - {t: BSPC, h: SYM}
-  - '&caps_word'
+  - ESC
   - BLT
   SYM:
   - {t: ▽, type: trans}
@@ -50,10 +50,10 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - '['
+  - {t: ▽, type: trans}
   - '-'
+  - UP
   - '='
-  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -62,9 +62,9 @@ layers:
   - '5'
   - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
-  - LEFT
-  - {t: DOWN, h: RSHIFT}
-  - UP
+  - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - DOWN
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,16 +74,16 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - Alt+ LEFT
-  - Gui+ DOWN
-  - Gui+ UP
-  - Alt+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - {type: held}
+  - {t: '0', type: held}
+  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
@@ -126,7 +126,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: BT, h: '0'}
-  - {t: ▽, type: trans}
+  - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
 combos:
