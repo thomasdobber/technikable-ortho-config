@@ -49,17 +49,17 @@
             bindings = <
 &kp TAB          &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
 &kp LCTRL        &kp A  &kp S     &kp D     &mt LSHFT F  &kp G              &kp H  &mt RSHFT J  &kp K      &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &mt RSHFT BACKSLASH
-                        &kp LALT  &kp LGUI  &kp SPACE           &lt 1 BSPC         &caps_word   &mo 2
+&mt LSHFT GRAVE  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+                        &kp LALT  &kp LGUI  &lt 1 SPACE         &lt 1 BSPC         &kp ESC      &mo 2
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3        &trans          &kp LBKT      &kp MINUS        &kp EQUAL   &kp RBKT       &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &mt LSHFT N6  &trans          &kp LEFT      &mt RSHIFT DOWN  &kp UP      &kp RIGHT      &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9        &trans          &kp LA(LEFT)  &kp RG(DOWN)     &kp RG(UP)  &kp LA(RIGHT)  &trans  &trans
-                &trans  &trans  &kp N0                &trans                &trans           &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3        &trans                &trans  &kp MINUS       &kp UP            &kp EQUAL          &trans         &trans
+&trans  &trans  &kp N4  &kp N5  &mt LSHFT N6  &trans                &trans  &mt RSHFT LEFT  &kp DOWN          &kp RIGHT          &trans         &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9        &trans                &trans  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
+                &trans  &trans  &kp N0                &kp LA(BSPC)          &trans          &trans
             >;
 
             label = "SYM";
@@ -68,10 +68,10 @@
         bluetooth_layer {
             label = "BLT";
             bindings = <
-&trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans          &trans      &trans  &trans  &trans      &trans  &bt BT_CLR
-&trans  &trans  &bt BT_SEL 4  &trans        &trans        &trans          &bt BT_PRV  &trans  &trans  &bt BT_NXT  &trans  &trans
-&trans  &trans  &trans        &trans        &trans        &trans          &trans      &trans  &trans  &trans      &trans  &trans
-                &trans        &trans        &bt BT_SEL 0          &trans              &trans  &trans
+&trans  &trans  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans              &trans      &trans  &trans  &trans      &trans  &bt BT_CLR
+&trans  &trans  &bt BT_SEL 4  &trans        &trans        &trans              &bt BT_PRV  &trans  &trans  &bt BT_NXT  &trans  &trans
+&trans  &trans  &trans        &trans        &trans        &trans              &trans      &trans  &trans  &trans      &trans  &trans
+                &trans        &trans        &bt BT_SEL 0          &bt BT_CLR              &trans  &trans
             >;
         };
     };
