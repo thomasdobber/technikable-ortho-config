@@ -43,6 +43,7 @@ layers:
   - {t: BSPC, h: SYM}
   - ESC
   - BLT
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,6 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '0', type: held}
   - Alt+ BSPC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
@@ -129,6 +131,7 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ESC
