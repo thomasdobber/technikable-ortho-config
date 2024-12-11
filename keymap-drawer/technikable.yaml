@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: LSHIFT}
   - {t: LEFT, h: NUM}
   - {t: DOWN, h: SYM}
   - UP
@@ -64,7 +64,7 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
