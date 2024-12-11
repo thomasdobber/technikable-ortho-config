@@ -40,11 +40,11 @@ layers:
   - LALT
   - LGUI
   - SPACE
-  - LEFT
+  - {t: LEFT, h: NUM}
   - {t: DOWN, h: SYM}
   - UP
   - {t: RIGHT, h: BLT}
-  SYM:
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -52,8 +52,8 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -61,11 +61,11 @@ layers:
   - {t: ▽, type: trans}
   - '4'
   - '5'
-  - {t: '6', h: LSHFT}
+  - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RSHFT, h: '['}
-  - ']'
+  - RSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,9 +76,53 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - _
+  - '-'
+  - '='
+  - +
+  - {t: ▽, type: trans}
+  - Alt+ BSPC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - {t: '6', h: LSHFT}
+  - {t: ▽, type: trans}
+  - '{'
+  - {t: RSHFT, h: '['}
+  - ']'
+  - '}'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - '~'
   - '`'
   - \
-  - {t: ▽, type: trans}
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
