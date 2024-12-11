@@ -43,7 +43,7 @@ layers:
   - LEFT
   - {t: DOWN, h: SYM}
   - UP
-  - RIGHT
+  - {t: RIGHT, h: BLT}
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
 combos:
 - p: [14, 15, 16]
   k: ESC
