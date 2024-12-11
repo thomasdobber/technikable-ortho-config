@@ -47,19 +47,19 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp TAB    &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y       &kp U        &kp I        &kp O    &kp P     &kp BSPC
-&kp LCTRL  &kp A  &kp S     &kp D     &mt LSHFT F  &kp G              &kp H       &mt RSHFT J  &kp K        &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N       &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp ENTER
-                  &kp LALT  &kp LGUI  &kp SPACE           &lt 1 LEFT  &lt 2 DOWN  &kp UP       &lt 3 RIGHT
+&kp TAB    &kp Q  &kp W     &kp E     &kp R             &kp T              &kp Y       &kp U        &kp I        &kp O    &kp P     &kp BSPC
+&kp LCTRL  &kp A  &kp S     &kp D     &mt LSHFT F       &kp G              &kp H       &mt RSHFT J  &kp K        &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp LSHFT  &kp Z  &kp X     &kp C     &kp V             &kp B              &kp N       &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp ENTER
+                  &kp LALT  &kp LGUI  &mt LSHIFT SPACE         &lt 1 LEFT  &lt 2 DOWN  &kp UP       &lt 3 RIGHT
             >;
         };
 
         num_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &trans  &kp RSHFT  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans     &trans  &trans  &trans  &trans
-                &trans  &trans  &kp N0          &trans  &trans  &trans     &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &kp N0          &trans  &trans  &trans  &trans
             >;
 
             label = "NUM";
