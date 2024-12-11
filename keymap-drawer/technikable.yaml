@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - {t: '`', h: LSHFT}
+  - LSHFT
   - Z
   - X
   - C
@@ -53,8 +53,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - UP
   - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,9 +64,9 @@ layers:
   - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LEFT, h: RSHFT}
-  - DOWN
-  - RIGHT
+  - {t: RSHFT, h: '['}
+  - ']'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,15 +76,15 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - '`'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
-  - Alt+ BSPC
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -107,9 +107,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT PRV
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -127,8 +126,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
-  - BT CLR
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
