@@ -41,9 +41,9 @@ layers:
   - LGUI
   - {t: SPACE, h: LSHIFT}
   - LCTRL
-  - {t: LEFT, h: NUM}
+  - LEFT
   - {t: DOWN, h: SYM}
-  - UP
+  - {t: UP, h: NUM}
   - {t: RIGHT, h: BLT}
   NUM:
   - {t: ▽, type: trans}
@@ -86,16 +86,16 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
+  - Sft+ 1
+  - Sft+ 2
+  - Sft+ 3
   - {t: ▽, type: trans}
   - _
   - '-'
@@ -105,21 +105,21 @@ layers:
   - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - {t: '6', h: LSHFT}
+  - Sft+ 4
+  - Sft+ 5
+  - Sft+ 6
   - {t: ▽, type: trans}
   - '{'
-  - {t: RSHFT, h: '['}
+  - '['
   - ']'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - Sft+ 7
+  - Sft+ 8
+  - Sft+ 9
   - {t: ▽, type: trans}
   - '~'
   - '`'
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - Sft+ 0
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
