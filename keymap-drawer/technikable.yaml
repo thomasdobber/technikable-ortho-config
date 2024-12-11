@@ -39,11 +39,11 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - {t: SPACE, h: SYM}
-  - {t: BSPC, h: SYM}
-  - ESC
-  - BLT
-  - {t: ▽, type: trans}
+  - SPACE
+  - LEFT
+  - {t: DOWN, h: SYM}
+  - UP
+  - RIGHT
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,9 +83,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', type: held}
+  - '0'
   - Alt+ BSPC
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
@@ -130,7 +130,7 @@ layers:
   - {t: BT, h: '0'}
   - BT CLR
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
