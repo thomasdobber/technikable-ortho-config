@@ -94,7 +94,7 @@
                 &trans  &trans  &trans  &trans  &none  &none   &none   &none
             >;
 
-            label = "NUM_ALT";
+            label = "NUM ALT";
         };
 
         bluetooth_layer {
