@@ -85,5 +85,14 @@
                 &trans        &trans        &bt BT_SEL 0  &trans  &trans  &trans  &trans      &trans
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans     &kp EXCL  &kp AT  &kp HASH              &kp DOLLAR      &kp PERCENT          &kp CARET  &kp AMPERSAND    &kp ASTRK              &kp PIPE  &kp BSLH      &kp LA(BSPC)
+&trans     &trans    &kp LT  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp LBKT             &kp RBKT   &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GT    &kp COLON     &kp DOUBLE_QUOTES
+&kp TILDE  &trans    &trans  &trans                &trans          &trans               &kp UNDER  &kp MINUS        &kp EQUAL              &kp PLUS  &kp QUESTION  &trans
+                     &trans  &trans                &trans          &trans       &trans  &trans     &trans           &trans
+            >;
+        };
     };
 };
