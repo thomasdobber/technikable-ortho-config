@@ -21,7 +21,7 @@ layers:
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: RGUI, h: K}
+  - {t: K, h: RGUI}
   - L
   - ;
   - ''''
@@ -62,10 +62,10 @@ layers:
   - '`'
   - {t: <, h: LALT}
   - {t: (, h: LGUI}
-  - {t: LSHIFT, h: '{'}
+  - {t: '{', h: LSHFT}
   - '['
   - LEFT
-  - {t: RSHFT, h: DOWN}
+  - {t: DOWN, h: RSHIFT}
   - {t: UP ARROW, h: RGUI}
   - RIGHT
   - ':'
