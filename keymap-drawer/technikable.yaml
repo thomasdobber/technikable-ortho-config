@@ -127,8 +127,8 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - {t: LALT, h: ','}
-  - {t: LGUI, h: .}
+  - {t: ',', h: LALT}
+  - {t: ., h: LGUI}
   - '0'
   - ''
   - ''
