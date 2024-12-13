@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: LSHIFT}
   - LCTRL
   - LEFT
   - {t: DOWN, h: SYM}
@@ -47,44 +47,44 @@ layers:
   - {t: RIGHT, h: BLT}
   SYM:
   - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '|'
+  - \
+  - Alt+ BSPC
   - {t: ▽, type: trans}
-  - Sft+ 1
-  - Sft+ 2
-  - Sft+ 3
-  - {t: ▽, type: trans}
+  - '`'
+  - <
+  - (
+  - '{'
+  - '['
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ':'
+  - '"'
+  - '~'
+  - '~'
+  - '>'
+  - )
+  - '}'
+  - ']'
   - _
   - '-'
   - '='
   - +
-  - '|'
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ 4
-  - Sft+ 5
-  - Sft+ 6
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - (
-  - )
-  - ':'
-  - '"'
-  - '~'
-  - {t: ▽, type: trans}
-  - Sft+ 7
-  - Sft+ 8
-  - Sft+ 9
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - <
-  - '>'
   - '?'
-  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ 0
+  - {t: ▽, type: trans}
+  - NUM_ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -135,6 +135,51 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
+  NUM_ALT:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   BLT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -180,141 +225,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  '4':
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - (
-  - '{'
-  - '['
-  - ']'
-  - '}'
-  - )
-  - '>'
-  - ':'
-  - '"'
-  - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - '-'
-  - '='
-  - +
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '5':
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '6':
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - '`'
-  - _
-  - '-'
-  - '='
-  - +
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - ':'
-  - '"'
-  - '~'
-  - '~'
-  - <
-  - (
-  - '{'
-  - '['
-  - ']'
-  - '}'
-  - )
-  - '>'
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ESC
@@ -323,3 +233,7 @@ combos:
 - p: [16, 19]
   k: '&caps_word'
   l: [Base]
+- p: [16, 15]
+  k: TAB
+- p: [20, 19]
+  k: BSPC
