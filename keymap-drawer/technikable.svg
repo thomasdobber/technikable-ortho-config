@@ -282,7 +282,7 @@ rect.trans, text.trans { opacity: 0.25 }
 <g transform="translate(252, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">SPACE</text>
-<text x="0" y="24" class="key hold">LSHIFT</text>
+<text x="0" y="24" class="key hold">LSHFT</text>
 </g>
 <g transform="translate(308, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
