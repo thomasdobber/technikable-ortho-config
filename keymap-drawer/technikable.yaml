@@ -15,13 +15,13 @@ layers:
   - BSPC
   - ESC
   - A
-  - S
-  - D
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RSHFT}
-  - K
+  - {t: RGUI, h: K}
   - L
   - ;
   - ''''
@@ -60,13 +60,13 @@ layers:
   - Alt+ BSPC
   - {t: ▽, type: trans}
   - '`'
-  - <
-  - (
+  - {t: <, h: LALT}
+  - {t: (, h: LGUI}
   - {t: LSHIFT, h: '{'}
   - '['
   - LEFT
   - {t: RSHFT, h: DOWN}
-  - UP
+  - {t: UP ARROW, h: RGUI}
   - RIGHT
   - ':'
   - '"'
