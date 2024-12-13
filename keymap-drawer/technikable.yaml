@@ -84,7 +84,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - NUM_ALT
+  - NUM ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -135,7 +135,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  NUM_ALT:
+  NUM ALT:
   - {t: ▽, type: trans}
   - '1'
   - '2'
