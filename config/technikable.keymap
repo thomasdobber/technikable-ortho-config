@@ -58,7 +58,7 @@
             label = "Base";
             bindings = <
 &kp TAB          &kp Q  &kp W       &kp E       &kp R             &kp T                &kp Y       &kp U        &kp I        &kp O    &kp P     &kp BSPC
-&kp ESC          &kp A  &mt LALT S  &mt LGUI D  &mt LSHFT F       &kp G                &kp H       &mt RSHFT J  &mt K RGUI   &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&kp ESC          &kp A  &mt LALT S  &mt LGUI D  &mt LSHFT F       &kp G                &kp H       &mt RSHFT J  &mt RGUI K   &kp L    &kp SEMI  &kp SINGLE_QUOTE
 &mt LSHFT GRAVE  &kp Z  &kp X       &kp C       &kp V             &kp B                &kp N       &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp ENTER
                         &kp LALT    &kp LGUI    &mt LSHIFT SPACE  &kp LCTRL  &kp LEFT  &lt 1 DOWN  &lt 2 UP     &lt 4 RIGHT
             >;
@@ -66,10 +66,10 @@
 
         sym_layer {
             bindings = <
-&trans            &kp EXCL   &kp AT       &kp HASH                   &kp DOLLAR             &kp PERCENT          &kp CARET  &kp AMPERSAND   &kp ASTRK          &kp PIPE   &kp BSLH      &kp LA(BSPC)
-&trans            &kp GRAVE  &mt LALT LT  &mt LGUI LEFT_PARENTHESIS  &mt LEFT_BRACE LSHIFT  &kp LBKT             &kp LEFT   &mt DOWN RSHFT  &mt RGUI UP_ARROW  &kp RIGHT  &kp COLON     &kp DOUBLE_QUOTES
-&mt TILDE LSHIFT  &kp TILDE  &kp GT       &kp RIGHT_PARENTHESIS      &kp RIGHT_BRACE        &kp RBKT             &kp UNDER  &kp MINUS       &kp EQUAL          &kp PLUS   &kp QUESTION  &trans
-                             &trans       &trans                     &mo 3                  &trans       &trans  &trans     &trans          &trans
+&trans            &kp EXCL   &kp AT       &kp HASH                   &kp DOLLAR            &kp PERCENT          &kp CARET  &kp AMPERSAND    &kp ASTRK          &kp PIPE   &kp BSLH      &kp LA(BSPC)
+&trans            &kp GRAVE  &mt LALT LT  &mt LGUI LEFT_PARENTHESIS  &mt LSHFT LEFT_BRACE  &kp LBKT             &kp LEFT   &mt RSHIFT DOWN  &mt RGUI UP_ARROW  &kp RIGHT  &kp COLON     &kp DOUBLE_QUOTES
+&mt TILDE LSHIFT  &kp TILDE  &kp GT       &kp RIGHT_PARENTHESIS      &kp RIGHT_BRACE       &kp RBKT             &kp UNDER  &kp MINUS        &kp EQUAL          &kp PLUS   &kp QUESTION  &trans
+                             &trans       &trans                     &mo 3                 &trans       &trans  &trans     &trans           &trans
             >;
 
             label = "SYM";
