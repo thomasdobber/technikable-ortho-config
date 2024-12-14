@@ -127,8 +127,26 @@ path.combo {
 rect.key:only-child:not(.held) { opacity: 0.25 }
 rect.trans { opacity: 0.25 }
 .held rect { fill: pink; opacity: 1 }
-[data-key="("], [data-key=")"], [data-key="["], [data-key="]"], [data-key="{"], [data-key="}"], [data-key="\\<"], [data-key="\\>"] { fill: orange !important }
-[data-key="1"], [data-key="2"], [data-key="3"], [data-key="4"], [data-key="5"], [data-key="6"], [data-key="7"], [data-key="8"], [data-key="9"], [data-key="0"] { fill: lightblue !important }</style>
+[data-key="("] rect, 
+[data-key=")"] rect, 
+[data-key="["] rect, 
+[data-key="]"] rect, 
+[data-key="{"] rect, 
+[data-key="}"] rect { 
+  fill: orange !important 
+}
+[data-key="1"] rect, 
+[data-key="2"] rect, 
+[data-key="3"] rect, 
+[data-key="4"] rect, 
+[data-key="5"] rect, 
+[data-key="6"] rect, 
+[data-key="7"] rect, 
+[data-key="8"] rect, 
+[data-key="9"] rect, 
+[data-key="0"] rect { 
+  fill: lightblue !important 
+}</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
 <g transform="translate(0, 56)">
