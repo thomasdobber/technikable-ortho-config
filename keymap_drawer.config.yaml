@@ -29,8 +29,45 @@ draw_config:
     rx: 4.0
     ry: 4.0
   svg_extra_style: |-
-    rect.trans, text.trans { opacity: 0.25 }
+    rect.key:only-child:not(.held) { opacity: 0.25 }
+    rect.trans { opacity: 0.25 }
     .held rect { fill: pink; opacity: 1 }
+    [data-key="\!"] rect, 
+    [data-key="\="] rect,
+    [data-key="&lt;"] rect, 
+    [data-key="&gt;"] rect {
+      fill: lightpink !important 
+    }
+    [data-key="("] rect, 
+    [data-key=")"] rect, 
+    [data-key="["] rect, 
+    [data-key="]"] rect, 
+    [data-key="{"] rect, 
+    [data-key="}"] rect,
+    [data-key="`"] rect,
+    [data-key="'"] rect,
+    [data-key='"'] rect { 
+      fill: orange !important 
+    }
+    [data-key="1"] rect, 
+    [data-key="2"] rect, 
+    [data-key="3"] rect, 
+    [data-key="4"] rect, 
+    [data-key="5"] rect, 
+    [data-key="6"] rect, 
+    [data-key="7"] rect, 
+    [data-key="8"] rect, 
+    [data-key="9"] rect, 
+    [data-key="0"] rect { 
+      fill: lightblue !important 
+    }
+    [data-key="\+"] rect, 
+    [data-key="\-"] rect, 
+    [data-key="\*"] rect, 
+    [data-key="&sol;"] rect /* slash */
+    { 
+      fill: lightgreen !important 
+    }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
   style_layer_activators: true
