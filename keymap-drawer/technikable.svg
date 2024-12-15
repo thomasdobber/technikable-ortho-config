@@ -151,9 +151,7 @@ text.trans {
 [data-key='"'] rect { 
   fill: gold !important 
 }
-[data-key="|"] rect, 
-[data-key="&amp;"] rect, 
-[data-key="&tilde;"] rect { 
+[data-key="|"] rect {
   fill: lightblue !important 
 }
 [data-key="\+"] rect, 
