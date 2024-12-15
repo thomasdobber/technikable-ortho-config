@@ -188,7 +188,7 @@ layers:
   - '&'
   - '|'
   - '"'
-  - ''''
+  - ;
   - '['
   - ']'
   - {t: ▽, type: trans}
@@ -199,7 +199,7 @@ layers:
   - +
   - '='
   - _
-  - ;
+  - ''''
   - ':'
   - (
   - )
@@ -306,6 +306,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '7':
+  - {t: ▽, type: trans}
+  - '%'
+  - <
+  - '>'
+  - '&'
+  - {t: ▽, type: trans}
+  - ;
+  - '"'
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '!'
+  - '-'
+  - +
+  - '='
+  - {t: ▽, type: trans}
+  - ':'
+  - ''''
+  - (
+  - )
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '@'
+  - /
+  - '*'
+  - ^
+  - {t: ▽, type: trans}
+  - $
+  - '`'
+  - '{'
+  - '}'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
