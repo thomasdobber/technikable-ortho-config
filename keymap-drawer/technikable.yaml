@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - {t: SPACE, h: LSHFT}
+  - SPACE
   - LCTRL
   - LEFT
   - {t: DOWN, h: SYM}
