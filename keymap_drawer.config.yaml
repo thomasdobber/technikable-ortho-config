@@ -43,7 +43,10 @@ draw_config:
     [data-key="["] rect, 
     [data-key="]"] rect, 
     [data-key="{"] rect, 
-    [data-key="}"] rect { 
+    [data-key="}"] rect,
+    [data-key="`"] rect,
+    [data-key="'"] rect,
+    [data-key='"'] rect { 
       fill: orange !important 
     }
     [data-key="1"] rect, 
