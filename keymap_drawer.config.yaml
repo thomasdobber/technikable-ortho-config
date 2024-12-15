@@ -47,7 +47,7 @@ draw_config:
     [data-key="`"] rect,
     [data-key="'"] rect,
     [data-key='"'] rect { 
-      fill: orange !important 
+      fill: gold !important 
     }
     [data-key="1"] rect, 
     [data-key="2"] rect, 
