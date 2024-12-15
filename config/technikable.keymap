@@ -97,10 +97,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans    &kp LT     &kp GT     &trans     &trans          &trans  &trans     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans
-&trans  &kp EXCL  &kp MINUS  &kp PLUS   &kp EQUAL  &trans          &trans  &kp COLON  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &trans
-&trans  &trans    &kp FSLH   &kp ASTRK  &trans     &trans          &trans  &trans     &kp LBKT              &kp RBKT               &trans        &trans
-                  &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans
+&trans  &kp PERCENT  &kp LT     &kp GT     &kp AMPERSAND  &kp PIPE               &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
+&trans  &kp EXCL     &kp MINUS  &kp PLUS   &kp EQUAL      &kp UNDER              &kp SEMI           &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp AT       &kp FSLH   &kp ASTRK  &kp CARET      &kp BACKSLASH          &kp GRAVE          &kp DOLLAR        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &trans
+                     &trans     &trans     &trans         &trans         &trans  &trans             &trans            &trans
             >;
         };
 
