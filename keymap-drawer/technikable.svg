@@ -159,7 +159,7 @@ rect.trans { opacity: 0.25 }
 [data-key="\+"] rect, 
 [data-key="\-"] rect, 
 [data-key="\*"] rect, 
-[data-key="&sol;"] rect /* slash */
+[data-key="&#47;"] rect /* slash */
 { 
   fill: lightgreen !important 
 }</style>
