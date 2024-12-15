@@ -156,7 +156,7 @@ rect.trans { opacity: 0.25 }
 [data-key="\+"] rect, 
 [data-key="\-"] rect, 
 [data-key="\*"] rect, 
-[data-key="\/"] rect { 
+[data-key="\\/"] rect { 
   fill: lightgreen !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
