@@ -64,7 +64,7 @@ draw_config:
     [data-key="\+"] rect, 
     [data-key="\-"] rect, 
     [data-key="\*"] rect, 
-    [data-key="&sol;"] rect /* slash */
+    [data-key="&#47;"] rect /* slash */
     { 
       fill: lightgreen !important 
     }
