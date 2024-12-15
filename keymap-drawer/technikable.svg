@@ -124,9 +124,16 @@ path.combo {
 }
 /* End Tabler Icons Cleanup */
 
-rect.key:only-child:not(.held) { opacity: 0.25 }
-rect.trans { opacity: 0.25 }
-.held rect { fill: pink; opacity: 1 }
+rect.key:only-child:not(.held) { 
+  opacity: 0.25
+}
+rect.trans,
+text.trans { 
+  opacity: 0.25
+}
+.held rect { 
+  fill: red; opacity: 1 
+}
 [data-key="\!"] rect, 
 [data-key="\="] rect,
 [data-key="&lt;"] rect, 
