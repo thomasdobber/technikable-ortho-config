@@ -15,13 +15,13 @@ layers:
   - BSPC
   - ESC
   - A
-  - S
-  - {t: D, h: LALT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LSHFT}
-  - {t: H, h: RSHFT}
-  - {t: J, h: RGUI}
-  - K
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
+  - G
+  - H
+  - {t: J, h: RSHFT}
+  - {t: K, h: RGUI}
   - L
   - ;
   - ''''
