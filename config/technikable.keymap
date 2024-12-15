@@ -94,5 +94,14 @@
               &none         &none         &bt BT_SEL 0  &none  &none  &none       &none  &none
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &trans    &kp LT     &kp GT     &trans     &trans          &trans  &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans        &trans
+&trans  &kp EXCL  &kp MINUS  &kp PLUS   &kp EQUAL  &trans          &trans  &kp SEMI  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QUESTION  &trans
+&trans  &trans    &kp FSLH   &kp ASTRK  &trans     &trans          &trans  &trans    &kp LBKT              &kp RBKT               &trans        &trans
+                  &trans     &trans     &trans     &trans  &trans  &trans  &trans    &trans
+            >;
+        };
     };
 };
