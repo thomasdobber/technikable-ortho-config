@@ -34,8 +34,8 @@ draw_config:
     .held rect { fill: pink; opacity: 1 }
     [data-key="\!"] rect, 
     [data-key="\="] rect,
-    [data-key="\\<"] rect, 
-    [data-key="\\>"] rect {
+    [data-key="&lt;"] rect, 
+    [data-key="&gt;"] rect {
       fill: lightpink !important 
     }
     [data-key="("] rect, 
