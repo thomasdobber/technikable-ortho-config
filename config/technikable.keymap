@@ -97,10 +97,10 @@
 
         layer_4 {
             bindings = <
-&trans  &kp PERCENT  &kp LT     &kp GT     &kp AMPERSAND  &kp PIPE               &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
-&trans  &kp EXCL     &kp MINUS  &kp PLUS   &kp EQUAL      &kp UNDER              &kp SEMI           &kp COLON         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &kp AT       &kp FSLH   &kp ASTRK  &kp CARET      &kp BACKSLASH          &kp GRAVE          &kp DOLLAR        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &trans
-                     &trans     &trans     &trans         &trans         &trans  &trans             &trans            &trans
+&trans  &kp PERCENT  &kp LT     &kp GT     &kp AMPERSAND  &kp PIPE               &kp DOUBLE_QUOTES  &kp SEMI    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
+&trans  &kp EXCL     &kp MINUS  &kp PLUS   &kp EQUAL      &kp UNDER              &kp SINGLE_QUOTE   &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp AT       &kp FSLH   &kp ASTRK  &kp CARET      &kp BACKSLASH          &kp GRAVE          &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &trans
+                     &trans     &trans     &trans         &trans         &trans  &trans             &trans      &trans
             >;
         };
 
@@ -119,6 +119,15 @@
 &trans  &kp EXCL  &trans  &trans  &kp EQUAL  &trans          &trans  &kp COLON  &trans  &trans  &kp QUESTION  &trans
 &trans  &trans    &trans  &trans  &trans     &trans          &trans  &trans     &trans  &trans  &trans        &trans
                   &trans  &trans  &trans     &trans  &trans  &trans  &trans     &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &kp PERCENT  &kp LT     &kp GT     &kp AMPERSAND  &trans          &kp SEMI    &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans        &trans
+&trans  &kp EXCL     &kp MINUS  &kp PLUS   &kp EQUAL      &trans          &kp COLON   &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp AT       &kp FSLH   &kp ASTRK  &kp CARET      &trans          &kp DOLLAR  &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &trans
+                     &trans     &trans     &trans         &trans  &trans  &trans      &trans             &trans
             >;
         };
     };
