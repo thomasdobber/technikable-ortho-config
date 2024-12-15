@@ -152,7 +152,7 @@ text.trans {
   fill: gold !important 
 }
 [data-key="|"] rect,
-[data-key="&"] rect {
+[data-key="&#38;"] rect {
   fill: lightblue !important 
 }
 [data-key="\+"] rect, 
