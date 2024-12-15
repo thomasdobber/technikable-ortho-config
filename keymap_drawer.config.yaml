@@ -32,8 +32,12 @@ draw_config:
     rect.key:only-child:not(.held) { opacity: 0.25 }
     rect.trans { opacity: 0.25 }
     .held rect { fill: pink; opacity: 1 }
+    [data-key="\!"] rect, 
+    [data-key="\="] rect,
     [data-key="\<"] rect, 
-    [data-key="\>"] rect, 
+    [data-key="\>"] rect {
+      fill: lightpink !important 
+    }
     [data-key="("] rect, 
     [data-key=")"] rect, 
     [data-key="["] rect, 
@@ -53,6 +57,12 @@ draw_config:
     [data-key="9"] rect, 
     [data-key="0"] rect { 
       fill: lightblue !important 
+    }
+    [data-key="\+"] rect, 
+    [data-key="\-"] rect, 
+    [data-key="\*"] rect, 
+    [data-key="\/"] rect { 
+      fill: lightgreen !important 
     }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
