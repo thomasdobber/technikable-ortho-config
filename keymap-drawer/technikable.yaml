@@ -57,7 +57,7 @@ layers:
   - '*'
   - '|'
   - \
-  - Alt+ BSPC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
   - {t: <, h: LALT}
