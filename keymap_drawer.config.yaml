@@ -37,7 +37,7 @@ draw_config:
       opacity: 0.25
     }
     .held rect { 
-      fill: red; opacity: 1 
+      fill: pink; opacity: 1 
     }
     [data-key="\!"] rect, 
     [data-key="\="] rect,
@@ -72,7 +72,7 @@ draw_config:
     [data-key="\#"] rect, 
     [data-key="\\"] rect, 
     [data-key="\%"] rect { 
-      fill: grey !important 
+      fill: lightgrey !important 
     }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
