@@ -44,7 +44,6 @@ layers:
   - {t: LEFT, h: sym+arrow}
   - {t: DOWN, h: SYM}
   - {t: UP, h: NUM}
-  - {t: RIGHT, h: BLT}
   NUM+:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,7 +85,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,7 +132,6 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - '%'
@@ -178,7 +175,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
@@ -224,7 +220,6 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
   sym:
   - {t: ▽, type: trans}
   - '!'
@@ -261,7 +256,6 @@ layers:
   - +
   - '='
   - '?'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -314,7 +308,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   '7':
   - {t: ▽, type: trans}
   - '%'
@@ -351,7 +344,6 @@ layers:
   - '{'
   - '}'
   - '#'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -404,7 +396,6 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
 combos:
 - p: [14, 15, 16]
   k: ESC
