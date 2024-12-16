@@ -18,7 +18,7 @@
 };
 
 / {
-    chosen { zmk,matrix_transform = &ortho_transform; };
+    chosen { zmk,matrix_transform = &mit_transform; };
 
     conditional_layers { compatible = "zmk,conditional-layers"; };
 
