@@ -15,7 +15,7 @@ layers:
   - BSPC
   - {t: ESCAPE, h: LCTRL}
   - A
-  - {t: S, h: LALT}
+  - S
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
@@ -39,11 +39,11 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - SPACE
   - NUM+
-  - {t: LEFT, h: sym+arrow}
-  - {t: DOWN, h: SYM}
-  - {t: UP, h: NUM}
+  - SPACE
+  - sym+arrow
+  - {t: ▽, type: trans}
+  - BLT
   NUM+:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,8 +83,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,6 +132,50 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  BLT:
+  - ''
+  - ''
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - ''
+  - ''
+  - BT NXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: BT, h: '0'}
+  - ''
+  - ''
+  - ''
+  - {type: held}
   SYM:
   - {t: ▽, type: trans}
   - '%'
@@ -174,7 +218,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
@@ -219,7 +263,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   sym:
   - {t: ▽, type: trans}
   - '!'
@@ -352,50 +396,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLT:
-  - ''
-  - ''
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - BT PRV
-  - ''
-  - ''
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
 combos:
 - p: [14, 15, 16]
   k: ESC
