@@ -58,10 +58,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp TAB          &kp Q  &kp W       &kp E       &kp R        &kp T                &kp Y       &kp U        &kp I        &kp O    &kp P     &kp BSPC
-&kp ESC          &kp A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &kp G                &kp H       &mt RSHFT J  &mt RGUI K   &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z  &kp X       &kp C       &kp V        &kp B                &kp N       &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp ENTER
-                        &kp LALT    &kp LGUI    &kp SPACE    &kp LCTRL  &kp LEFT  &lt 1 DOWN  &lt 2 UP     &lt 3 RIGHT
+&kp TAB          &kp Q  &kp W       &kp E       &kp R        &kp T                  &kp Y       &kp U        &kp I        &kp O    &kp P     &kp BSPC
+&kp ESC          &kp A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &kp G                  &kp H       &mt RSHFT J  &mt RGUI K   &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&mt LSHFT GRAVE  &kp Z  &kp X       &kp C       &kp V        &kp B                  &kp N       &kp M        &kp COMMA    &kp DOT  &kp FSLH  &kp ENTER
+                        &kp LALT    &kp LGUI    &kp SPACE    &kp LCTRL  &lt 3 LEFT  &lt 4 DOWN  &lt 2 UP     &lt 6 RIGHT
             >;
         };
 
@@ -85,17 +85,7 @@
             >;
         };
 
-        bluetooth_layer {
-            label = "BLT";
-            bindings = <
-&none  &none  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none         &none       &none  &none  &none       &none  &bt BT_CLR
-&none  &none  &bt BT_SEL 4  &none         &none         &none         &bt BT_PRV  &none  &none  &bt BT_NXT  &none  &none
-&none  &none  &none         &none         &none         &none         &none       &none  &none  &none       &none  &none
-              &none         &none         &bt BT_SEL 0  &none  &none  &none       &none  &none
-            >;
-        };
-
-        layer_4 {
+        experimental_sym_layer {
             bindings = <
 &trans  &kp PERCENT    &kp LT     &kp GT     &kp UNDER  &kp PIPE               &kp DOUBLE_QUOTES  &kp SEMI    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH      &trans
 &trans  &kp EXCL       &kp MINUS  &kp PLUS   &kp EQUAL  &kp AMPERSAND          &kp SINGLE_QUOTE   &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
@@ -104,21 +94,12 @@
             >;
         };
 
-        layer_5 {
+        basic_sym_layer {
             bindings = <
 &trans  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5          &kp N6     &kp N7           &kp N8          &kp N9     &kp N0         &trans
 &trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &kp GRAVE  &mt RSHFT MINUS  &mt RGUI EQUAL  &kp LBKT   &kp RBKT       &trans
 &trans  &trans     &trans    &trans    &trans     &trans          &kp LEFT   &kp DOWN         &kp UP          &kp RIGHT  &kp BACKSLASH  &trans
                    &trans    &trans    &trans     &trans  &trans  &trans     &trans           &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&trans  &trans    &trans  &trans  &trans     &trans          &trans  &trans     &trans  &trans  &trans        &trans
-&trans  &kp EXCL  &trans  &trans  &kp EQUAL  &trans          &trans  &kp COLON  &trans  &trans  &kp QUESTION  &trans
-&trans  &trans    &trans  &trans  &trans     &trans          &trans  &trans     &trans  &trans  &trans        &trans
-                  &trans  &trans  &trans     &trans  &trans  &trans  &trans     &trans
             >;
         };
 
@@ -128,6 +109,16 @@
 &trans  &kp EXCL     &kp MINUS  &kp PLUS   &kp EQUAL      &trans          &kp COLON   &kp SINGLE_QUOTE   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
 &trans  &kp AT       &kp FSLH   &kp ASTRK  &kp CARET      &trans          &kp DOLLAR  &kp GRAVE          &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH      &trans
                      &trans     &trans     &trans         &trans  &trans  &trans      &trans             &trans
+            >;
+        };
+
+        bluetooth_layer {
+            label = "BLT";
+            bindings = <
+&none  &none  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &none         &none       &none  &none  &none       &none  &bt BT_CLR
+&none  &none  &bt BT_SEL 4  &none         &none         &none         &bt BT_PRV  &none  &none  &bt BT_NXT  &none  &none
+&none  &none  &none         &none         &none         &none         &none       &none  &none  &none       &none  &none
+              &none         &none         &bt BT_SEL 0  &none  &none  &none       &none  &none
             >;
         };
     };
