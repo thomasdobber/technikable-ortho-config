@@ -39,7 +39,7 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: experimental_sym}
   - LCTRL
   - {t: LEFT, h: basic_sym}
   - {t: DOWN, h: experimental_sym}
@@ -174,10 +174,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   basic_sym:
