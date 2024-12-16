@@ -341,14 +341,14 @@ text.trans {
 <g data-key="LEFT" transform="translate(364, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">LEFT</text>
-<a href="#experimental_sym">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">experiment…</tspan></text>
+<a href="#basic_sym">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">basic_sym</tspan></text>
 </a></g>
 <g data-key="DOWN" transform="translate(420, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">DOWN</text>
-<a href="#basic_sym">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 78%">basic_sym</tspan></text>
+<a href="#experimental_sym">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 64%">experiment…</tspan></text>
 </a></g>
 <g data-key="UP" transform="translate(476, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -776,10 +776,12 @@ text.trans {
 <g data-key="+" transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
+<text x="0" y="24" class="key hold">LGUI</text>
 </g>
 <g data-key="=" transform="translate(252, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">=</text>
+<text x="0" y="24" class="key hold">LSHFT</text>
 </g>
 <g data-key="&amp;" transform="translate(308, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -792,10 +794,12 @@ text.trans {
 <g data-key=":" transform="translate(420, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">:</text>
+<text x="0" y="24" class="key hold">RSHFT</text>
 </g>
 <g data-key="(" transform="translate(476, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">(</text>
+<text x="0" y="24" class="key hold">RGUI</text>
 </g>
 <g data-key=")" transform="translate(532, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -873,12 +877,12 @@ text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g data-key="" transform="translate(364, 196)" class="key held keypos-40">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
-<g data-key="▽" transform="translate(420, 196)" class="key trans keypos-41">
+<g data-key="▽" transform="translate(364, 196)" class="key trans keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g data-key="" transform="translate(420, 196)" class="key held keypos-41">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g data-key="▽" transform="translate(476, 196)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -1056,12 +1060,12 @@ text.trans {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g data-key="▽" transform="translate(364, 196)" class="key trans keypos-40">
+<g data-key="" transform="translate(364, 196)" class="key held keypos-40">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g data-key="▽" transform="translate(420, 196)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g data-key="" transform="translate(420, 196)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g data-key="▽" transform="translate(476, 196)" class="key trans keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>

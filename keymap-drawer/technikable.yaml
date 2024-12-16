@@ -41,8 +41,8 @@ layers:
   - LGUI
   - SPACE
   - LCTRL
-  - {t: LEFT, h: experimental_sym}
-  - {t: DOWN, h: basic_sym}
+  - {t: LEFT, h: basic_sym}
+  - {t: DOWN, h: experimental_sym}
   - {t: UP, h: NUM}
   - {t: RIGHT, h: BLT}
   SYM:
@@ -151,12 +151,12 @@ layers:
   - {t: ▽, type: trans}
   - '!'
   - '-'
-  - +
-  - '='
+  - {t: +, h: LGUI}
+  - {t: '=', h: LSHFT}
   - '&'
   - ''''
-  - ':'
-  - (
+  - {t: ':', h: RSHFT}
+  - {t: (, h: RGUI}
   - )
   - '?'
   - {t: ▽, type: trans}
@@ -176,8 +176,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   basic_sym:
@@ -221,8 +221,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '7':
