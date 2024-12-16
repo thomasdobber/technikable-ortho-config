@@ -67,10 +67,10 @@
 
         num+sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2       &kp N3        &trans       &kp DOUBLE_QUOTES  &kp SEMI         &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &kp HASH      &trans
-&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp DOT      &kp SINGLE_QUOTE   &mt RSHFT COLON  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &trans  &kp N7  &kp N8       &kp N9        &kp COMMA    &kp GRAVE          &kp DOLLAR       &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp PERCENT   &trans
-                &trans  &trans       &trans        &trans       &trans             &trans           &trans
+&trans  &kp DOT    &kp N1  &kp N2       &kp N3        &trans    &kp DOUBLE_QUOTES  &kp SEMI         &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &kp HASH      &trans
+&trans  &kp N0     &kp N4  &mt LGUI N5  &mt LSHFT N6  &trans    &kp SINGLE_QUOTE   &mt RSHFT COLON  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp COMMA  &kp N7  &kp N8       &kp N9        &trans    &kp GRAVE          &kp DOLLAR       &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp PERCENT   &trans
+                   &trans  &trans       &trans        &trans    &trans             &trans           &trans
             >;
 
             label = "NUM+";
