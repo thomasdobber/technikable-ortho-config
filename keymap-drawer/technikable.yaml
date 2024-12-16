@@ -199,12 +199,12 @@ layers:
   - LGUI
   - LSHFT
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - {t: '-', h: RSHFT}
   - {t: '=', h: RGUI}
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
