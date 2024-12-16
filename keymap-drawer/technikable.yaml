@@ -51,11 +51,11 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
+  - ;
+  - '['
+  - ']'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -63,11 +63,11 @@ layers:
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
   - .
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
+  - {t: ':', h: RSHFT}
+  - {t: (, h: RGUI}
+  - )
+  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -75,11 +75,11 @@ layers:
   - '8'
   - '9'
   - ','
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - $
+  - '{'
+  - '}'
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -90,11 +90,11 @@ layers:
   - {t: ▽, type: trans}
   sym+arrow:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '%'
+  - <
+  - '>'
+  - _
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
@@ -102,11 +102,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '!'
+  - '-'
+  - {t: +, h: LGUI}
+  - {t: '=', h: LSHFT}
+  - '&'
   - {t: ▽, type: trans}
   - {t: LEFT, h: RSHFT}
   - {t: DOWN, h: RGUI}
@@ -114,11 +114,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
+  - /
+  - '*'
+  - ^
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
