@@ -46,7 +46,7 @@ layers:
   - BLT
   NUM+:
   - {t: ▽, type: trans}
-  - .
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -70,7 +70,7 @@ layers:
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ','
+  - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
