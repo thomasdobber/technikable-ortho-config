@@ -292,8 +292,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UNDO
+  - REDO
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
