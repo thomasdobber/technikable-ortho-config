@@ -39,9 +39,9 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - basic_sym
+  - BSC SYM
   - SPACE
-  - basic_sym
+  - BSC SYM
   - {t: ▽, type: trans}
   - BLT
   NUM+:
@@ -264,7 +264,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  basic_sym:
+  BSC SYM:
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -278,17 +278,17 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '['
   - {t: '-', h: RSHFT}
   - {t: '=', h: RGUI}
-  - '['
   - ']'
   - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
