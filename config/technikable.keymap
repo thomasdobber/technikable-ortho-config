@@ -67,10 +67,10 @@
 
         num+sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2       &kp N3        &trans    &kp SEMI    &kp DOUBLE_QUOTES       &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &kp AT        &trans
-&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &trans    &kp COLON   &mt RSHFT SINGLE_QUOTE  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &trans  &kp N7  &kp N8       &kp N9        &trans    &kp DOLLAR  &kp GRAVE               &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp HASH      &trans
-                &trans  &trans       &trans        &trans    &trans      &trans                  &trans
+&trans  &trans  &kp N1  &kp N2       &kp N3        &trans    &kp DOUBLE_QUOTES  &kp SEMI         &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &kp AT        &trans
+&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &trans    &kp SINGLE_QUOTE   &mt RSHFT COLON  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &trans  &kp N7  &kp N8       &kp N9        &trans    &kp GRAVE          &kp DOLLAR       &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp HASH      &trans
+                &trans  &trans       &trans        &trans    &trans             &trans           &trans
             >;
 
             label = "NUM+";
@@ -78,10 +78,10 @@
 
         sym+arrow_layer {
             bindings = <
-&trans  &kp PERCENT    &kp LT          &kp GT         &kp PIPE             &kp UNDER    &trans  &trans          &kp UP         &trans     &trans  &trans
-&trans  &kp EXCL       &mt LALT MINUS  &mt LGUI PLUS  &mt LSHFT AMPERSAND  &kp EQUAL    &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
-&trans  &kp BACKSLASH  &kp SLASH       &kp ASTRK      &kp TILDE            &kp CARET    &trans  &trans          &trans         &trans     &trans  &trans
-                       &trans          &trans         &trans               &trans       &trans  &trans          &trans
+&trans  &kp PERCENT    &kp LT          &kp GT          &kp UNDER        &kp PIPE         &trans  &trans          &kp UP         &trans     &trans  &trans
+&trans  &kp EXCL       &mt LALT SLASH  &mt LGUI MINUS  &mt LSHFT EQUAL  &kp AMPERSAND    &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
+&trans  &kp BACKSLASH  &kp ASTERISK    &kp PLUS        &kp CARET        &kp TILDE        &trans  &trans          &trans         &trans     &trans  &trans
+                       &trans          &trans          &trans           &trans           &trans  &trans          &trans
             >;
         };
 
