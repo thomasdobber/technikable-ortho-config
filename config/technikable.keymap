@@ -125,14 +125,5 @@
 
             label = "BSC SYM";
         };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL     &kp N1     &kp N2   &kp N3  &kp PERCENT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS     &kp N4     &kp N5   &kp N6  &trans       &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp ASTERISK  &kp N7     &kp N8   &kp N9  &kp FSLH     &trans
-                &trans  &trans  &trans  &trans    &kp N0        &kp COMMA  &kp DOT
-            >;
-        };
     };
 };
