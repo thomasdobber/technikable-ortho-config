@@ -63,21 +63,21 @@ layers:
   - {t: LGUI, h: sticky}
   - {t: LSHFT, h: sticky}
   - {t: ▽, type: trans}
-  - '['
+  - '='
   - {t: '-', h: RSHFT}
-  - {t: '=', h: RGUI}
+  - {t: UP, h: RGUI}
+  - '['
   - ']'
   - '`'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
   - REDO
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN
-  - UP
   - RIGHT
   - \
   - {t: ▽, type: trans}
