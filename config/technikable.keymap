@@ -69,7 +69,7 @@
             bindings = <
 &trans  &trans  &kp N1  &kp N2       &kp N3        &trans    &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &kp PERCENT   &trans
 &trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &trans    &kp SEMI           &mt RSHFT COLON   &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
-&trans  &trans  &kp N7  &kp N8       &kp N9        &trans    &kp GRAVE          &kp SLASH         &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp TILDE     &trans
+&trans  &trans  &kp N7  &kp N8       &kp N9        &trans    &kp GRAVE          &kp DOLLAR         &kp LEFT_BRACE             &kp RIGHT_BRACE        &kp TILDE     &trans
                 &trans  &trans       &trans        &trans    &trans             &trans            &trans
             >;
 
