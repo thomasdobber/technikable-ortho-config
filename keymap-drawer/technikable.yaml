@@ -39,11 +39,99 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - BSC SYM
+  - EXT
   - SPACE
-  - BSC SYM
-  - {t: ▽, type: trans}
+  - EXT
+  - RGUI
   - BLT
+  EXT:
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LCTRL, h: sticky}
+  - {t: LALT, h: sticky}
+  - {t: LGUI, h: sticky}
+  - {t: LSHFT, h: sticky}
+  - {t: ▽, type: trans}
+  - '['
+  - {t: '-', h: RSHFT}
+  - {t: '=', h: RGUI}
+  - ']'
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UNDO
+  - REDO
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BLT:
+  - ''
+  - ''
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - {t: BT, h: '0'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - ''
+  - ''
+  - BT NXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
   NUM+:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,50 +220,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLT:
-  - ''
-  - ''
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - BT PRV
-  - ''
-  - ''
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
   SYM:
   - {t: ▽, type: trans}
   - '%'
@@ -260,50 +304,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BSC SYM:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: ▽, type: trans}
-  - '['
-  - {t: '-', h: RSHFT}
-  - {t: '=', h: RGUI}
-  - ']'
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UNDO
-  - REDO
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
