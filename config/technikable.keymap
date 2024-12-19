@@ -78,7 +78,7 @@
 
         sym+arrow_layer {
             bindings = <
-&trans  &ko CARET &kp LT          &kp GT          &kp DOLLAR           &kp PIPE     &trans  &trans          &kp UP         &trans     &trans  &trans
+&trans  &kp CARET &kp LT          &kp GT          &kp DOLLAR           &kp PIPE     &trans  &trans          &kp UP         &trans     &trans  &trans
 &trans  &kp EXCL  &mt LALT SLASH  &mt LGUI MINUS  &mt LSHFT EQUAL  &kp AMPS     &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
 &trans  &kp ASTERISK &kp BACKSLASH   &kp UNDER       &kp PLUS         &kp TILDE    &trans  &trans          &trans         &trans     &trans  &trans
                   &trans          &trans          &trans           &trans       &trans  &trans          &trans
