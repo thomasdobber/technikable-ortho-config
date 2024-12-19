@@ -540,26 +540,30 @@ text.trans {
 <g transform="translate(30, 560)" class="layer-BLT">
 <text x="0" y="28" class="label" id="BLT">BLT:</text>
 <g transform="translate(0, 56)">
-<g data-key="" transform="translate(28, 28)" class="key keypos-0">
+<g data-key="BT" transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">0</text>
 </g>
-<g data-key="" transform="translate(84, 28)" class="key keypos-1">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-</g>
-<g data-key="BT" transform="translate(140, 28)" class="key keypos-2">
+<g data-key="BT" transform="translate(84, 28)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
 <text x="0" y="24" class="key hold">1</text>
 </g>
-<g data-key="BT" transform="translate(196, 28)" class="key keypos-3">
+<g data-key="BT" transform="translate(140, 28)" class="key keypos-2">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
 <text x="0" y="24" class="key hold">2</text>
 </g>
-<g data-key="BT" transform="translate(252, 28)" class="key keypos-4">
+<g data-key="BT" transform="translate(196, 28)" class="key keypos-3">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">BT</text>
 <text x="0" y="24" class="key hold">3</text>
+</g>
+<g data-key="BT" transform="translate(252, 28)" class="key keypos-4">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">BT</text>
+<text x="0" y="24" class="key hold">4</text>
 </g>
 <g data-key="" transform="translate(308, 28)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -588,15 +592,11 @@ text.trans {
 <g data-key="" transform="translate(28, 84)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g data-key="BT" transform="translate(84, 84)" class="key keypos-13">
+<g data-key="" transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="24" class="key hold">0</text>
 </g>
-<g data-key="BT" transform="translate(140, 84)" class="key keypos-14">
+<g data-key="" transform="translate(140, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">BT</text>
-<text x="0" y="24" class="key hold">4</text>
 </g>
 <g data-key="" transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -607,11 +607,8 @@ text.trans {
 <g data-key="" transform="translate(308, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g data-key="BT PRV" transform="translate(364, 84)" class="key keypos-18">
+<g data-key="" transform="translate(364, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">PRV</tspan>
-</text>
 </g>
 <g data-key="" transform="translate(420, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -619,11 +616,8 @@ text.trans {
 <g data-key="" transform="translate(476, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g data-key="BT NXT" transform="translate(532, 84)" class="key keypos-21">
+<g data-key="" transform="translate(532, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">NXT</tspan>
-</text>
 </g>
 <g data-key="" transform="translate(588, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -649,8 +643,11 @@ text.trans {
 <g data-key="" transform="translate(308, 140)" class="key keypos-29">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g data-key="" transform="translate(364, 140)" class="key keypos-30">
+<g data-key="BT PRV" transform="translate(364, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">PRV</tspan>
+</text>
 </g>
 <g data-key="" transform="translate(420, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -658,8 +655,11 @@ text.trans {
 <g data-key="" transform="translate(476, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
-<g data-key="" transform="translate(532, 140)" class="key keypos-33">
+<g data-key="BT NXT" transform="translate(532, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">BT</tspan><tspan x="0" dy="1.2em">NXT</tspan>
+</text>
 </g>
 <g data-key="" transform="translate(588, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
