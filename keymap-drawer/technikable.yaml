@@ -42,7 +42,7 @@ layers:
   - EXT
   - SPACE
   - EXT
-  - RGUI
+  - RCTRL
   - BLT
   EXT:
   - {t: ▽, type: trans}

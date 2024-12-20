@@ -344,9 +344,9 @@ text.trans {
 <a href="#EXT">
 <text x="0" y="0" class="key tap layer-activator">EXT</text>
 </a></g>
-<g data-key="RGUI" transform="translate(476, 196)" class="key keypos-41">
+<g data-key="RCTRL" transform="translate(476, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">RGUI</text>
+<text x="0" y="0" class="key tap">RCTRL</text>
 </g>
 <g data-key="BLT" transform="translate(532, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
