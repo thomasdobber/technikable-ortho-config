@@ -178,9 +178,12 @@ text.trans {
 [data-key="\@"] rect, 
 [data-key="\#"] rect, 
 [data-key="\\"] rect, 
-[data-key="\%"] rect,
-[data-key="\^"] rect { 
+[data-key="\%"] rect { 
   fill: lightgrey !important 
+}
+[data-key="\^"],
+[data-key="\$"]rect { 
+  fill: mintyrose !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
