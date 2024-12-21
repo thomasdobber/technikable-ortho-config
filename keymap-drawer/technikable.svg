@@ -185,7 +185,7 @@ text.trans {
 }
 [data-key="\^"] rect,
 [data-key="\$"] rect { 
-  fill: yellowgreen !important 
+  fill: lavender !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
