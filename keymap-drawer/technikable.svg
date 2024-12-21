@@ -136,8 +136,8 @@ text.trans {
 }
 [data-key="\!"] rect, 
 [data-key="\="] rect,
-[data-key="&lt;"] rect, 
-[data-key="&gt;"] rect {
+[data-key="\:"] rect, 
+[data-key="\?"] rect {
   fill: lightpink !important 
 }
 [data-key="("] rect, 
@@ -146,6 +146,8 @@ text.trans {
 [data-key="]"] rect, 
 [data-key="{"] rect, 
 [data-key="}"] rect,
+[data-key="&lt;"] rect, 
+[data-key="&gt;"] rect,
 [data-key="`"] rect,
 [data-key="'"] rect,
 [data-key='"'] rect { 
