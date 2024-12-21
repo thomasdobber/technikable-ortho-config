@@ -143,8 +143,8 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - (
-  - )
+  - '{'
+  - '}'
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,8 +154,8 @@ layers:
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
   - ','
-  - '#'
-  - {t: ':', h: RSHFT}
+  - ':'
+  - {t: '#', h: RSHFT}
   - {t: '#', h: RGUI}
   - '#'
   - '?'
@@ -167,8 +167,8 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - <
-  - '>'
+  - '['
+  - ']'
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -184,8 +184,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '#'
-  - '{'
-  - '}'
+  - (
+  - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -197,8 +197,8 @@ layers:
   - '!'
   - {t: '#', h: LALT}
   - {t: '#', h: LGUI}
-  - {t: '=', h: LSHFT}
-  - '#'
+  - {t: '#', h: LSHFT}
+  - '='
   - LEFT
   - {t: DOWN, h: RSHFT}
   - {t: UP, h: RGUI}
@@ -208,8 +208,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '#'
-  - '['
-  - ']'
+  - <
+  - '>'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
