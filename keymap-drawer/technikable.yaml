@@ -1,4 +1,4 @@
-layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_1x2uC}
+layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
   - TAB
