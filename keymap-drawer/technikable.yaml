@@ -154,11 +154,11 @@ layers:
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
   - ','
-  - '`'
+  - {t: ▽, type: trans}
   - {t: '#', h: RSHFT}
   - {t: (, h: RGUI}
   - )
-  - /
+  - '?'
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,12 +188,12 @@ layers:
   - {t: ▽, type: trans}
   - '|'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - UP
+  - +
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
   - '!'
   - {t: '#', h: LALT}
   - {t: '-', h: LGUI}
@@ -212,9 +212,9 @@ layers:
   - {t: ▽, type: trans}
   - '~'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
+  - '='
+  - '*'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
