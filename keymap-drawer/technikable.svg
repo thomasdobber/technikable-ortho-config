@@ -161,7 +161,7 @@ text.trans {
 [data-key="8"] rect,
 [data-key="9"] rect,
 [data-key="0"] rect { 
-  fill: red !important 
+  fill: lightbrown !important 
 }
 [data-key="|"] rect,
 [data-key="&#38;"] rect,
