@@ -44,6 +44,7 @@ layers:
   - EXT
   - RCTRL
   - BLT
+  - {t: ▽, type: trans}
   EXT:
   - {t: ▽, type: trans}
   - '1'
@@ -84,6 +85,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,6 +134,7 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
   NUM+:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,6 +179,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   sym+arrow:
   - {t: ▽, type: trans}
   - ^
@@ -207,6 +211,7 @@ layers:
   - _
   - +
   - '~'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -264,6 +269,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   sym:
   - {t: ▽, type: trans}
   - '!'
@@ -300,6 +306,7 @@ layers:
   - +
   - '='
   - '?'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
