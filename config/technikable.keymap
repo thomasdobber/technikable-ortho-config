@@ -88,10 +88,10 @@
 
         num+sym_layer {
             bindings = <
-&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH      &trans         &trans
-&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &kp COLON  &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp BACKSLASH  &kp PIPE
-&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH      &trans         &trans
-                 &trans  &trans       &trans        &trans     &trans  &trans     &trans            &trans
+&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &kp DOLLAR  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH      &trans         &trans
+&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &kp COLON   &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp BACKSLASH  &kp PIPE
+&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH      &trans         &trans
+                 &trans  &trans       &trans        &trans     &trans  &trans      &trans            &trans
             >;
 
             label = "NUM+";
@@ -99,7 +99,7 @@
 
         sym+arrow_layer {
             bindings = <
-&trans     &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans    &kp HASH        &kp HASH     &kp HASH   &trans    &trans
+&trans     &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans    &kp HASH        &kp HASH     &kp HASH   &trans    &trans
 &kp TILDE  &kp GRAVE  &mt LALT EXCL  &mt LGUI ASTERISK     &mt LSHFT SLASH        &kp EQUAL          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &kp RIGHT  &kp HASH  &kp HASH
 &trans     &trans     &kp HASH       &kp LT                &kp GT                 &trans             &trans    &kp HASH        &kp HASH     &kp HASH   &trans    &trans
                       &trans         &trans                &trans                 &trans     &trans  &trans    &trans          &trans
