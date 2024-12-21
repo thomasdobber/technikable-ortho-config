@@ -145,7 +145,7 @@ layers:
   - $
   - '{'
   - '}'
-  - '#'
+  - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,11 +165,11 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
+  - '#'
   - '&'
   - '['
   - ']'
-  - '#'
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
