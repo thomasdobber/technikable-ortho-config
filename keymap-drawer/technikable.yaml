@@ -227,40 +227,40 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '#'
+  - ;
   - <
   - '>'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ^
+  - $
   - '{'
   - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '!'
+  - _
   - {t: +, h: LGUI}
   - {t: '-', h: LSHFT}
   - '='
-  - '`'
+  - ':'
   - {t: (, h: RSHFT}
   - {t: ), h: RGUI}
+  - ''''
   - '?'
-  - ':'
-  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
+  - '~'
   - '*'
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
+  - '&'
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
+  - '@'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
