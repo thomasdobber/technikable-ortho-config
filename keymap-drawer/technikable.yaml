@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - BSPC
-  - {t: ESCAPE, h: LCTRL}
+  - {t: ESC, h: LCTRL}
   - A
   - S
   - {t: D, h: LGUI}
