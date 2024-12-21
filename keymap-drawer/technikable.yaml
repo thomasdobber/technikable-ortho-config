@@ -232,7 +232,7 @@ layers:
   - <
   - '>'
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - '{'
   - '}'
   - {t: ▽, type: trans}
@@ -244,19 +244,19 @@ layers:
   - {t: +, h: LGUI}
   - {t: '-', h: LSHFT}
   - '='
-  - ''''
+  - '`'
   - {t: (, h: RSHFT}
   - {t: ), h: RGUI}
   - '?'
   - ':'
-  - {t: ▽, type: trans}
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '*'
   - /
   - {t: ▽, type: trans}
-  - '"'
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - {t: ▽, type: trans}
