@@ -155,7 +155,7 @@ layers:
   - {t: '6', h: LSHFT}
   - ','
   - '#'
-  - {t: '#', h: RSHFT}
+  - {t: ':', h: RSHFT}
   - {t: '#', h: RGUI}
   - '#'
   - '?'
