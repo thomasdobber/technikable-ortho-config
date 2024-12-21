@@ -189,8 +189,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - UP
   - +
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
@@ -199,9 +199,9 @@ layers:
   - {t: '#', h: LGUI}
   - {t: '=', h: LSHFT}
   - '#'
-  - '#'
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
+  - LEFT
+  - {t: DOWN, h: RSHFT}
+  - {t: UP, h: RGUI}
   - RIGHT
   - '#'
   - '#'
@@ -213,8 +213,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
-  - '#'
   - '*'
+  - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
