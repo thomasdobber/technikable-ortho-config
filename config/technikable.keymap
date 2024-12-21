@@ -88,10 +88,10 @@
 
         num+sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2       &kp N3        &kp COMMA          &kp DOLLAR  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PERCENT   &trans         &trans
-&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp DOT            &kp COLON   &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp BACKSLASH  &trans
-&trans  &trans  &kp N7  &kp N8       &kp N9        &kp HASH           &kp AMPS    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &trans         &trans
-                &trans  &trans       &trans        &trans     &trans  &trans      &trans            &trans
+&trans  &trans  &kp N1  &kp N2       &kp N3        &kp COMMA          &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PERCENT   &trans     &trans
+&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp DOT            &kp GRAVE  &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp COLON  &kp DOUBLE_QUOTES
+&trans  &trans  &kp N7  &kp N8       &kp N9        &kp HASH           &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &trans     &trans
+                &trans  &trans       &trans        &trans     &trans  &trans     &trans            &trans
             >;
 
             label = "NUM+";
@@ -99,19 +99,19 @@
 
         sym+arrow_layer {
             bindings = <
-&trans  &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans  &trans          &kp UP         &trans     &trans  &trans
+&trans  &trans     &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans  &trans          &kp UP         &trans     &trans  &trans
 &trans  &kp GRAVE  &mt LALT EXCL  &mt LGUI ASTERISK     &mt LSHFT SLASH        &kp EQUAL          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &kp HASH       &kp LT                &kp GT                 &kp PIPE           &trans  &trans          &trans         &trans     &trans  &trans
+&trans  &trans     &trans         &kp LT                &kp GT                 &kp PIPE           &trans  &trans          &trans         &trans     &trans  &trans
                    &trans         &trans                &trans                 &trans     &trans  &trans  &trans          &trans
             >;
         };
 
         experimental_sym_layer {
             bindings = <
-&trans  &kp PERCENT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET        &kp TILDE              &kp GRAVE          &kp DOLLAR        &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH      &trans
-&trans  &kp EXCL       &kp ASTERISK          &mt LGUI SLASH         &mt LSHFT EQUAL  &kp AMPERSAND          &kp SEMI           &mt RSHFT COLON   &mt RGUI MINUS    &kp PLUS           &kp QUESTION  &trans
-&trans  &kp BACKSLASH  &kp LT                &kp GT                 &kp UNDER        &kp PIPE               &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &trans
-                       &trans                &trans                 &trans           &trans         &trans  &trans             &trans            &trans
+&trans  &trans  &trans    &kp LT         &kp GT           &trans             &kp GRAVE          &kp LEFT_BRACE              &kp RIGHT_BRACE             &trans        &trans     &trans
+&trans  &trans  &kp EXCL  &mt LGUI PLUS  &mt LSHFT MINUS  &kp EQUAL          &kp SINGLE_QUOTE   &mt RSHFT LEFT_PARENTHESIS  &mt RGUI RIGHT_PARENTHESIS  &kp QUESTION  &kp COLON  &trans
+&trans  &trans  &trans    &kp ASTRK      &kp SLASH        &trans             &kp DOUBLE_QUOTES  &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &trans        &trans     &trans
+                &trans    &trans         &trans           &trans     &trans  &trans             &trans                      &trans
             >;
 
             label = "SYM";
