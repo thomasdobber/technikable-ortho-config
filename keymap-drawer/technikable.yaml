@@ -188,9 +188,9 @@ layers:
   - )
   - ^
   - {t: ▽, type: trans}
-  - '#'
-  - '#'
-  - '#'
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '~'
@@ -199,12 +199,12 @@ layers:
   - {t: '*', h: LGUI}
   - {t: /, h: LSHFT}
   - '='
-  - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
   - RIGHT
-  - '#'
-  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '#'
@@ -212,9 +212,9 @@ layers:
   - '>'
   - _
   - {t: ▽, type: trans}
-  - '#'
-  - '#'
-  - '#'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
