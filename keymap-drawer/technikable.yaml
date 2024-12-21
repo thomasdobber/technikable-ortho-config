@@ -157,9 +157,9 @@ layers:
   - ':'
   - {t: '#', h: RSHFT}
   - {t: '#', h: RGUI}
-  - '#'
   - '?'
   - \
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -193,9 +193,9 @@ layers:
   - '%'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '~'
   - '`'
-  - '!'
-  - {t: '#', h: LALT}
+  - {t: '!', h: LALT}
   - {t: '#', h: LGUI}
   - {t: '#', h: LSHFT}
   - '='
