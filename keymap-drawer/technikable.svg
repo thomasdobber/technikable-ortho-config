@@ -151,6 +151,18 @@ text.trans {
 [data-key='"'] rect { 
   fill: gold !important 
 }
+[data-key="1"] rect, 
+[data-key="2"] rect, 
+[data-key="3"] rect, 
+[data-key="4"] rect, 
+[data-key="5"] rect, 
+[data-key="6"] rect,
+[data-key="7"] rect,
+[data-key="8"] rect,
+[data-key="9"] rect,
+[data-key="0"] rect { 
+  fill: red !important 
+}
 [data-key="|"] rect,
 [data-key="&#38;"] rect,
 [data-key="~"] rect {
@@ -166,7 +178,8 @@ text.trans {
 [data-key="\@"] rect, 
 [data-key="\#"] rect, 
 [data-key="\\"] rect, 
-[data-key="\%"] rect { 
+[data-key="\%"] rect,
+[data-key="\^"] rect { 
   fill: lightgrey !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
