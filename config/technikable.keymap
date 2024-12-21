@@ -88,9 +88,9 @@
 
         num+sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2       &kp N3        &kp COMMA          &kp DOLLAR  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH      &trans         &trans
+&trans  &trans  &kp N1  &kp N2       &kp N3        &kp COMMA          &kp DOLLAR  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PERCENT   &trans         &trans
 &trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp DOT            &kp COLON   &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp BACKSLASH  &trans
-&trans  &trans  &kp N7  &kp N8       &kp N9        &trans             &kp AMPS    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH      &trans         &trans
+&trans  &trans  &kp N7  &kp N8       &kp N9        &kp HASH           &kp AMPS    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &trans         &trans
                 &trans  &trans       &trans        &trans     &trans  &trans      &trans            &trans
             >;
 
