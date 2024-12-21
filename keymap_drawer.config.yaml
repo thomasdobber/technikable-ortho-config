@@ -83,9 +83,12 @@ draw_config:
     [data-key="\@"] rect, 
     [data-key="\#"] rect, 
     [data-key="\\"] rect, 
-    [data-key="\%"] rect,
-    [data-key="\^"] rect { 
+    [data-key="\%"] rect { 
       fill: lightgrey !important 
+    }
+    [data-key="\^"],
+    [data-key="\$"]rect { 
+      fill: mintyrose !important 
     }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
