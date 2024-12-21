@@ -99,10 +99,10 @@
 
         sym+arrow_layer {
             bindings = <
-&trans     &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans    &kp HASH        &kp HASH     &kp HASH   &trans    &trans
-&kp TILDE  &kp GRAVE  &mt LALT EXCL  &mt LGUI ASTERISK     &mt LSHFT SLASH        &kp EQUAL          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &kp RIGHT  &kp HASH  &kp HASH
-&trans     &trans     &kp HASH       &kp LT                &kp GT                 &kp UNDER          &trans    &kp HASH        &kp HASH     &kp HASH   &trans    &trans
-                      &trans         &trans                &trans                 &trans     &trans  &trans    &trans          &trans
+&trans     &trans     &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans  &trans          &kp UP         &trans     &trans  &trans
+&kp TILDE  &kp GRAVE  &mt LALT EXCL  &mt LGUI ASTERISK     &mt LSHFT SLASH        &kp EQUAL          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
+&trans     &trans     &kp HASH       &kp LT                &kp GT                 &kp UNDER          &trans  &trans          &trans         &trans     &trans  &trans
+                      &trans         &trans                &trans                 &trans     &trans  &trans  &trans          &trans
             >;
         };
 
