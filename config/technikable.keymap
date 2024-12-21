@@ -88,10 +88,10 @@
 
         num+sym_layer {
             bindings = <
-&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &trans  &trans          &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &trans        &trans
-&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &trans  &mt RSHFT HASH  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp NON_US_BACKSLASH
-&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans  &trans          &kp LEFT_BRACE             &kp RIGHT_BRACE        &trans        &trans
-                 &trans  &trans       &trans        &trans     &trans  &trans  &trans          &trans
+&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &trans    &kp HASH        &kp LEFT_BRACKET           &kp RIGHT_BRACKET      &trans        &trans
+&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &kp HASH  &mt RSHFT HASH  &mt RGUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &kp NON_US_BACKSLASH
+&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans    &kp HASH        &kp LEFT_BRACE             &kp RIGHT_BRACE        &trans        &trans
+                 &trans  &trans       &trans        &trans     &trans  &trans    &trans          &trans
             >;
 
             label = "NUM+";
@@ -99,10 +99,10 @@
 
         sym+arrow_layer {
             bindings = <
-&trans     &trans    &kp LT         &kp GT          &trans           &kp PIPE           &trans  &kp MINUS       &kp UP         &kp PLUS   &trans  &trans
-&kp GRAVE  &kp EXCL  &mt LALT HASH  &mt LGUI MINUS  &mt LSHFT EQUAL  &kp AMPS           &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
-&trans     &trans    &trans         &trans          &trans           &kp TILDE          &trans  &kp SLASH       &kp EQUAL      &kp ASTRK  &trans  &trans
-                     &trans         &trans          &trans           &trans     &trans  &trans  &trans          &trans
+&trans     &trans    &kp LT         &kp GT         &kp HASH         &trans            &trans    &kp MINUS       &kp UP         &kp PLUS   &trans    &trans
+&kp GRAVE  &kp EXCL  &mt LALT HASH  &mt LGUI HASH  &mt LSHFT EQUAL  &kp HASH          &kp HASH  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &kp HASH  &kp HASH
+&trans     &trans    &kp HASH       &kp HASH       &kp HASH         &trans            &trans    &kp SLASH       &kp HASH       &kp ASTRK  &trans    &trans
+                     &trans         &trans         &trans           &trans    &trans  &trans    &trans          &trans
             >;
         };
 
