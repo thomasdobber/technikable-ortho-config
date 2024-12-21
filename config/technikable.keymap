@@ -88,10 +88,10 @@
 
         num+sym_layer {
             bindings = <
-&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH  &trans        &trans
-&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &kp HASH  &mt RSHFT COLON       &mt RGUI HASH          &kp HASH  &kp QUESTION  &kp NON_US_BACKSLASH
-&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans    &kp LT                &kp GT                 &kp HASH  &trans        &trans
-                 &trans  &trans       &trans        &trans     &trans  &trans    &trans                &trans
+&trans   &trans  &kp N1  &kp N2       &kp N3        &trans             &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp HASH  &trans        &trans
+&kp DOT  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp COMMA          &kp COLON  &mt RSHFT HASH    &mt RGUI HASH      &kp HASH  &kp QUESTION  &kp NON_US_BACKSLASH
+&trans   &trans  &kp N7  &kp N8       &kp N9        &trans             &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH  &trans        &trans
+                 &trans  &trans       &trans        &trans     &trans  &trans     &trans            &trans
             >;
 
             label = "NUM+";
@@ -99,10 +99,10 @@
 
         sym+arrow_layer {
             bindings = <
-&trans     &trans    &kp HASH       &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans            &trans    &kp MINUS       &kp PLUS     &kp PERCENT  &trans    &trans
-&kp GRAVE  &kp EXCL  &mt LALT HASH  &mt LGUI HASH     &mt LSHFT EQUAL    &kp HASH          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &kp RIGHT    &kp HASH  &kp HASH
-&trans     &trans    &kp HASH       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans            &trans    &kp SLASH       &kp ASTRK    &kp HASH     &trans    &trans
-                     &trans         &trans            &trans             &trans    &trans  &trans    &trans          &trans
+&trans     &trans    &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans    &kp MINUS       &kp PLUS     &kp PERCENT  &trans    &trans
+&kp GRAVE  &kp EXCL  &mt LALT HASH  &mt LGUI HASH         &mt LSHFT HASH         &kp EQUAL          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &kp RIGHT    &kp HASH  &kp HASH
+&trans     &trans    &kp HASH       &kp LT                &kp GT                 &trans             &trans    &kp SLASH       &kp ASTRK    &kp HASH     &trans    &trans
+                     &trans         &trans                &trans                 &trans     &trans  &trans    &trans          &trans
             >;
         };
 
