@@ -141,25 +141,25 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
+  - ','
   - $
   - '{'
   - '}'
   - '#'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - .
+  - {t: ▽, type: trans}
   - '0'
   - '4'
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
-  - ','
+  - .
   - ':'
   - {t: '-', h: RSHFT}
   - {t: +, h: RGUI}
   - '?'
   - \
-  - '|'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
@@ -193,7 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '~'
+  - {t: ▽, type: trans}
   - '`'
   - {t: '!', h: LALT}
   - {t: '*', h: LGUI}
