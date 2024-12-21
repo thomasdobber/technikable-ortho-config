@@ -39,12 +39,147 @@ layers:
   - ENTER
   - LALT
   - LGUI
-  - EXT
   - SPACE
-  - EXT
-  - RCTRL
-  - BLT
   - {t: ▽, type: trans}
+  - NUM
+  - SYM
+  - {t: ▽, type: trans}
+  - BLT
+  SYM:
+  - {t: ▽, type: trans}
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - '|'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '[', h: LALT}
+  - {t: (, h: LGUI}
+  - {t: ), h: LSHFT}
+  - ']'
+  - LEFT
+  - {t: DOWN, h: RSHFT}
+  - {t: UP, h: RGUI}
+  - RIGHT
+  - ':'
+  - '"'
+  - '~'
+  - {t: ▽, type: trans}
+  - '{'
+  - <
+  - '>'
+  - '}'
+  - _
+  - '-'
+  - +
+  - '='
+  - '?'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHFT
+  - RGUI
+  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  BLT:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT PRV
+  - ''
+  - ''
+  - BT NXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
   EXT:
   - {t: ▽, type: trans}
   - '1'
@@ -84,57 +219,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLT:
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BT PRV
-  - ''
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   NUM+:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -225,7 +315,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM:
+  SYM2:
   - {t: ▽, type: trans}
   - '#'
   - '|'
@@ -261,51 +351,6 @@ layers:
   - ']'
   - '"'
   - '@'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  sym:
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - '|'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '[', h: LALT}
-  - {t: (, h: LGUI}
-  - {t: ), h: LSHFT}
-  - ']'
-  - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RGUI}
-  - RIGHT
-  - ':'
-  - '"'
-  - '~'
-  - {t: ▽, type: trans}
-  - '{'
-  - <
-  - '>'
-  - '}'
-  - _
-  - '-'
-  - +
-  - '='
-  - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
