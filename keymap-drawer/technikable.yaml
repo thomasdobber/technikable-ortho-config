@@ -142,7 +142,7 @@ layers:
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - $
   - '{'
   - '}'
   - '#'
@@ -186,7 +186,7 @@ layers:
   - '#'
   - (
   - )
-  - {t: ▽, type: trans}
+  - ^
   - {t: ▽, type: trans}
   - '#'
   - '#'
