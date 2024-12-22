@@ -130,10 +130,10 @@
 
         experimental_sym_layer {
             bindings = <
-&trans  &kp HASH       &kp PIPE   &kp LT         &kp GT           &kp CARET          &kp DOLLAR  &kp LEFT_BRACE              &kp RIGHT_BRACE             &kp GRAVE          &kp PERCENT   &trans
-&trans  &kp EXCL       &kp AMPS   &mt LGUI PLUS  &mt LSHFT MINUS  &kp EQUAL          &kp COLON   &mt RSHFT LEFT_PARENTHESIS  &mt RGUI RIGHT_PARENTHESIS  &kp SINGLE_QUOTE   &kp QUESTION  &trans
-&trans  &kp BACKSLASH  &kp TILDE  &kp ASTRK      &kp SLASH        &kp UNDER          &kp SEMI    &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &kp DOUBLE_QUOTES  &kp AT        &trans
-                       &trans     &trans         &trans           &trans     &trans  &trans      &trans                      &trans
+&trans     &kp HASH       &kp AMPS   &kp LT         &kp GT           &kp CARET          &kp DOLLAR  &kp LEFT_BRACE              &kp RIGHT_BRACE             &kp GRAVE          &kp PERCENT   &trans
+&trans     &kp EXCL       &kp UNDER  &mt LGUI PLUS  &mt LSHFT MINUS  &kp EQUAL          &kp COLON   &mt RSHFT LEFT_PARENTHESIS  &mt RGUI RIGHT_PARENTHESIS  &kp SINGLE_QUOTE   &kp QUESTION  &trans
+&kp TILDE  &kp BACKSLASH  &kp PIPE   &kp ASTRK      &kp SLASH        &kp UNDER          &trans      &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &kp DOUBLE_QUOTES  &kp AT        &trans
+                          &trans     &trans         &trans           &trans     &trans  &trans      &trans                      &trans
             >;
 
             label = "SYM2";
