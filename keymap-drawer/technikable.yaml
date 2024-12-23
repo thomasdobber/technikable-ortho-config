@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - TAB
+  - '='
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - {t: ESC, h: LCTRL}
+  - '-'
+  - LCTRL
   - A
   - S
-  - {t: D, h: LGUI}
+  - D
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: K, h: RGUI}
+  - K
   - L
   - ;
   - ''''
-  - {t: '`', h: LSHFT}
+  - '`'
   - Z
   - X
   - C
@@ -36,37 +36,37 @@ layers:
   - ','
   - .
   - /
-  - ENTER
+  - \
   - LALT
   - LGUI
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: LSHFT, h: sticky}
   - SYM
+  - NUM
   - '['
   - ']'
   SYM:
   - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RGUI}
+  - DOWN
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -76,10 +76,55 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - _
-  - '-'
-  - +
-  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,19 +176,18 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
 combos:
-- p: [14, 15, 16]
-  k: ESC
-- p: [20, 21, 19]
+- p: [20, 19, 21]
   k: ENTER
 - p: [16, 15]
   k: TAB
-- p: [20, 19]
-  k: BSPC
 - p: [16, 19]
   k: '&caps_word'
-  l: [Base]
+- p: [14, 15, 16]
+  k: ESC
+- p: [19, 20]
+  k: BSPC
