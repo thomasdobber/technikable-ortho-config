@@ -11,12 +11,6 @@
 &caps_word {
 };
 
-&mt {
-    tapping-term-ms = <280>;
-    require-prior-idle-ms = <150>;
-    flavor = "balanced";
-};
-
 / {
     chosen { zmk,matrix_transform = &ortho_transform; };
 
