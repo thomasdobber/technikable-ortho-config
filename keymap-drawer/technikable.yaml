@@ -181,13 +181,13 @@ layers:
   - ''
   - ''
 combos:
+- p: [14, 15, 16]
+  k: ESC
 - p: [20, 19, 21]
   k: ENTER
 - p: [16, 15]
   k: TAB
-- p: [16, 19]
-  k: '&caps_word'
-- p: [14, 15, 16]
-  k: ESC
 - p: [19, 20]
   k: BSPC
+- p: [16, 19]
+  k: '&caps_word'
