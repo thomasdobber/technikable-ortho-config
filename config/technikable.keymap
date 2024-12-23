@@ -58,85 +58,32 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp TAB          &kp Q  &kp W     &kp E       &kp R        &kp T          &kp Y  &kp U        &kp I       &kp O    &kp P     &kp BSPC
-&mt LCTRL ESC    &kp A  &kp S     &mt LGUI D  &mt LSHFT F  &kp G          &kp H  &mt RSHFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z  &kp X     &kp C       &kp V        &kp B          &kp N  &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp ENTER
-                        &kp LALT  &kp LGUI    &kp SPACE    &trans  &mo 2  &mo 1  &trans       &mo 3
+&kp TAB          &kp Q  &kp W     &kp E       &kp R        &kp T           &kp Y  &kp U             &kp I              &kp O    &kp P     &kp BSPC
+&mt LCTRL ESC    &kp A  &kp S     &mt LGUI D  &mt LSHFT F  &kp G           &kp H  &mt RSHFT J       &mt RGUI K         &kp L    &kp SEMI  &kp SINGLE_QUOTE
+&mt LSHFT GRAVE  &kp Z  &kp X     &kp C       &kp V        &kp B           &kp N  &kp M             &kp COMMA          &kp DOT  &kp FSLH  &kp ENTER
+                        &kp LALT  &kp LGUI    &kp SPACE    &trans  &trans  &mo 1  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
         sym_layer {
             bindings = <
-&trans     &trans    &kp PIPE       &kp LT         &kp GT           &trans             &trans    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans     &trans
-&trans     &kp EXCL  &mt LALT AMPS  &mt LGUI PLUS  &mt LSHFT MINUS  &kp EQUAL          &kp LEFT  &mt RSHFT DOWN        &mt RGUI UP            &kp RIGHT  &kp COLON  &kp DOUBLE_QUOTES
-&kp TILDE  &trans    &kp TILDE      &kp ASTRK      &kp SLASH        &trans             &trans    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans     &trans
-                     &trans         &trans         &trans           &trans     &trans  &trans    &trans                &trans
+&trans  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5          &kp N6     &kp N7          &kp N8       &kp N9     &kp N0  &trans
+&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp LEFT   &mt RSHFT DOWN  &mt RGUI UP  &kp RIGHT  &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &kp UNDER  &kp MINUS       &kp PLUS     &kp EQUAL  &trans  &trans
+                   &trans    &trans    &trans     &trans  &trans  &trans     &trans          &trans
             >;
 
             label = "SYM";
         };
 
-        num_layer {
-            bindings = <
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &trans  &trans     &trans    &trans    &trans  &trans
-&trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans          &trans  &kp RSHFT  &kp RGUI  &kp RALT  &trans  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans     &trans    &trans    &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
-            >;
-
-            label = "NUM";
-        };
-
         bluetooth_layer {
             label = "BLT";
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none       &none   &none  &none       &none  &bt BT_CLR
-&none         &none         &none         &none         &none         &none         &bt BT_PRV  &none   &none  &bt BT_NXT  &none  &none
-&none         &none         &none         &none         &none         &none         &none       &trans  &none  &trans      &none  &none
-                            &none         &none         &none         &none  &none  &none       &none   &none
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none  &none  &none  &none  &none  &bt BT_CLR
+&none         &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none
+&none         &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none
+                            &none         &none         &none         &none  &none  &none  &none  &none
             >;
-        };
-
-        basic_sym_layer {
-            bindings = <
-&trans  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5          &kp N6     &kp N7           &kp N8       &kp N9            &kp N0             &trans
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp EQUAL  &mt RSHFT MINUS  &mt RGUI UP  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp GRAVE
-&trans  &trans     &trans    &trans    &trans     &trans          &trans     &kp LEFT         &kp DOWN     &kp RIGHT         &kp BACKSLASH      &trans
-                   &trans    &trans    &trans     &trans  &trans  &trans     &trans           &trans
-            >;
-
-            label = "EXT";
-        };
-
-        num+sym_layer {
-            bindings = <
-&trans  &trans  &kp N1  &kp N2       &kp N3        &kp COMMA          &trans     &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PERCENT   &trans     &trans
-&trans  &kp N0  &kp N4  &mt LGUI N5  &mt LSHFT N6  &kp DOT            &kp GRAVE  &mt RSHFT MINUS   &mt RGUI PLUS      &kp QUESTION  &kp COLON  &kp DOUBLE_QUOTES
-&trans  &trans  &kp N7  &kp N8       &kp N9        &kp HASH           &trans     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp AT        &trans     &trans
-                &trans  &trans       &trans        &trans     &trans  &trans     &trans            &trans
-            >;
-
-            label = "NUM+";
-        };
-
-        sym+arrow_layer {
-            bindings = <
-&trans  &trans     &trans         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET          &trans  &trans          &kp UP         &trans     &trans  &trans
-&trans  &kp GRAVE  &mt LALT EXCL  &mt LGUI ASTERISK     &mt LSHFT SLASH        &kp EQUAL          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans         &kp LT                &kp GT                 &kp PIPE           &trans  &trans          &trans         &trans     &trans  &trans
-                   &trans         &trans                &trans                 &trans     &trans  &trans  &trans          &trans
-            >;
-        };
-
-        experimental_sym_layer {
-            bindings = <
-&trans  &kp HASH       &kp TILDE      &kp LT         &kp GT           &kp CARET          &kp DOLLAR  &kp LEFT_BRACE              &kp RIGHT_BRACE             &kp GRAVE          &kp PERCENT   &trans
-&trans  &kp EXCL       &kp AMPERSAND  &mt LGUI PLUS  &mt LSHFT MINUS  &kp EQUAL          &kp COLON   &mt RSHFT LEFT_PARENTHESIS  &mt RGUI RIGHT_PARENTHESIS  &kp SINGLE_QUOTE   &kp QUESTION  &trans
-&trans  &kp BACKSLASH  &kp PIPE       &kp ASTRK      &kp SLASH        &kp UNDER          &trans      &kp LEFT_BRACKET            &kp RIGHT_BRACKET           &kp DOUBLE_QUOTES  &kp AT        &trans
-                       &trans         &trans         &trans           &trans     &trans  &trans      &trans                      &trans
-            >;
-
-            label = "SYM2";
         };
     };
 };
