@@ -43,7 +43,7 @@ layers:
   - {t: LSHFT, h: sticky}
   - {t: RSHFT, h: sticky}
   - SYM
-  - {t: ▽, type: trans}
+  - RGUI
   - BLT
   SYM:
   - {t: ▽, type: trans}
