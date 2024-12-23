@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - '='
+  - TAB
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - '-'
+  - BSPC
   - LCTRL
   - A
   - S
@@ -25,7 +25,7 @@ layers:
   - L
   - ;
   - ''''
-  - '`'
+  - LSHFT
   - Z
   - X
   - C
@@ -36,12 +36,12 @@ layers:
   - ','
   - .
   - /
-  - \
+  - ENTER
   - LALT
   - LGUI
   - SPACE
   - {t: LSHFT, h: sticky}
-  - {t: ▽, type: trans}
+  - {t: RSHFT, h: sticky}
   - SYM
   - {t: ▽, type: trans}
   - BLT
