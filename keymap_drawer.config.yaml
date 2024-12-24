@@ -48,6 +48,7 @@ draw_config:
     [data-key="'"] rect { 
       fill: antiquewhite !important 
     }
+    [data-key="NUM"] rect,
     [data-key="1"] rect, 
     [data-key="2"] rect, 
     [data-key="3"] rect, 
@@ -60,14 +61,19 @@ draw_config:
     [data-key="0"] rect { 
       fill: lightgreen !important 
     }
+    [data-key="NAV"] rect,
     [data-key*="LEFT"] rect, 
     [data-key*="DOWN"] rect, 
     [data-key*="UP"] rect, 
     [data-key*="RIGHT"] rect { 
-      fill: darkseagreen !important 
+      fill: khaki !important 
     }
+    [data-key="BLT"] rect,
     [data-key*="BT"] rect { 
       fill: lightblue !important 
+    }
+    [data-key="SYM"] rect {
+      fill: gold !important 
     }
   footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
   shrink_wide_legends: 7
