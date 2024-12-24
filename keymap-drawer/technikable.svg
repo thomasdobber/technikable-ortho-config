@@ -139,9 +139,30 @@ text.trans {
 [data-key="["] rect, 
 [data-key="]"] rect, 
 [data-key="`"] rect,
-[data-key="\"] rect,
-[data-key='''] rect { 
+[data-key="\\"] rect,
+[data-key="'"] rect { 
   fill: gold !important 
+}
+[data-key="1"] rect, 
+[data-key="2"] rect, 
+[data-key="3"] rect, 
+[data-key="4"] rect, 
+[data-key="5"] rect,
+[data-key="6"] rect,
+[data-key="7"] rect,
+[data-key="8"] rect,
+[data-key="9"] rect,
+[data-key="0"] rect { 
+  fill: lightgreen !important 
+}
+[data-key="LEFT"] rect, 
+[data-key="DOWN"] rect, 
+[data-key="UP"] rect, 
+[data-key="RIGHT"] rect { 
+  fill: cyan !important 
+}
+[data-key*="BT"] rect { 
+  fill: lightblue !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
