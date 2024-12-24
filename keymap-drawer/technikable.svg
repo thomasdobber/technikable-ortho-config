@@ -141,7 +141,7 @@ text.trans {
 [data-key="`"] rect,
 [data-key="\\"] rect,
 [data-key="'"] rect { 
-  fill: gold !important 
+  fill: antiquewhite !important 
 }
 [data-key="1"] rect, 
 [data-key="2"] rect, 
@@ -155,11 +155,11 @@ text.trans {
 [data-key="0"] rect { 
   fill: lightgreen !important 
 }
-[data-key="LEFT"] rect, 
-[data-key="DOWN"] rect, 
-[data-key="UP"] rect, 
-[data-key="RIGHT"] rect { 
-  fill: cyan !important 
+[data-key*="LEFT"] rect, 
+[data-key*="DOWN"] rect, 
+[data-key*="UP"] rect, 
+[data-key*="RIGHT"] rect { 
+  fill: darkseagreen !important 
 }
 [data-key*="BT"] rect { 
   fill: lightblue !important 
