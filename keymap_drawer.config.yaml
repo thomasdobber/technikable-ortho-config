@@ -66,11 +66,11 @@ draw_config:
     [data-key*="DOWN"] rect, 
     [data-key*="UP"] rect, 
     [data-key*="RIGHT"] rect { 
-      fill: khaki !important 
+      fill: salmon !important 
     }
     [data-key="BLT"] rect,
     [data-key*="BT"] rect { 
-      fill: lightblue !important 
+      fill: lightskyblue !important 
     }
     [data-key="SYM"] rect {
       fill: gold !important 
