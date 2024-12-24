@@ -143,6 +143,7 @@ text.trans {
 [data-key="'"] rect { 
   fill: antiquewhite !important 
 }
+[data-key="NUM"] rect,
 [data-key="1"] rect, 
 [data-key="2"] rect, 
 [data-key="3"] rect, 
@@ -155,14 +156,19 @@ text.trans {
 [data-key="0"] rect { 
   fill: lightgreen !important 
 }
+[data-key="NAV"] rect,
 [data-key*="LEFT"] rect, 
 [data-key*="DOWN"] rect, 
 [data-key*="UP"] rect, 
 [data-key*="RIGHT"] rect { 
-  fill: darkseagreen !important 
+  fill: khaki !important 
 }
+[data-key="BLT"] rect,
 [data-key*="BT"] rect { 
   fill: lightblue !important 
+}
+[data-key="SYM"] rect {
+  fill: gold !important 
 }</style>
 <g transform="translate(30, 0)" class="layer-Base">
 <text x="0" y="28" class="label" id="Base">Base:</text>
