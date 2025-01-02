@@ -41,9 +41,9 @@ layers:
   - LGUI
   - SPACE
   - LCTRL
-  - {t: NAV, h: toggle}
+  - NAV
   - SYM
-  - {t: NUM, h: toggle}
+  - NUM
   - BLT
   NAV:
   - {t: ▽, type: trans}
@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -104,7 +104,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '!'
+  - {t: ▽, type: trans}
   - <
   - (
   - {t: '[', h: LSHFT}
@@ -113,7 +113,7 @@ layers:
   - {t: DOWN, h: RSHFT}
   - UP
   - RIGHT
-  - '?'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - '-'
   - +
   - '='
-  - \
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -178,7 +178,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   BLT:
   - {t: BT, h: '0'}
