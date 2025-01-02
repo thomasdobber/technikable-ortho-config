@@ -819,6 +819,7 @@ text.trans {
 <g data-key="4" transform="translate(420, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">4</text>
+<text x="0" y="24" class="key hold">RSHFT</text>
 </g>
 <g data-key="5" transform="translate(476, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

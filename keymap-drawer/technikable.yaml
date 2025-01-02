@@ -155,7 +155,7 @@ layers:
   - {t: '6', h: LSHFT}
   - '0'
   - {t: ▽, type: trans}
-  - '4'
+  - {t: '4', h: RSHFT}
   - '5'
   - '6'
   - '0'
