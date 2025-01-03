@@ -42,27 +42,39 @@ layers:
   - {t: SPACE, h: SYM}
   - LCTRL
   - LEFT
-  - {t: DOWN, h: NUM}
+  - {t: DOWN, h: SYM}
   - UP
   - {t: RIGHT, h: BLT}
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
   - {t: ▽, type: trans}
   - LCTRL
-  - LALT
-  - LGUI
-  - LSHFT
+  - {t: '4', h: LALT}
+  - {t: '5', h: LGUI}
+  - {t: '6', h: LSHFT}
+  - {t: ▽, type: trans}
+  - LEFT
+  - {t: DOWN, h: RSHFT}
+  - {t: UP, h: RGUI}
+  - {t: RIGHT, h: LALT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -72,67 +84,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: '0', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
-  - {t: ▽, type: trans}
-  NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - '0'
-  - {t: ▽, type: trans}
-  - RSHFT
-  - RGUI
-  - LALT
-  - RCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
