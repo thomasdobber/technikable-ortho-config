@@ -57,7 +57,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - LCTRL
   - LALT
