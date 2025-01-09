@@ -127,28 +127,17 @@
 &kp TAB          &kp Q         &kp W        &kp E        &kp R         &kp T                &kp Y       &kp U         &kp I        &kp O        &kp P            &kp BSPC
 &kp ESC          &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G                &kp H       &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &kp SINGLE_QUOTE
 &mt LSHFT GRAVE  &kp Z         &kp X        &kp C        &kp V         &kp B                &kp N       &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp ENTER
-                               &kp LALT     &kp LGUI     &lt 1 SPACE   &kp LCTRL  &kp LEFT  &lt 2 DOWN  &kp UP        &lt 3 RIGHT
+                               &kp LALT     &kp LGUI     &kp SPACE     &kp LCTRL  &kp LEFT  &lt 1 DOWN  &kp UP        &lt 2 RIGHT
             >;
-        };
-
-        num_layer {
-            bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp N1  &kp N2  &kp N3  &trans  &kp DEL
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
-                   &trans    &trans    &trans     &trans  &trans  &kp N0  &trans  &trans
-            >;
-
-            label = "NUM";
         };
 
         sym_layer {
             label = "SYM";
             bindings = <
-&trans  &trans     &trans           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans             &trans    &kp LEFT_BRACE   &kp RIGHT_BRACE  &trans           &trans     &trans
-&trans  &kp LCTRL  &hml LALT EQUAL  &hml LGUI PLUS        &hml LSHFT MINUS       &kp UNDER          &kp LEFT  &hmr RSHFT DOWN  &hmr RGUI UP     &hmr LALT RIGHT  &kp RCTRL  &trans
-&trans  &trans     &trans           &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans             &trans    &kp LT           &kp GT           &trans           &trans     &trans
-                   &trans           &trans                &trans                 &trans     &trans  &trans    &trans           &trans
+&trans  &kp N1     &kp N2                 &kp N3          &kp N4            &kp N5                     &kp N6    &kp N7           &kp N8        &kp N9           &kp N0     &kp DEL
+&trans  &kp LCTRL  &mt LALT LEFT_BRACKET  &hml LGUI PLUS  &hml LSHFT MINUS  &kp RIGHT_BRACKET          &kp LEFT  &hmr RSHFT DOWN  &hmr RGUI UP  &hmr LALT RIGHT  &kp RCTRL  &trans
+&trans  &trans     &trans                 &trans          &trans            &trans                     &trans    &trans           &trans        &trans           &trans     &trans
+                   &trans                 &trans          &trans            &trans             &trans  &trans    &trans           &trans
             >;
         };
 
