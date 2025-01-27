@@ -173,5 +173,23 @@
                             &none         &none         &none         &none  &none  &none  &none  &none
             >;
         };
+
+        layer_5 {
+            bindings = <
+&trans  &trans     &trans    &trans    &trans     &trans          &kp MINUS  &kp MINUS  &kp EQUAL  &kp EQUAL  &trans    &trans
+&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp SEMI  &kp SQT
+&trans  &trans     &trans    &trans    &trans     &trans          &trans     &trans     &kp COMMA  &kp DOT    &kp FSLH  &trans
+                   &trans    &trans    &trans     &trans  &trans  &trans     &trans     &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans  &trans     &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &trans
+&trans  &trans  &trans  &kp LBKT              &kp RBKT               &trans          &trans  &trans     &trans    &trans    &trans     &trans
+                &trans  &trans                &trans                 &trans  &trans  &trans  &trans     &trans
+            >;
+        };
     };
 };
