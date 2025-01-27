@@ -133,10 +133,10 @@
 
         layer_5 {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &kp CARET  &kp AMPS       &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp UNDER  &kp MINUS      &kp PLUS      &kp EQUAL             &kp COLON              &kp DOUBLE_QUOTES
-&trans  &trans     &trans    &trans    &trans     &trans          &kp PIPE   &kp BACKSLASH  &kp LT        &kp GT                &kp QUESTION           &trans
-                   &trans    &trans    &kp X      &trans  &trans  &trans     &trans         &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &kp CARET          &kp AMPS          &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &kp DEL
+&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp UNDER          &kp MINUS         &kp PLUS      &kp EQUAL  &kp COLON      &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LT        &kp GT     &kp QUESTION   &trans
+                   &trans    &trans    &kp X      &trans  &trans  &trans             &trans            &trans
             >;
         };
 
@@ -153,10 +153,10 @@
 
         arrow_layer {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans         &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans         &trans    &trans    &trans  &trans     &trans  &trans
-                   &trans    &trans    &trans     &trans  &kp X  &trans    &trans    &trans
+&trans  &trans     &trans    &trans    &trans     &trans         &trans  &trans    &kp UP    &trans     &trans  &trans
+&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans         &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans     &trans    &trans    &trans     &trans         &trans  &trans    &trans    &trans     &trans  &trans
+                   &trans    &trans    &trans     &trans  &kp X  &trans  &trans    &trans
             >;
 
             label = "ARR";
