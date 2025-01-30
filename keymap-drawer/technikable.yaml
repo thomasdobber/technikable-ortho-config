@@ -37,14 +37,14 @@ layers:
   - .
   - /
   - {t: ▽, type: trans}
-  - LALT
-  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: SPACE, h: SYM}
   - NUM
-  - BSPC
   - SYM
-  - DEL
-  - BLT
+  - NUM
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -174,12 +174,12 @@ layers:
   - ''
   - ''
   - ''
+  - {type: held}
+  - {type: held}
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - {t: X, type: held}
+  - X
 combos:
 - p: [14, 15, 16]
   k: ESC
@@ -191,11 +191,5 @@ combos:
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
-- p: [33, 32, 31]
-  k: '&angle_brackets_macro'
-- p: [7, 8, 9]
-  k: '&braces_macro'
-- p: [2, 3, 4]
-  k: '&parenthesis_macro'
-- p: [26, 27, 28]
-  k: '&brackets_macro'
+- p: [21, 19]
+  k: DEL
