@@ -124,10 +124,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp TAB          &kp Q         &kp W        &kp E        &kp R         &kp T            &kp Y  &kp U         &kp I        &kp O        &kp P            &kp BSPC
-&mt LCTRL ESC    &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G            &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z         &kp X        &kp C        &kp V         &kp B            &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp ENTER
-                               &kp LALT     &kp LGUI     &lt 1 SPACE   &mo 2  &kp BSPC  &mo 3  &kp DEL       &mo 4
+&trans  &kp Q         &kp W        &kp E        &kp R         &kp T            &kp Y  &kp U         &kp I        &kp O        &kp P            &trans
+&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G            &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
+&trans  &kp Z         &kp X        &kp C        &kp V         &kp B            &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
+                      &kp LALT     &kp LGUI     &lt 1 SPACE   &mo 2  &kp BSPC  &mo 1  &kp DEL       &mo 3
             >;
         };
 
@@ -136,7 +136,7 @@
 &trans  &trans     &trans    &trans    &trans     &trans          &trans     &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
 &trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp GRAVE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
 &trans  &trans     &trans    &trans    &trans     &trans          &trans     &trans     &kp LBKT  &kp RBKT   &kp BSLH  &trans
-                   &trans    &trans    &kp X      &trans  &trans  &trans     &trans     &trans
+                   &trans    &trans    &kp X      &trans  &trans  &kp X      &trans     &trans
             >;
 
             label = "SYM";
@@ -151,15 +151,6 @@
             >;
 
             label = "NUM";
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans  &trans     &trans    &trans    &trans     &trans
-&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
-&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans  &trans     &trans    &trans    &trans     &trans
-                &trans  &trans                &trans                 &trans  &trans  &kp X   &trans     &trans
-            >;
         };
 
         bluetooth_layer {
