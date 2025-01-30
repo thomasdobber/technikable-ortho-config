@@ -124,20 +124,22 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp TAB          &kp Q         &kp W        &kp E        &kp R         &kp T              &kp Y       &kp U         &kp I        &kp O        &kp P            &kp BSPC
-&mt LCTRL ESC    &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G              &kp H       &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &kp SINGLE_QUOTE
-&mt LSHFT GRAVE  &kp Z         &kp X        &kp C        &kp V         &kp B              &kp N       &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp ENTER
-                               &kp LALT     &kp LGUI     &lt 1 SPACE   &mo 2  &lt 3 LEFT  &lt 4 DOWN  &kp UP        &lt 5 RIGHT
+&kp TAB          &kp Q         &kp W        &kp E        &kp R         &kp T            &kp Y  &kp U         &kp I        &kp O        &kp P            &kp BSPC
+&mt LCTRL ESC    &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G            &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &kp SINGLE_QUOTE
+&mt LSHFT GRAVE  &kp Z         &kp X        &kp C        &kp V         &kp B            &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &kp ENTER
+                               &kp LALT     &kp LGUI     &lt 1 SPACE   &mo 2  &kp BSPC  &mo 3  &kp DEL       &mo 4
             >;
         };
 
-        layer_5 {
+        sym_layer {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &kp CARET          &kp AMPS          &kp ASTERISK  &kp PIPE   &kp BACKSLASH  &kp DEL
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp UNDER          &kp MINUS         &kp PLUS      &kp EQUAL  &kp COLON      &kp DOUBLE_QUOTES
-&trans  &trans     &trans    &trans    &trans     &trans          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LT        &kp GT     &kp QUESTION   &trans
-                   &trans    &trans    &kp X      &trans  &trans  &trans             &trans            &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &trans     &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
+&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &kp GRAVE  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &trans     &trans     &kp LBKT  &kp RBKT   &kp BSLH  &trans
+                   &trans    &trans    &kp X      &trans  &trans  &trans     &trans     &trans
             >;
+
+            label = "SYM";
         };
 
         num_layer {
@@ -151,23 +153,12 @@
             label = "NUM";
         };
 
-        arrow_layer {
-            bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans         &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans         &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans         &trans    &trans    &trans  &trans     &trans  &trans
-                   &trans    &trans    &trans     &trans  &kp X  &trans    &trans    &trans
-            >;
-
-            label = "ARR";
-        };
-
         layer_7 {
             bindings = <
-&trans  &kp EXCL   &kp AT    &kp HASH         &kp DOLLAR             &kp PERCENT          &trans  &trans     &trans    &trans    &trans     &trans
-&trans  &kp GRAVE  &kp LBKT  &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LT               &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
-&trans  &kp TILDE  &kp RBKT  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp GT               &trans  &trans     &trans    &trans    &trans     &trans
-                   &trans    &trans           &trans                 &trans       &trans  &kp X   &trans     &trans
+&trans  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans          &trans  &trans     &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans          &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
+&trans  &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans          &trans  &trans     &trans    &trans    &trans     &trans
+                &trans  &trans                &trans                 &trans  &trans  &kp X   &trans     &trans
             >;
         };
 
@@ -179,17 +170,6 @@
 &none         &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none
                             &none         &none         &none         &none  &none  &none  &none  &kp X
             >;
-        };
-
-        extra_layer {
-            bindings = <
-&trans  &kp N1            &kp N2          &kp N3                      &kp N4                     &kp N5          &kp N6     &kp N7            &kp N8        &kp N9           &kp N0                &kp DEL
-&trans  &hml LCTRL GRAVE  &hml LALT LBKT  &hml LGUI LEFT_PARENTHESIS  &hml LSHFT LS(LEFT_BRACE)  &kp LT          &kp UNDER  &hmr RSHFT MINUS  &hmr UP PLUS  &hmr LALT EQUAL  &hmr RCTRL BACKSLASH  &trans
-&trans  &kp TILDE         &kp RBKT        &kp RIGHT_PARENTHESIS       &kp RIGHT_BRACE            &kp GT          &kp LEFT   &kp DOWN          &kp UP        &kp RIGHT        &kp PIPE              &trans
-                          &trans          &trans                      &trans                     &trans  &trans  &trans     &trans            &trans
-            >;
-
-            label = "EXT";
         };
     };
 };
