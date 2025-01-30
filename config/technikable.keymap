@@ -14,7 +14,14 @@
 / {
     chosen { zmk,matrix_transform = &ortho_transform; };
 
-    conditional_layers { compatible = "zmk,conditional-layers"; };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        BLT {
+            if-layers = <1 2>;
+            then-layer = <3>;
+        };
+    };
 
     combos {
         compatible = "zmk,combos";
@@ -44,24 +51,9 @@
             key-positions = <16 19>;
         };
 
-        angle_brackets {
-            bindings = <&angle_brackets_macro>;
-            key-positions = <33 32 31>;
-        };
-
-        braces {
-            bindings = <&braces_macro>;
-            key-positions = <7 8 9>;
-        };
-
-        parenthesis_combo {
-            bindings = <&parenthesis_macro>;
-            key-positions = <2 3 4>;
-        };
-
-        brackets_combo {
-            bindings = <&brackets_macro>;
-            key-positions = <26 27 28>;
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <21 19>;
         };
     };
 
@@ -124,10 +116,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q         &kp W        &kp E        &kp R         &kp T            &kp Y  &kp U         &kp I        &kp O        &kp P            &trans
-&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G            &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
-&trans  &kp Z         &kp X        &kp C        &kp V         &kp B            &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
-                      &kp LALT     &kp LGUI     &lt 1 SPACE   &mo 2  &kp BSPC  &mo 1  &kp DEL       &mo 3
+&trans  &kp Q         &kp W        &kp E        &kp R         &kp T         &kp Y  &kp U         &kp I        &kp O        &kp P            &trans
+&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G         &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
+&trans  &kp Z         &kp X        &kp C        &kp V         &kp B         &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
+                      &trans       &trans       &lt 1 SPACE   &mo 2  &mo 1  &mo 2  &trans        &trans
             >;
         };
 
