@@ -53,7 +53,8 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <21 19>;
+            key-positions = <19 20>;
+            layers = <1>;
         };
     };
 
@@ -116,10 +117,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q         &kp W        &kp E        &kp R         &kp T           &kp Y  &kp U         &kp I        &kp O        &kp P            &trans
-&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G           &kp H  &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
-&trans  &kp Z         &kp X        &kp C        &kp V         &kp B           &kp N  &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
-                      &trans       &trans       &lt 1 SPACE   &trans  &trans  &mo 2  &trans        &trans
+&trans  &kp Q         &kp W        &kp E        &kp R         &kp T           &kp Y      &kp U         &kp I        &kp O        &kp P            &trans
+&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G           &kp H      &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
+&trans  &kp Z         &kp X        &kp C        &kp V         &kp B           &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
+                      &trans       &trans       &lt 1 SPACE   &trans  &trans  &lt 2 TAB  &trans        &trans
             >;
         };
 
