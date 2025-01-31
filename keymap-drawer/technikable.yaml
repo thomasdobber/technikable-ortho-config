@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: SYM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - NUM
+  - {t: TAB, h: NUM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
@@ -191,5 +191,6 @@ combos:
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
-- p: [21, 19]
+- p: [19, 20]
   k: DEL
+  l: [SYM]
