@@ -117,10 +117,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q         &kp W        &kp E        &kp R         &kp T           &kp Y      &kp U         &kp I        &kp O        &kp P            &trans
-&trans  &hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G           &kp H      &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI  &trans
-&trans  &kp Z         &kp X        &kp C        &kp V         &kp B           &kp N      &kp M         &kp COMMA    &kp DOT      &kp FSLH         &trans
-                      &trans       &trans       &lt 1 SPACE   &trans  &trans  &lt 2 TAB  &trans        &trans
+&trans  &kp Q  &kp W   &kp E   &kp R        &kp T           &kp Y        &kp U        &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S   &kp D   &mt LSHFT F  &kp G           &kp H        &mt RSHFT J  &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X   &kp C   &kp V        &kp B           &kp N        &kp M        &kp COMMA  &kp DOT  &kp FSLH  &trans
+               &trans  &trans  &lt 1 SPACE  &trans  &trans  &lt 2 SPACE  &trans       &trans
             >;
         };
 
@@ -138,9 +138,9 @@
         num_layer {
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &trans     &trans    &trans    &trans     &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans          &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
 &trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans     &trans    &trans    &trans     &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+                &trans  &trans  &kp N0  &trans  &trans  &trans  &trans     &trans
             >;
 
             label = "NUM";
