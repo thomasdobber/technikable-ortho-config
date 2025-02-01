@@ -14,16 +14,16 @@ layers:
   - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
+  - A
+  - S
+  - D
   - {t: F, h: LSHFT}
   - G
   - H
   - {t: J, h: RSHFT}
-  - {t: K, h: RGUI}
-  - {t: L, h: LALT}
-  - {t: ;, h: RCTRL}
+  - K
+  - L
+  - ;
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Z
@@ -42,7 +42,7 @@ layers:
   - {t: SPACE, h: SYM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: TAB, h: NUM}
+  - {t: SPACE, h: NUM}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
@@ -104,7 +104,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
@@ -129,7 +129,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
