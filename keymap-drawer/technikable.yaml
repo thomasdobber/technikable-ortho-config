@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LSHFT}
+  - F
   - G
   - H
-  - {t: J, h: RSHFT}
+  - J
   - K
   - L
   - ;
