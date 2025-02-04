@@ -40,8 +40,8 @@ layers:
   - {t: ▽, type: trans}
   - SYM
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - SYM
+  - NUM
   - RSHFT
   - NUM
   - {t: ▽, type: trans}
@@ -131,9 +131,9 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BLT:
   - {t: BT, h: '0'}
@@ -176,9 +176,9 @@ layers:
   - {type: held}
   - ''
   - ''
-  - ''
-  - ''
   - {type: held}
+  - ''
+  - ''
   - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
