@@ -38,14 +38,59 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SYM
+  - SHORTCUTS
   - SPACE
-  - SYM
-  - NUM
+  - SYMBOLS
+  - NUMBERS
   - RSHFT
-  - NUM
+  - ARROWS
   - {t: ▽, type: trans}
-  SYM:
+  SHORTCUTS:
+  - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ L
+  - Gui+ R
+  - Gui+ T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ A
+  - Gui+ S
+  - Alt+ F
+  - Gui+ F
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Ctl+ `
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYMBOLS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -59,10 +104,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
@@ -83,14 +128,14 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM:
+  NUMBERS:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -110,10 +155,10 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: RSHFT, h: sticky}
-  - {t: RGUI, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: RCTRL, h: sticky}
+  - RSHFT
+  - RGUI
+  - LALT
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,14 +180,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BLT:
-  - {t: BT, h: '0'}
+  ARROWS:
+  - ''
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - {t: BT, h: '0'}
   - ''
   - ''
+  - UP
   - ''
   - ''
   - ''
@@ -153,6 +200,9 @@ layers:
   - ''
   - ''
   - ''
+  - LEFT
+  - DOWN
+  - RIGHT
   - ''
   - ''
   - ''
@@ -174,11 +224,6 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
   - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
@@ -193,4 +238,4 @@ combos:
   k: '&caps_word'
 - p: [19, 20]
   k: DEL
-  l: [SYM]
+  l: [SYMBOLS]
