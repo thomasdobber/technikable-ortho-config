@@ -43,12 +43,6 @@
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
-
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <19 20>;
-            layers = <2>;
-        };
     };
 
     behaviors {
