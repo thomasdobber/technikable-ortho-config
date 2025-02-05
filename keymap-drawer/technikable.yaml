@@ -242,3 +242,5 @@ combos:
   k: DEL
 - p: [7, 8, 9]
   k: Sft+ ENTER
+- p: [3, 4]
+  k: Sft+ TAB
