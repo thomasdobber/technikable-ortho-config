@@ -323,8 +323,8 @@ text.trans {
 </g>
 <g transform="translate(196, 196)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#SHORTCUTS">
-<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 78%">SHORTCUTS</tspan></text>
+<a href="#SCT">
+<text x="0" y="0" class="key tap layer-activator">SCT</text>
 </a></g>
 <g transform="translate(252, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -332,13 +332,13 @@ text.trans {
 </g>
 <g transform="translate(308, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#SYMBOLS">
-<text x="0" y="0" class="key tap layer-activator">SYMBOLS</text>
+<a href="#SYM">
+<text x="0" y="0" class="key tap layer-activator">SYM</text>
 </a></g>
 <g transform="translate(364, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#NUMBERS">
-<text x="0" y="0" class="key tap layer-activator">NUMBERS</text>
+<a href="#NUM">
+<text x="0" y="0" class="key tap layer-activator">NUM</text>
 </a></g>
 <g transform="translate(420, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -346,8 +346,8 @@ text.trans {
 </g>
 <g transform="translate(476, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#ARROWS">
-<text x="0" y="0" class="key tap layer-activator">ARROWS</text>
+<a href="#ARR">
+<text x="0" y="0" class="key tap layer-activator">ARR</text>
 </a></g>
 <g transform="translate(532, 196)" class="key trans keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -355,8 +355,8 @@ text.trans {
 </g>
 </g>
 </g>
-<g transform="translate(30, 280)" class="layer-SHORTCUTS">
-<text x="0" y="28" class="label" id="SHORTCUTS">SHORTCUTS:</text>
+<g transform="translate(30, 280)" class="layer-SCT">
+<text x="0" y="28" class="label" id="SCT">SCT:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -565,8 +565,8 @@ text.trans {
 </g>
 </g>
 </g>
-<g transform="translate(30, 560)" class="layer-SYMBOLS">
-<text x="0" y="28" class="label" id="SYMBOLS">SYMBOLS:</text>
+<g transform="translate(30, 560)" class="layer-SYM">
+<text x="0" y="28" class="label" id="SYM">SYM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -745,8 +745,8 @@ text.trans {
 </g>
 </g>
 </g>
-<g transform="translate(30, 840)" class="layer-NUMBERS">
-<text x="0" y="28" class="label" id="NUMBERS">NUMBERS:</text>
+<g transform="translate(30, 840)" class="layer-NUM">
+<text x="0" y="28" class="label" id="NUM">NUM:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
@@ -925,8 +925,8 @@ text.trans {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1120)" class="layer-ARROWS">
-<text x="0" y="28" class="label" id="ARROWS">ARROWS:</text>
+<g transform="translate(30, 1120)" class="layer-ARR">
+<text x="0" y="28" class="label" id="ARR">ARR:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 28)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

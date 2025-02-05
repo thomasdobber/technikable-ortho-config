@@ -38,14 +38,14 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - SHORTCUTS
+  - SCT
   - SPACE
-  - SYMBOLS
-  - NUMBERS
+  - SYM
+  - NUM
   - RSHFT
-  - ARROWS
+  - ARR
   - {t: ▽, type: trans}
-  SHORTCUTS:
+  SCT:
   - {t: ▽, type: trans}
   - Gui+ Q
   - Gui+ W
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYMBOLS:
+  SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUMBERS:
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARROWS:
+  ARR:
   - ''
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
