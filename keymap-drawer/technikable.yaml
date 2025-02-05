@@ -236,3 +236,7 @@ combos:
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
+- p: [2, 3, 4]
+  k: Ctl+ C
+- p: [7, 8]
+  k: DEL
