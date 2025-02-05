@@ -58,6 +58,11 @@
             bindings = <&kp LS(ENTER)>;
             key-positions = <7 8 9>;
         };
+
+        shft-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <3 4>;
+        };
     };
 
     behaviors {
