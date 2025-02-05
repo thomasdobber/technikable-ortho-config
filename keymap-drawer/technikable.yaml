@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - TAB
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
@@ -12,20 +12,20 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - {t: ESC, h: LCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - A
   - S
-  - {t: D, h: LGUI}
-  - {t: F, h: LSHFT}
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RSHFT}
-  - {t: K, h: RGUI}
+  - J
+  - K
   - L
   - ;
-  - ''''
-  - {t: '`', h: LSHFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -36,61 +36,73 @@ layers:
   - ','
   - .
   - /
-  - ENTER
-  - LALT
-  - LGUI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SYM
   - SPACE
   - {t: ▽, type: trans}
-  - NUM
-  - SYM
   - {t: ▽, type: trans}
-  - BLT
+  - RSHFT
+  - NUM
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ L
+  - Gui+ R
+  - Gui+ T
   - {t: ▽, type: trans}
-  - '|'
-  - <
-  - '>'
+  - '-'
+  - UP
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+ A, h: LCTRL}
+  - {t: Gui+ S, h: LALT}
+  - {t: Alt+ F, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Ctl+ `
+  - {t: ▽, type: trans}
+  - '`'
   - '['
   - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - {t: '&', h: LALT}
-  - {t: +, h: LGUI}
-  - {t: '-', h: LSHFT}
-  - '='
-  - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RGUI}
-  - RIGHT
-  - ':'
-  - '"'
-  - '~'
-  - {t: ▽, type: trans}
-  - '~'
-  - '*'
-  - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   NUM:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -98,22 +110,10 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RSHFT
-  - RGUI
-  - RALT
-  - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: LALT}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,13 +129,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BLT:
+  BT:
+  - ''
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -143,6 +144,7 @@ layers:
   - {t: BT, h: '4'}
   - ''
   - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -153,23 +155,15 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - BT PRV
-  - ''
-  - ''
-  - BT NXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -180,195 +174,28 @@ layers:
   - ''
   - ''
   - {type: held}
-  EXT:
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
-  - {t: ▽, type: trans}
-  - '='
-  - {t: '-', h: RSHFT}
-  - {t: UP, h: RGUI}
-  - '['
-  - ']'
-  - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM+:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - ','
-  - {t: ▽, type: trans}
-  - '{'
-  - '}'
-  - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '4'
-  - {t: '5', h: LGUI}
-  - {t: '6', h: LSHFT}
-  - .
-  - '`'
-  - {t: '-', h: RSHFT}
-  - {t: +, h: RGUI}
-  - '?'
-  - ':'
-  - '"'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '#'
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '@'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  sym+arrow:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - ^
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - {t: '!', h: LALT}
-  - {t: '*', h: LGUI}
-  - {t: /, h: LSHFT}
-  - '='
-  - {t: ▽, type: trans}
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - <
-  - '>'
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SYM2:
-  - {t: ▽, type: trans}
-  - '#'
-  - '~'
-  - <
-  - '>'
-  - ^
-  - $
-  - '{'
-  - '}'
-  - '`'
-  - '%'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - '&'
-  - {t: +, h: LGUI}
-  - {t: '-', h: LSHFT}
-  - '='
-  - ':'
-  - {t: (, h: RSHFT}
-  - {t: ), h: RGUI}
-  - ''''
-  - '?'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - \
-  - '|'
-  - '*'
-  - /
-  - _
-  - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '"'
-  - '@'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ESC
-- p: [20, 21, 19]
+- p: [20, 19, 21]
   k: ENTER
 - p: [16, 15]
   k: TAB
-- p: [20, 19]
+- p: [19, 20]
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
-  l: [Base]
+- p: [2, 3, 4]
+  k: Ctl+ C
+- p: [7, 8]
+  k: DEL
+- p: [7, 8, 9]
+  k: Sft+ ENTER
+- p: [3, 4]
+  k: Sft+ TAB
