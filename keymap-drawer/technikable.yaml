@@ -57,7 +57,7 @@ layers:
   - UP
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - '0'
   - '4'
@@ -70,7 +70,7 @@ layers:
   - RIGHT
   - \
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -144,13 +144,3 @@ combos:
   k: TAB
 - p: [19, 20]
   k: BSPC
-- p: [16, 19]
-  k: '&caps_word'
-- p: [2, 3, 4]
-  k: Ctl+ C
-- p: [7, 8]
-  k: DEL
-- p: [7, 8, 9]
-  k: Sft+ ENTER
-- p: [3, 4]
-  k: Sft+ TAB
