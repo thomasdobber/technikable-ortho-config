@@ -45,31 +45,6 @@
             bindings = <&kp BSPC>;
             key-positions = <19 20>;
         };
-
-        caps_word {
-            bindings = <&caps_word>;
-            key-positions = <16 19>;
-        };
-
-        ctrl-c {
-            bindings = <&kp LC(C)>;
-            key-positions = <2 3 4>;
-        };
-
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <7 8>;
-        };
-
-        shft-ent {
-            bindings = <&kp LS(ENTER)>;
-            key-positions = <7 8 9>;
-        };
-
-        shft-tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <3 4>;
-        };
     };
 
     behaviors {
@@ -140,10 +115,10 @@
 
         sym_layer {
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
-&trans  &kp N0  &kp N4  &kp N5  &kp N6  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp BSLH  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &trans    &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
+&trans      &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &kp DEL
+&trans      &kp N0  &kp N4  &kp N5  &kp N6  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp BSLH  &trans
+&caps_word  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &trans    &trans
+                    &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans
             >;
 
             label = "SYM";
