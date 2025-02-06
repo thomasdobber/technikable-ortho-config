@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - {t: ▽, type: trans}
+  - TAB
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BSPC
+  - ESC
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
+  - LSHFT
   - Z
   - X
   - C
@@ -36,61 +36,16 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - RET
+  - LALT
+  - LGUI
+  - SPACE
+  - LCTRL
   - {t: ▽, type: trans}
   - SYM
-  - SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RSHFT
-  - NUM
-  - {t: ▽, type: trans}
+  - BT
   SYM:
-  - {t: ▽, type: trans}
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ L
-  - Gui+ R
-  - Gui+ T
-  - {t: ▽, type: trans}
-  - '-'
-  - UP
-  - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Gui+ A, h: LCTRL}
-  - {t: Gui+ S, h: LALT}
-  - {t: Alt+ F, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
-  - Gui+ G
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Ctl+ `
-  - {t: ▽, type: trans}
-  - '`'
-  - '['
-  - ']'
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -98,22 +53,22 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - UP
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
   - '4'
   - '5'
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
-  - {t: RIGHT, h: LALT}
-  - RCTRL
+  - LEFT
+  - DOWN
+  - RIGHT
+  - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,18 +77,18 @@ layers:
   - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '`'
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BT:
   - ''
@@ -173,13 +128,13 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - {t: ▽, type: trans}
 combos:
 - p: [14, 15, 16]
   k: ESC
