@@ -234,3 +234,15 @@ combos:
   k: TAB
 - p: [19, 20]
   k: BSPC
+- p: [16, 19]
+  k: '&caps_word'
+- p: [7, 8]
+  k: DEL
+- p: [2, 3, 4]
+  k: Ctl+ C
+- p: [3, 4]
+  k: Sft+ TAB
+- p: [31, 32]
+  k: Alt+ BACKSPACE
+- p: [7, 8, 9]
+  k: Sft+ ENTER
