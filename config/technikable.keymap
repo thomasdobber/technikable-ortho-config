@@ -45,6 +45,36 @@
             bindings = <&kp BSPC>;
             key-positions = <19 20>;
         };
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <16 19>;
+        };
+
+        del {
+            bindings = <&kp DEL>;
+            key-positions = <7 8>;
+        };
+
+        ctrl-c {
+            bindings = <&kp LC(C)>;
+            key-positions = <2 3 4>;
+        };
+
+        shft-tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <3 4>;
+        };
+
+        alt-bspc {
+            bindings = <&kp LA(BACKSPACE)>;
+            key-positions = <31 32>;
+        };
+
+        shft-ent {
+            bindings = <&kp LS(ENTER)>;
+            key-positions = <7 8 9>;
+        };
     };
 
     behaviors {
