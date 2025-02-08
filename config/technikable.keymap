@@ -66,55 +66,11 @@
     };
 
     behaviors {
-        hml: hml {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HML";
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35>;
-            flavor = "balanced";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-        };
-
-        hmr: hmr {
-            compatible = "zmk,behavior-hold-tap";
-            label = "HMR";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29>;
-            tapping-term-ms = <200>;
-            flavor = "balanced";
-        };
-    };
-
-    macros {
-        braces_macro: brace_macro {
-            compatible = "zmk,behavior-macro";
+        td_gui: td_gui {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TD_GUI";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACE &kp RBRC>;
-            label = "BRACE_MACRO";
-        };
-
-        brackets_macro: bracket_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET>;
-            label = "BRACKET_MACRO";
-        };
-
-        parenthesis_macro: parenthesis_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS>;
-            label = "PARENTHESIS_MACRO";
-        };
-
-        angle_brackets_macro: angle_brackets_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LT &kp GT>;
-            label = "ANGLE_BRACKETS_MACRO";
+            bindings = <&kp LGUI>, <&kp LS(LGUI)>;
         };
     };
 
@@ -124,10 +80,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q  &kp W   &kp E   &kp R        &kp T         &kp Y  &kp U  &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S   &kp D   &kp F        &kp G         &kp H  &kp J  &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X   &kp C   &kp V        &kp B         &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
-               &trans  &trans  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &mo 2  &mo 5
+&trans  &kp Q  &kp W   &kp E    &kp R        &kp T         &kp Y  &kp U  &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S   &kp D    &kp F        &kp G         &kp H  &kp J  &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X   &kp C    &kp V        &kp B         &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
+               &trans  &td_gui  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &mo 2  &mo 5
             >;
         };
 
@@ -144,10 +100,10 @@
 
         arrow_layer {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &trans    &kp UP    &trans     &trans  &trans
-&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &trans    &trans    &trans     &trans  &trans
-                   &trans    &trans    &trans     &kp X   &trans  &trans  &kp X     &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
+&trans  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH  &trans
+                   &trans    &trans    &trans     &kp X   &trans  &trans  &kp X      &trans
             >;
 
             label = "ARR";
