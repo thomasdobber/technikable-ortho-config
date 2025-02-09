@@ -66,11 +66,18 @@
     };
 
     behaviors {
-        td_gui: td_gui {
+        gui: gui {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_GUI";
+            label = "GUI";
             #binding-cells = <0>;
             bindings = <&kp LGUI>, <&kp LS(LGUI)>;
+        };
+
+        alt: alt {
+            compatible = "zmk,behavior-tap-dance";
+            label = "ALT";
+            #binding-cells = <0>;
+            bindings = <&kp LALT>, <&kp LS(LALT)>;
         };
     };
 
@@ -80,10 +87,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q  &kp W   &kp E    &kp R        &kp T         &kp Y  &kp U  &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S   &kp D    &kp F        &kp G         &kp H  &kp J  &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X   &kp C    &kp V        &kp B         &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
-               &trans  &td_gui  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &mo 2  &mo 5
+&trans  &kp Q  &kp W  &kp E  &kp R        &kp T         &kp Y  &kp U  &kp I      &kp O    &kp P     &trans
+&trans  &kp A  &kp S  &kp D  &kp F        &kp G         &kp H  &kp J  &kp K      &kp L    &kp SEMI  &trans
+&trans  &kp Z  &kp X  &kp C  &kp V        &kp B         &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &trans
+               &alt   &gui   &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &mo 2  &mo 5
             >;
         };
 
