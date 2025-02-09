@@ -39,13 +39,13 @@ layers:
   - {t: ▽, type: trans}
   - '&alt'
   - '&gui'
-  - {t: SPACE, h: LMODS}
+  - {t: SPACE, h: MODL}
   - ARR
   - NUM
-  - RMODS
+  - MODR
   - ARR
   - BT
-  LMODS:
+  MODL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  RMODS:
+  MODR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
