@@ -43,11 +43,6 @@
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
-
-        del {
-            bindings = <&kp DEL>;
-            key-positions = <31 32>;
-        };
     };
 
     keymap {
@@ -56,17 +51,17 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp Q  &kp W   &kp E   &kp R        &kp T           &kp Y  &kp U   &kp I      &kp O    &kp P     &trans
-&trans  &kp A  &kp S   &kp D   &kp F        &kp G           &kp H  &kp J   &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp Z  &kp X   &kp C   &kp V        &kp B           &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &trans
-               &trans  &trans  &lt 1 SPACE  &trans  &trans  &mo 2  &trans  &mo 3
+&kp TAB    &kp Q  &kp W     &kp E     &kp R        &kp T                &kp Y       &kp U   &kp I        &kp O    &kp P     &kp BSPC
+&kp ESC    &kp A  &kp S     &kp D     &kp F        &kp G                &kp H       &kp J   &kp K        &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X     &kp C     &kp V        &kp B                &kp N       &kp M   &kp COMMA    &kp DOT  &kp FSLH  &kp RET
+                  &kp LALT  &kp LGUI  &lt 1 SPACE  &kp LCTRL  &kp LEFT  &lt 2 DOWN  &kp UP  &lt 3 RIGHT
             >;
         };
 
         arrow_layer {
             label = "ARR";
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans            &trans
+&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans            &kp DEL
 &trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SINGLE_QUOTE  &trans
 &trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH          &trans
                    &trans    &trans    &trans     &trans  &trans  &trans  &trans     &trans
