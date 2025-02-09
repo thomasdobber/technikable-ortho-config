@@ -37,8 +37,8 @@ layers:
   - .
   - /
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&td_gui'
+  - '&alt'
+  - '&gui'
   - {t: SPACE, h: LMODS}
   - ARR
   - NUM
