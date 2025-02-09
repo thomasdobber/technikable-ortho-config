@@ -102,7 +102,7 @@
                      &trans      &trans      &kp X        &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "LMODS";
+            label = "MODL";
         };
 
         arrow_layer {
@@ -135,7 +135,7 @@
                 &trans  &trans  &trans  &trans  &trans  &kp X   &trans       &trans
             >;
 
-            label = "RMODS";
+            label = "MODR";
         };
 
         bluetooth_layer {
