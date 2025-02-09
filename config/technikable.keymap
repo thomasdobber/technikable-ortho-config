@@ -70,14 +70,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "GUI";
             #binding-cells = <0>;
-            bindings = <&kp LGUI>, <&kp LS(LGUI)>;
+            bindings = <&kp LGUI>, <&mt LSHIFT LGUI>;
         };
 
         alt: alt {
             compatible = "zmk,behavior-tap-dance";
             label = "ALT";
             #binding-cells = <0>;
-            bindings = <&kp LALT>, <&kp LS(LALT)>;
+            bindings = <&kp LALT>, <&mt LSHIFT LALT>;
         };
     };
 
