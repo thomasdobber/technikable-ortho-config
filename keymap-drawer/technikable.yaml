@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - {t: ▽, type: trans}
+  - TAB
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BSPC
+  - ESC
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
+  - LSHFT
   - Z
   - X
   - C
@@ -36,15 +36,15 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RET
+  - LALT
+  - LGUI
   - {t: SPACE, h: ARR}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - NUM
-  - {t: ▽, type: trans}
-  - BT
+  - LCTRL
+  - LEFT
+  - {t: DOWN, h: NUM}
+  - UP
+  - {t: RIGHT, h: BT}
   ARR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -57,7 +57,7 @@ layers:
   - UP
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: LCTRL, h: sticky}
   - {t: LALT, h: sticky}
@@ -281,5 +281,3 @@ combos:
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
-- p: [31, 32]
-  k: DEL
