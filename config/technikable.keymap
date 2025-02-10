@@ -61,7 +61,7 @@
         lgui_layer {
             label = "GUI";
             bindings = <
-&trans  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &trans  &trans  &trans  &trans  &kp LA(BSPC)
+&trans  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &trans  &trans  &trans  &trans  &kp DEL
 &trans  &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &trans             &trans  &trans  &trans  &trans  &trans  &trans
                          &trans          &trans          &kp X            &trans     &trans  &trans  &trans  &trans
