@@ -54,7 +54,7 @@
 &mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y       &kp U   &kp I        &kp O    &kp P     &kp BSPC
 &kp TAB        &kp A  &kp S     &kp D     &kp F        &kp G              &kp H       &kp J   &kp K        &kp L    &kp SEMI  &kp SQT
 &kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N       &kp M   &kp COMMA    &kp DOT  &kp FSLH  &kp RET
-                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &lt 3 LEFT  &lt 4 DOWN  &kp UP  &lt 5 RIGHT
+                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &lt 0 LEFT  &lt 4 DOWN  &kp UP  &lt 5 RIGHT
             >;
         };
 
@@ -71,29 +71,29 @@
         num_layer {
             label = "NUM";
             bindings = <
-&trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp N7  &kp N8  &kp N9  &trans  &kp DEL
-&trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
-&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
-                             &trans              &trans              &trans               &kp X          &trans  &trans  &trans  &trans
+&trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
+&trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
+&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH  &trans
+                             &trans              &trans              &trans               &kp X          &trans  &trans  &trans     &trans
             >;
         };
 
-        symbol_shifted_layer {
-            label = "SYMS";
+        num_layer2 {
+            label = "NUM2";
             bindings = <
-&trans  &trans       &trans      &trans      &trans       &trans         &trans  &kp LS(MINUS)       &kp LS(UP)         &kp LS(EQUAL)       &trans                      &kp LA(BSPC)
-&trans  &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &trans         &trans  &mt RSHFT LS(LEFT)  &mt RGUI LS(DOWN)  &mt LALT LS(RIGHT)  &mt RCTRL LS(SINGLE_QUOTE)  &trans
-&trans  &trans       &trans      &trans      &trans       &trans         &trans  &kp LS(GRAVE)       &kp LS(LBKT)       &kp LS(RBKT)        &kp LS(BSLH)                &trans
-                     &trans      &trans      &trans       &trans  &kp X  &trans  &trans              &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &trans         &trans  &trans     &trans    &trans    &trans     &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &trans         &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans         &trans  &trans     &trans    &trans    &trans     &trans
+                &trans  &trans  &kp N0  &trans  &kp X  &trans  &trans     &trans
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp MINUS       &kp UP         &kp EQUAL       &trans                  &kp LA(BSPC)
-&trans  &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RCTRL SINGLE_QUOTE  &trans
-&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp GRAVE       &kp LBKT       &kp RBKT        &kp BSLH                &trans
-                     &trans      &trans      &trans       &trans  &trans  &kp X   &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp UP         &trans          &trans     &kp LA(BSPC)
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans         &trans          &trans     &trans
+                &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
             >;
 
             label = "SYM";
