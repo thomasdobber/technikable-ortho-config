@@ -63,7 +63,7 @@
             bindings = <
 &trans  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &trans  &trans  &trans  &trans  &kp DEL
 &trans  &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &trans             &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &trans  &trans  &trans  &trans  &trans
                          &trans          &trans          &kp X            &trans     &trans  &trans  &trans  &trans
             >;
         };
@@ -73,7 +73,7 @@
             bindings = <
 &trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp N7  &kp N8  &kp N9  &trans  &kp DEL
 &trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
-&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &trans                 &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
                              &trans              &trans              &trans               &kp X          &trans  &trans  &trans  &trans
             >;
         };
