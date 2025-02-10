@@ -41,7 +41,7 @@ layers:
   - LGUI
   - {t: SPACE, h: GUI}
   - NUM
-  - {t: LEFT, h: SYMS}
+  - {t: LEFT, h: Base}
   - {t: DOWN, h: SYM}
   - UP
   - {t: RIGHT, h: BT}
@@ -98,11 +98,11 @@ layers:
   - Gui+Sft+ R
   - Gui+Sft+ T
   - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
+  - '-'
+  - UP
+  - '='
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Gui+Sft+ A, h: LCTRL}
   - {t: Gui+Sft+ S, h: LALT}
@@ -110,10 +110,10 @@ layers:
   - {t: Gui+Sft+ F, h: LSHFT}
   - Gui+Sft+ G
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - '0'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+ Z
@@ -121,6 +121,22 @@ layers:
   - Gui+Sft+ C
   - Gui+Sft+ V
   - Gui+Sft+ B
+  - {t: ▽, type: trans}
+  - '`'
+  - '['
+  - ']'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: X, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM2:
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -130,35 +146,25 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYMS:
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - RSHFT
+  - RGUI
+  - LALT
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ -
-  - Sft+ UP
-  - Sft+ =
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
-  - {t: F, h: LSHFT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Sft+ LEFT, h: RSHFT}
-  - {t: Sft+ DOWN, h: RGUI}
-  - {t: Sft+ RIGHT, h: LALT}
-  - {t: Sft+ ', h: RCTRL}
+  - '7'
+  - '8'
+  - '9'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -167,16 +173,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+ `
-  - Sft+ [
-  - Sft+ ]
-  - Sft+ \
   - {t: ▽, type: trans}
+  - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
+  - X
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,22 +188,22 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
+  - {t: ▽, type: trans}
   - UP
-  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
-  - {t: F, h: LSHFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: LEFT, h: RSHFT}
   - {t: DOWN, h: RGUI}
   - {t: RIGHT, h: LALT}
-  - {t: '''', h: RCTRL}
+  - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -212,10 +212,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '`'
-  - '['
-  - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
