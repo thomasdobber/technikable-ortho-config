@@ -81,19 +81,19 @@
         symbol_shifted_layer {
             label = "SYMS";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp LS(MINUS)       &kp LS(UP)         &kp LS(EQUAL)       &trans                      &kp LA(BSPC)
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LS(LEFT)  &mt RGUI LS(DOWN)  &mt LALT LS(RIGHT)  &mt RCTRL LS(SINGLE_QUOTE)  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp LS(GRAVE)       &kp LS(LBKT)       &kp LS(RBKT)        &kp LS(BSLH)                &trans
-                &trans  &trans  &trans  &trans  &trans  &kp X   &trans              &trans
+&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp LS(MINUS)       &kp LS(UP)         &kp LS(EQUAL)       &trans                      &kp LA(BSPC)
+&trans  &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &trans          &trans  &mt RSHFT LS(LEFT)  &mt RGUI LS(DOWN)  &mt LALT LS(RIGHT)  &mt RCTRL LS(SINGLE_QUOTE)  &trans
+&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp LS(GRAVE)       &kp LS(LBKT)       &kp LS(RBKT)        &kp LS(BSLH)                &trans
+                     &trans      &trans      &trans       &trans  &trans  &kp X   &trans              &trans
             >;
         };
 
         sym_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp MINUS       &kp UP         &kp EQUAL       &trans                  &kp LA(BSPC)
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RCTRL SINGLE_QUOTE  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp GRAVE       &kp LBKT       &kp RBKT        &kp BSLH                &trans
-                &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
+&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp MINUS       &kp UP         &kp EQUAL       &trans                  &kp LA(BSPC)
+&trans  &mt LCTRL A  &mt LALT S  &mt LGUI D  &mt LSHFT F  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RCTRL SINGLE_QUOTE  &trans
+&trans  &trans       &trans      &trans      &trans       &trans          &trans  &kp GRAVE       &kp LBKT       &kp RBKT        &kp BSLH                &trans
+                     &trans      &trans      &trans       &trans  &trans  &kp X   &trans          &trans
             >;
 
             label = "SYM";
