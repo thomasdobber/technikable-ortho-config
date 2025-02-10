@@ -51,10 +51,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T              &kp Y       &kp U   &kp I        &kp O    &kp P     &kp BSPC
-&kp TAB        &kp A  &kp S     &kp D     &kp F        &kp G              &kp H       &kp J   &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B              &kp N       &kp M   &kp COMMA    &kp DOT  &kp FSLH  &kp RET
-                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &lt 0 LEFT  &lt 4 DOWN  &kp UP  &lt 5 RIGHT
+&mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T         &kp Y  &kp U   &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB        &kp A  &kp S     &kp D     &kp F        &kp G         &kp H  &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B         &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RET
+                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &trans  &mo 5
             >;
         };
 
@@ -68,8 +68,8 @@
             >;
         };
 
-        num_layer {
-            label = "NUM";
+        sym_layer {
+            label = "SYM";
             bindings = <
 &trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
 &trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
@@ -78,8 +78,8 @@
             >;
         };
 
-        num_layer2 {
-            label = "NUM2";
+        num_layer {
+            label = "NUM";
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans         &trans  &trans     &trans    &trans    &trans     &trans
 &trans  &trans  &kp N4  &kp N5  &kp N6  &trans         &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &trans
@@ -88,7 +88,7 @@
             >;
         };
 
-        sym_layer {
+        arrow_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp UP         &trans          &trans     &kp LA(BSPC)
 &trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL  &trans
@@ -96,7 +96,7 @@
                 &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
             >;
 
-            label = "SYM";
+            label = "ARR";
         };
 
         bluetooth_layer {
@@ -105,7 +105,7 @@
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4         &none  &none   &trans  &none   &none  &none
 &none  &bt BT_CLR    &none         &none         &none         &none                &none  &trans  &trans  &trans  &none  &none
 &none  &none         &none         &none         &none         &none                &none  &none   &none   &none   &none  &none
-                     &none         &none         &none         &none         &none  &none  &none   &trans
+                     &none         &none         &none         &none         &none  &none  &none   &kp X
             >;
         };
     };
