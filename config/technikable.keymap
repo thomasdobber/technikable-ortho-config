@@ -11,6 +11,8 @@
 &caps_word {
 };
 
+&lt { tapping-term-ms = <250>; };
+
 / {
     chosen { zmk,matrix_transform = &ortho_transform; };
 
