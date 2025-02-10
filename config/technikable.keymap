@@ -51,31 +51,42 @@
         base_layer {
             label = "Base";
             bindings = <
-&kp ESC    &kp Q  &kp W     &kp E     &kp R        &kp T                &kp Y       &kp U   &kp I        &kp O    &kp P     &kp BSPC
-&kp TAB    &kp A  &kp S     &kp D     &kp F        &kp G                &kp H       &kp J   &kp K        &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp V        &kp B                &kp N       &kp M   &kp COMMA    &kp DOT  &kp FSLH  &kp RET
-                  &kp LALT  &kp LGUI  &lt 1 SPACE  &kp LCTRL  &kp LEFT  &lt 2 DOWN  &kp UP  &lt 3 RIGHT
+&mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T            &kp Y       &kp U   &kp I        &kp O    &kp P     &kp BSPC
+&kp TAB        &kp A  &kp S     &kp D     &kp F        &kp G            &kp H       &kp J   &kp K        &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B            &kp N       &kp M   &kp COMMA    &kp DOT  &kp FSLH  &kp RET
+                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &kp LEFT  &lt 3 DOWN  &kp UP  &lt 4 RIGHT
             >;
         };
 
-        arrow_layer {
-            label = "ARR";
+        sym_layer {
+            label = "SYM";
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans            &kp DEL
-&trans  &sk LCTRL  &sk LALT  &sk LGUI  &sk LSHFT  &trans          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SINGLE_QUOTE  &trans
-&trans  &trans     &trans    &trans    &trans     &trans          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH          &trans
-                   &trans    &trans    &trans     &trans  &trans  &trans  &trans     &trans
+&trans  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans            &kp LA(BSPC)
+&trans  &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SINGLE_QUOTE  &trans
+&trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &trans             &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH          &trans
+                         &trans          &trans          &kp X            &trans     &trans  &trans  &trans     &trans
             >;
         };
 
-        number_layer {
+        num_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans          &trans  &trans     &trans    &trans    &trans     &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans          &trans  &sk RSHFT  &sk RGUI  &sk LALT  &sk RCTRL  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans          &trans  &trans     &trans    &trans    &trans     &trans
-                &trans  &trans  &kp N0  &trans  &trans  &trans  &trans     &trans
+&trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp N7  &kp N8  &kp N9  &trans  &kp DEL
+&trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp N4  &kp N5  &kp N6  &kp N0  &trans
+&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &trans                 &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+                             &trans              &trans              &trans               &kp X          &trans  &kp N0  &trans  &trans
             >;
+        };
+
+        mod_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans       &trans      &trans      &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT J  &mt RGUI K  &mt LALT L  &mt RCTRL SEMI  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans       &trans      &trans      &trans          &trans
+                &trans  &trans  &trans  &trans  &trans  &kp X   &trans       &trans
+            >;
+
+            label = "MOD";
         };
 
         bluetooth_layer {
@@ -86,28 +97,6 @@
 &none  &none         &none         &none         &none         &none                &none  &none   &none   &none   &none  &none
                      &none         &none         &none         &none         &none  &none  &none   &trans
             >;
-        };
-
-        mod_layer {
-            bindings = <
-&trans  &trans       &mt LGUI W  &mt LSHFT E  &trans       &trans          &trans  &trans        &trans      &trans      &trans          &trans
-&trans  &mt LCTRL A  &mt LALT S  &mt LGUI D   &mt LSHFT F  &trans          &trans  &mt RSHIFT J  &mt RGUI K  &mt LALT L  &mt RCTRL SEMI  &trans
-&trans  &trans       &mt LGUI X  &trans       &trans       &trans          &trans  &trans        &trans      &trans      &trans          &trans
-                     &trans      &trans       &kp X        &trans  &trans  &kp X   &trans        &trans
-            >;
-
-            label = "MOD";
-        };
-
-        symbol_layer {
-            bindings = <
-&trans  &trans        &kp N1       &kp N2       &kp N3        &trans         &trans  &kp MINUS       &kp UP         &kp EQUAL       &trans                  &trans
-&trans  &mt LCTRL N0  &mt LALT N4  &mt LGUI N5  &mt LSHFT N6  &trans         &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &mt RCTRL SINGLE_QUOTE  &trans
-&trans  &trans        &kp N7       &kp N8       &kp N9        &trans         &trans  &kp GRAVE       &kp LBKT       &kp RBKT        &kp BSLH                &trans
-                      &trans       &trans       &trans        &kp X   &kp X  &trans  &trans          &trans
-            >;
-
-            label = "SYM";
         };
     };
 };
