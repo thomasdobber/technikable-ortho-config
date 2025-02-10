@@ -71,7 +71,7 @@
         };
 
         sym_layer {
-            label = "SYM";
+            label = "SYM ↗";
             bindings = <
 &trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &trans
 &trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
@@ -81,7 +81,7 @@
         };
 
         num_layer {
-            label = "NUM";
+            label = "↖ NUM";
             bindings = <
 &trans  &trans  &kp N1  &kp N2  &kp N3  &trans         &trans  &trans     &trans    &trans    &trans     &trans
 &trans  &trans  &kp N4  &kp N5  &kp N6  &trans         &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &trans
