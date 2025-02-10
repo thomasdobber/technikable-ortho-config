@@ -75,7 +75,7 @@ layers:
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - {t: ▽, type: trans}
+  - Gui+ B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -120,7 +120,7 @@ layers:
   - Gui+Sft+ X
   - Gui+Sft+ C
   - Gui+Sft+ V
-  - {t: ▽, type: trans}
+  - Gui+Sft+ B
   - {t: ▽, type: trans}
   - '1'
   - '2'
