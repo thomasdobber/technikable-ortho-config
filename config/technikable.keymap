@@ -80,10 +80,10 @@
 
         mod_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans       &trans      &trans      &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT J  &mt RGUI K  &mt LALT L  &mt RCTRL SEMI  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans       &trans      &trans      &trans          &trans
-                &trans  &trans  &trans  &trans  &trans  &kp X   &trans       &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp UP         &trans          &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans         &trans          &trans     &trans
+                &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
             >;
 
             label = "MOD";
