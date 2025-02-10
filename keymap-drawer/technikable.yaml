@@ -149,10 +149,10 @@ layers:
   - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Sft+ LEFT, h: RSHFT}
@@ -194,10 +194,10 @@ layers:
   - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: LEFT, h: RSHFT}
