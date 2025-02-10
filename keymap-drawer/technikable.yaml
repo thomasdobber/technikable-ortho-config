@@ -40,11 +40,11 @@ layers:
   - LALT
   - LGUI
   - {t: SPACE, h: GUI}
+  - SYM
   - NUM
-  - {t: LEFT, h: Base}
-  - {t: DOWN, h: SYM}
-  - UP
-  - {t: RIGHT, h: BT}
+  - ARR
+  - {t: ▽, type: trans}
+  - BT
   GUI:
   - {t: ▽, type: trans}
   - Gui+ Q
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM:
+  SYM:
   - {t: ▽, type: trans}
   - Gui+Sft+ Q
   - Gui+Sft+ W
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUM2:
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -176,11 +176,11 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - X
+  - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM:
+  ARR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -269,7 +269,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - {t: X, type: held}
 combos:
 - p: [14, 15, 16]
   k: ESC
