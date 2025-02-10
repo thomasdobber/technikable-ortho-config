@@ -57,7 +57,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ BSPC
+  - DEL
   - {t: ▽, type: trans}
   - {t: Gui+ A, h: LCTRL}
   - {t: Gui+ S, h: LALT}
