@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LSHFT}
+  - F
   - G
   - H
-  - {t: J, h: RSHFT}
+  - J
   - K
   - L
   - ;
@@ -46,7 +46,7 @@ layers:
   - {t: ▽, type: trans}
   - BT
   GUI:
-  - {t: ▽, type: trans}
+  - DEL
   - Gui+ Q
   - Gui+ W
   - Gui+ L
@@ -91,18 +91,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   SYM:
-  - {t: ▽, type: trans}
+  - DEL
   - Gui+Sft+ Q
   - Gui+Sft+ W
   - Gui+Sft+ L
   - Gui+Sft+ R
   - Gui+Sft+ T
   - {t: ▽, type: trans}
-  - '-'
-  - UP
-  - '='
   - {t: ▽, type: trans}
-  - DEL
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
+  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: Gui+Sft+ A, h: LCTRL}
   - {t: Gui+Sft+ S, h: LALT}
@@ -110,11 +110,11 @@ layers:
   - {t: Gui+Sft+ F, h: LSHFT}
   - Gui+Sft+ G
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''''
-  - {t: ▽, type: trans}
+  - '-'
+  - (
+  - )
+  - '='
+  - '`'
   - {t: ▽, type: trans}
   - Gui+Sft+ Z
   - Gui+Sft+ X
@@ -122,7 +122,7 @@ layers:
   - Gui+Sft+ V
   - Gui+Sft+ B
   - {t: ▽, type: trans}
-  - '`'
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - \
@@ -136,7 +136,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -144,10 +144,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+ UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - DEL
+  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -155,9 +155,9 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHFT
-  - RGUI
-  - LALT
+  - {t: Sft+ LEFT, h: RSHFT}
+  - {t: Sft+ DOWN, h: RGUI}
+  - {t: Sft+ RIGHT, h: LALT}
   - RCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -187,10 +187,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - UP
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,10 +200,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - {t: DOWN, h: RSHFT}
-  - {t: UP, h: RGUI}
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
   - {t: RIGHT, h: LALT}
   - RCTRL
   - {t: ▽, type: trans}
@@ -211,10 +211,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
