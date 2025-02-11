@@ -47,7 +47,7 @@
                 , <&macro_release &mo MACRO_PLACEHOLDER>
                 ;
         };
-    }
+    };
 
     combos {
         compatible = "zmk,combos";
