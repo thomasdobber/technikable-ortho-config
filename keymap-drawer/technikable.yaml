@@ -39,13 +39,13 @@ layers:
   - RET
   - LALT
   - LGUI
-  - {t: SPACE, h: ↑ GUI}
-  - ↗ SYM
-  - ↖ NUM
-  - ↑ ARR
+  - {t: SPACE, h: GUI}
+  - SYM
+  - NUM
+  - ARR
   - {t: ▽, type: trans}
   - BT
-  ↑ GUI:
+  GUI:
   - {t: ▽, type: trans}
   - Gui+ Q
   - Gui+ W
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ↗ SYM:
+  SYM:
   - {t: ▽, type: trans}
   - Gui+Sft+ Q
   - Gui+Sft+ W
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ↖ NUM:
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ↑ ARR:
+  ARR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
