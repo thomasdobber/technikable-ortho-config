@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: LSHFT}
   - G
   - H
-  - J
+  - {t: J, h: RSHFT}
   - K
   - L
   - ;
@@ -39,13 +39,13 @@ layers:
   - RET
   - LALT
   - LGUI
-  - {t: SPACE, h: GUI}
-  - SYM ↗
+  - {t: SPACE, h: ↑ GUI}
+  - ↗ SYM
   - ↖ NUM
-  - ARR
+  - ↑ ARR
   - {t: ▽, type: trans}
   - BT
-  GUI:
+  ↑ GUI:
   - {t: ▽, type: trans}
   - Gui+ Q
   - Gui+ W
@@ -57,7 +57,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DEL
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Gui+ A, h: LCTRL}
   - {t: Gui+ S, h: LALT}
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM ↗:
+  ↗ SYM:
   - {t: ▽, type: trans}
   - Gui+Sft+ Q
   - Gui+Sft+ W
@@ -102,7 +102,7 @@ layers:
   - UP
   - '='
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: Gui+Sft+ A, h: LCTRL}
   - {t: Gui+Sft+ S, h: LALT}
@@ -147,7 +147,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
@@ -180,7 +180,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARR:
+  ↑ ARR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -192,7 +192,7 @@ layers:
   - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ BSPC
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -227,20 +227,20 @@ layers:
   - {t: ▽, type: trans}
   BT:
   - ''
-  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - ''
-  - ''
   - {t: ▽, type: trans}
   - ''
   - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - BT CLR
   - ''
+  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - ''
@@ -264,7 +264,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {t: BT, h: '0'}
   - ''
   - ''
   - ''
