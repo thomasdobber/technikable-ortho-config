@@ -30,22 +30,24 @@
          * Example:
          *  `&lm NUM_LAYER LSHIFT`
          */
+
         lm: lm {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
             tap-ms = <0>;
             #binding-cells = <2>;
-            bindings
-                = <&macro_param_1to1>
-                , <&macro_press &mo MACRO_PLACEHOLDER>
-                , <&macro_param_2to1>
-                , <&macro_press &kp MACRO_PLACEHOLDER>
-                , <&macro_pause_for_release>
-                , <&macro_param_2to1>
-                , <&macro_release &kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
-                , <&macro_release &mo MACRO_PLACEHOLDER>
-                ;
+            bindings =
+                <&macro_param_1to1>,
+                <&macro_press>,
+                <&mo MACRO_PLACEHOLDER &macro_param_2to1>,
+                <&macro_press>,
+                <&kp MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_param_2to1>,
+                <&macro_release>,
+                <&kp MACRO_PLACEHOLDER &macro_param_1to1>,
+                <&macro_release>,
+                <&mo MACRO_PLACEHOLDER>;
         };
     };
 
@@ -84,49 +86,49 @@
         base_layer {
             label = "Base";
             bindings = <
-&mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T         &kp Y  &kp U        &kp I      &kp O    &kp P     &kp BSPC
-&kp TAB        &kp A  &kp S     &kp D     &mt LSHFT F  &kp G         &kp H  &mt RSHFT J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B         &kp N  &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp RET
-                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &trans       &mo 5
+&mt LCTRL ESC  &kp Q  &kp W     &kp E     &kp R        &kp T         &kp Y  &kp U   &kp I      &kp O    &kp P     &kp BSPC
+&kp TAB        &kp A  &kp S     &kp D     &kp F        &kp G         &kp H  &kp J   &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X     &kp C     &kp V        &kp B         &kp N  &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RET
+                      &kp LALT  &kp LGUI  &lt 1 SPACE  &mo 2  &mo 3  &mo 4  &trans  &mo 5
             >;
         };
 
         lgui_layer {
             label = "GUI";
             bindings = <
-&trans  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans          &trans          &kp X            &trans     &trans  &trans  &trans  &trans
+&kp DEL  &kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)          &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)          &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)          &trans  &trans  &trans  &trans  &trans  &trans
+                          &trans          &trans          &kp X            &trans     &trans  &trans  &trans  &trans
             >;
         };
 
         sym_layer {
             label = "SYM";
             bindings = <
-&trans  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &kp MINUS  &kp UP    &kp EQUAL  &trans    &kp DEL
-&trans  &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &kp SQT   &trans
-&trans  &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &kp GRAVE  &kp LBKT  &kp RBKT   &kp BSLH  &trans
-                             &trans              &trans              &trans               &kp X          &trans  &trans  &trans     &trans
+&kp DEL  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &kp LA(BSPC)
+&trans   &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp GRAVE
+&trans   &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &trans     &kp LBKT              &kp RBKT               &kp BACKSLASH  &trans
+                              &trans              &trans              &trans               &kp X          &trans  &trans  &trans     &trans
             >;
         };
 
         num_layer {
             label = "NUM";
             bindings = <
-&trans  &trans  &kp N1  &kp N2  &kp N3  &trans         &trans  &trans     &trans    &trans    &trans     &kp DEL
-&trans  &trans  &kp N4  &kp N5  &kp N6  &trans         &trans  &kp RSHFT  &kp RGUI  &kp LALT  &kp RCTRL  &trans
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans         &trans  &trans     &trans    &trans    &trans     &trans
-                &trans  &trans  &kp N0  &trans  &kp X  &trans  &trans     &trans
+&kp DEL  &trans  &kp N1  &kp N2  &kp N3  &trans         &trans  &trans              &kp RS(UP)         &trans              &trans     &kp LA(BSPC)
+&trans   &trans  &kp N4  &kp N5  &kp N6  &trans         &trans  &mt RSHFT RS(LEFT)  &mt RGUI RS(DOWN)  &mt LALT RS(RIGHT)  &kp RCTRL  &trans
+&trans   &trans  &kp N7  &kp N8  &kp N9  &trans         &trans  &trans              &trans             &trans              &trans     &trans
+                 &trans  &trans  &kp N0  &trans  &kp X  &trans  &trans              &trans
             >;
         };
 
         arrow_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT       &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &mt LALT RIGHT  &kp RCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT       &trans     &trans
-                &trans  &trans  &trans  &trans  &trans  &kp X     &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp UP         &trans          &trans     &kp LA(BSPC)
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans         &trans          &trans     &trans
+                &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
             >;
 
             label = "ARR";
