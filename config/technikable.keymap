@@ -92,10 +92,10 @@
 
         arrow_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp UP         &trans          &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans         &trans          &trans     &trans
-                &trans  &trans  &trans  &trans  &trans  &kp X   &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT       &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &mt RSHFT DOWN  &mt RGUI UP  &mt LALT RIGHT  &kp RCTRL  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp LEFT  &kp DOWN        &kp UP       &kp RIGHT       &trans     &trans
+                &trans  &trans  &trans  &trans  &trans  &kp X     &trans          &trans
             >;
 
             label = "ARR";
