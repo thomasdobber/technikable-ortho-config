@@ -106,10 +106,10 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&kp DEL  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &trans  &trans     &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &kp LA(BSPC)
-&trans   &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &trans  &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &kp GRAVE
-&trans   &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &trans  &trans     &kp LBKT              &kp RBKT               &kp BACKSLASH  &trans
-                              &trans              &trans              &trans               &kp X          &trans  &trans  &trans     &trans
+&kp DEL  &kp LG(LS(Q))        &kp LG(LS(W))       &kp LG(LS(L))       &kp LG(LS(R))        &kp LG(LS(T))          &kp TILDE          &kp GRAVE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PLUS       &kp LA(BSPC)
+&trans   &mt LCTRL LG(LS(A))  &mt LALT LG(LS(S))  &mt LGUI LA(LS(F))  &mt LSHFT LG(LS(F))  &kp LG(LS(G))          &kp UNDER          &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL      &trans
+&trans   &kp LG(LS(Z))        &kp LG(LS(X))       &kp LG(LS(C))       &kp LG(LS(V))        &kp LG(LS(B))          &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE  &kp LBKT              &kp RBKT               &kp BACKSLASH  &trans
+                              &trans              &trans              &trans               &kp X          &trans  &trans             &trans            &trans
             >;
         };
 
