@@ -97,11 +97,11 @@ layers:
   - Gui+Sft+ L
   - Gui+Sft+ R
   - Gui+Sft+ T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '~'
+  - '`'
   - '{'
   - '}'
-  - {t: ▽, type: trans}
+  - +
   - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: Gui+Sft+ A, h: LCTRL}
@@ -109,20 +109,20 @@ layers:
   - {t: Alt+Sft+ F, h: LGUI}
   - {t: Gui+Sft+ F, h: LSHFT}
   - Gui+Sft+ G
-  - {t: ▽, type: trans}
+  - _
   - '-'
   - (
   - )
   - '='
-  - '`'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+Sft+ Z
   - Gui+Sft+ X
   - Gui+Sft+ C
   - Gui+Sft+ V
   - Gui+Sft+ B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '"'
+  - ''''
   - '['
   - ']'
   - \
