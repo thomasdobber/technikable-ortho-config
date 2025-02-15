@@ -78,6 +78,16 @@
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
+
+        lshft {
+            bindings = <&kp LSHFT>;
+            key-positions = <16 38>;
+        };
+
+        rshft {
+            bindings = <&kp RSHFT>;
+            key-positions = <19 41>;
+        };
     };
 
     keymap {
