@@ -118,10 +118,10 @@
 
         lower_layer {
             bindings = <
-&trans           &kp LG(W)       &kp LG(L)       &kp LG(R)        &trans     &trans          &trans  &trans         &kp GRAVE        &kp LEFT_BRACE             &kp RIGHT_BRACE             &trans
-&mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)  &trans          &trans  &kp BACKSLASH  &mt RSHFT MINUS  &mt RGUI LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt RCTRL EQUAL
-&trans           &kp LG(X)       &kp LG(C)       &kp LG(V)        &trans     &trans          &trans  &trans         &kp SQT          &kp LBKT                   &kp RBKT                    &trans
-                                 &trans          &trans           &trans     &trans  &trans  &trans  &trans         &trans
+&kp LG(Q)        &kp LG(W)       &kp LG(L)       &kp LG(R)        &kp LG(T)  &trans          &trans  &trans  &kp GRAVE        &kp LEFT_BRACE             &kp RIGHT_BRACE             &trans
+&mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)  &trans          &trans  &trans  &mt RSHFT MINUS  &mt RGUI LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt RCTRL EQUAL
+&kp LG(Z)        &kp LG(X)       &kp LG(C)       &kp LG(V)        &kp LG(B)  &trans          &trans  &trans  &kp SQT          &kp LBKT                   &kp RBKT                    &kp BACKSLASH
+                                 &trans          &trans           &trans     &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "LOWER";
