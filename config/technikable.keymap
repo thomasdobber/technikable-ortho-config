@@ -56,12 +56,12 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <15 16 38>;
+            key-positions = <15 16 38 14>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <20 19 41>;
+            key-positions = <20 19 41 21>;
         };
 
         tab {
