@@ -63,12 +63,12 @@
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <15 14 13 37>;
+            key-positions = <15 14 13>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <20 21 42 22>;
+            key-positions = <20 21 22>;
         };
 
         tab {
@@ -170,14 +170,14 @@
             compatible = "zmk,behavior-tap-dance";
             label = "SPACE";
             #binding-cells = <0>;
-            bindings = <&lt 2 SPACE>, <&lm 2 LSHFT>;
+            bindings = <&lt 1 SPACE>, <&lm 1 LSHFT>;
         };
 
         bspc: bspc {
             compatible = "zmk,behavior-tap-dance";
             label = "BSPC";
             #binding-cells = <0>;
-            bindings = <&lt 0 BSPC>, <&lm 0 RSHFT>;
+            bindings = <&lt 2 BSPC>, <&lm 2 RSHFT>;
         };
     };
 
