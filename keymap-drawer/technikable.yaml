@@ -38,12 +38,12 @@ layers:
   - .
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&space'
+  - {t: SPACE, h: LOWER}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bspc'
+  - RAISE
   - {t: ▽, type: trans}
   LOWER:
   - {t: ▽, type: trans}
@@ -83,7 +83,7 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -133,7 +133,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   BLT:
   - ''
@@ -173,12 +173,12 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - {type: held}
   - ''
 combos:
 - p: [15, 14, 13]
