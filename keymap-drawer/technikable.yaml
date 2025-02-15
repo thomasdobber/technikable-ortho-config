@@ -1,6 +1,6 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
-  Base:
+  BASE:
   - {t: ▽, type: trans}
   - W
   - E
@@ -103,7 +103,7 @@ layers:
   - UP
   - Alt+ RIGHT
   - {t: ▽, type: trans}
-  - LCTRL
+  - {t: '0', h: LCTRL}
   - {t: '4', h: LALT}
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,16 +197,16 @@ combos:
   k: RSHFT
 - p: [1, 2]
   k: Q
-  l: [Base]
+  l: [BASE]
 - p: [25, 26]
   k: Z
-  l: [Base]
+  l: [BASE]
 - p: [2, 3]
   k: T
-  l: [Base]
+  l: [BASE]
 - p: [26, 27]
   k: B
-  l: [Base]
+  l: [BASE]
 - p: [8, 9]
   k: Y
 - p: [33, 32]
