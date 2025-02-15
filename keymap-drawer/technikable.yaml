@@ -16,12 +16,12 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: LSHFT}
   - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
-  - J
+  - {t: RSHFT, h: J}
   - K
   - L
   - ;
