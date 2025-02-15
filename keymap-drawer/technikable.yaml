@@ -1,18 +1,18 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   BASE:
-  - {t: ▽, type: trans}
+  - Q
   - W
   - E
   - R
+  - T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Y
   - U
   - I
   - O
-  - {t: ▽, type: trans}
+  - P
   - A
   - S
   - D
@@ -25,18 +25,18 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
+  - Z
   - X
   - C
   - V
+  - B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - N
   - M
   - ','
   - .
-  - {t: ▽, type: trans}
+  - /
   - {t: ▽, type: trans}
   - {t: SPACE, h: LOWER}
   - {t: ▽, type: trans}
@@ -191,39 +191,3 @@ combos:
   k: BSPC
 - p: [15, 20]
   k: '&caps_word'
-- p: [15, 37]
-  k: LSHFT
-- p: [42, 20]
-  k: RSHFT
-- p: [1, 2]
-  k: Q
-  l: [BASE]
-- p: [25, 26]
-  k: Z
-  l: [BASE]
-- p: [2, 3]
-  k: T
-  l: [BASE]
-- p: [26, 27]
-  k: B
-  l: [BASE]
-- p: [8, 9]
-  k: Y
-- p: [33, 32]
-  k: N
-- p: [10, 9]
-  k: P
-- p: [34, 33]
-  k: /
-- p: [1, 2]
-  k: Gui+ Q
-  l: [LOWER]
-- p: [25, 26]
-  k: Gui+ Z
-  l: [LOWER]
-- p: [2, 3]
-  k: Gui+ T
-  l: [LOWER]
-- p: [26, 27]
-  k: Gui+ B
-  l: [LOWER]
