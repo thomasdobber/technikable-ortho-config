@@ -1,63 +1,62 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   Base:
-  - {t: ESC, h: LCTRL}
-  - Q
+  - {t: ▽, type: trans}
   - W
   - E
   - R
-  - T
-  - Y
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - U
   - I
   - O
-  - P
-  - BSPC
-  - TAB
+  - {t: ▽, type: trans}
   - A
   - S
   - D
   - F
   - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - H
   - J
   - K
   - L
   - ;
-  - ''''
-  - LSHFT
-  - Z
+  - {t: ▽, type: trans}
   - X
   - C
   - V
-  - B
-  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - M
   - ','
   - .
-  - /
-  - RET
-  - LALT
-  - LGUI
-  - {t: SPACE, h: GUI}
-  - SYM
-  - NUM
-  - ARR
   - {t: ▽, type: trans}
-  - BT
-  GUI:
-  - DEL
-  - Gui+ Q
+  - {t: ▽, type: trans}
+  - '&td_space'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&td_bspc'
+  - {t: ▽, type: trans}
+  LOWER:
+  - {t: ▽, type: trans}
   - Gui+ W
   - Gui+ L
   - Gui+ R
-  - Gui+ T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '`'
+  - '{'
+  - '}'
   - {t: ▽, type: trans}
   - {t: Gui+ A, h: LCTRL}
   - {t: Gui+ S, h: LALT}
@@ -66,101 +65,56 @@ layers:
   - Gui+ G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - \
+  - {t: '-', h: RSHFT}
+  - {t: (, h: RGUI}
+  - {t: ), h: LALT}
+  - {t: '=', h: RCTRL}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - Gui+ B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SYM:
-  - DEL
-  - Gui+Sft+ Q
-  - Gui+Sft+ W
-  - Gui+Sft+ L
-  - Gui+Sft+ R
-  - Gui+Sft+ T
-  - '~'
-  - '`'
-  - '{'
-  - '}'
-  - +
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: Gui+Sft+ A, h: LCTRL}
-  - {t: Gui+Sft+ S, h: LALT}
-  - {t: Alt+Sft+ F, h: LGUI}
-  - {t: Gui+Sft+ F, h: LSHFT}
-  - Gui+Sft+ G
-  - _
-  - '-'
-  - (
-  - )
-  - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+Sft+ Z
-  - Gui+Sft+ X
-  - Gui+Sft+ C
-  - Gui+Sft+ V
-  - Gui+Sft+ B
-  - '"'
   - ''''
   - '['
   - ']'
-  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - X
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM:
-  - DEL
+  RAISE:
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Sft+ LEFT
-  - Sft+ UP
-  - Alt+Sft+ RIGHT
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
+  - {t: ▽, type: trans}
+  - UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Sft+ LEFT, h: RSHFT}
-  - {t: Sft+ DOWN, h: RGUI}
-  - {t: Sft+ RIGHT, h: LALT}
+  - LCTRL
+  - {t: '4', h: LALT}
+  - {t: '5', h: LGUI}
+  - {t: '6', h: LSHFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: LALT}
   - RCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -176,78 +130,40 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARR:
+  - X
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+ LEFT
-  - UP
-  - Alt+ RIGHT
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
-  - {t: RIGHT, h: LALT}
-  - RCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  BT:
+  BLT:
   - ''
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - BT CLR
-  - ''
-  - {t: ▽, type: trans}
   - {t: BT, h: '4'}
   - ''
   - ''
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BT CLR
   - ''
   - ''
   - ''
@@ -257,31 +173,57 @@ layers:
   - ''
   - ''
   - ''
+  - X
   - ''
   - ''
   - ''
   - ''
+  - X
   - ''
-  - ''
-  - ''
-  - {t: BT, h: '0'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: X, type: held}
 combos:
-- p: [15, 16, 38, 14]
+- p: [15, 14, 13, 37]
   k: ESC
-- p: [20, 19, 41, 21]
+- p: [20, 21, 42, 22]
   k: ENTER
-- p: [16, 15]
+- p: [15, 14]
   k: TAB
-- p: [19, 20]
+- p: [20, 21]
   k: BSPC
-- p: [16, 19]
+- p: [15, 20]
   k: '&caps_word'
-- p: [16, 38]
+- p: [15, 37]
   k: LSHFT
-- p: [19, 41]
+- p: [42, 20]
   k: RSHFT
+- p: [1, 2]
+  k: Q
+  l: [Base]
+- p: [25, 26]
+  k: Z
+  l: [Base]
+- p: [2, 3]
+  k: T
+  l: [Base]
+- p: [26, 27]
+  k: B
+  l: [Base]
+- p: [8, 9]
+  k: Y
+- p: [33, 32]
+  k: N
+- p: [10, 9]
+  k: P
+- p: [34, 33]
+  k: /
+- p: [1, 2]
+  k: Gui+ Q
+  l: [LOWER]
+- p: [25, 26]
+  k: Gui+ Z
+  l: [LOWER]
+- p: [2, 3]
+  k: Gui+ T
+  l: [LOWER]
+- p: [26, 27]
+  k: Gui+ B
+  l: [LOWER]
