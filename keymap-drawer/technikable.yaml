@@ -46,11 +46,11 @@ layers:
   - RAISE
   - {t: ▽, type: trans}
   LOWER:
-  - {t: ▽, type: trans}
+  - Gui+ Q
   - Gui+ W
   - Gui+ L
   - Gui+ R
-  - {t: ▽, type: trans}
+  - Gui+ T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -65,23 +65,23 @@ layers:
   - Gui+ G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - \
+  - {t: ▽, type: trans}
   - {t: '-', h: RSHFT}
   - {t: (, h: RGUI}
   - {t: ), h: LALT}
   - {t: '=', h: RCTRL}
-  - {t: ▽, type: trans}
+  - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
-  - {t: ▽, type: trans}
+  - Gui+ B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''''
   - '['
   - ']'
-  - {t: ▽, type: trans}
+  - \
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
