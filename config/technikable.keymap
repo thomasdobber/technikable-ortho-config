@@ -166,16 +166,16 @@
     };
 
     behaviors {
-        td_space: td_space {
+        space: space {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_SPACE";
+            label = "SPACE";
             #binding-cells = <0>;
             bindings = <&lt 2 SPACE>, <&lm 2 LSHFT>;
         };
 
-        td_bspc: td_bspc {
+        bspc: bspc {
             compatible = "zmk,behavior-tap-dance";
-            label = "TD_BSPC";
+            label = "BSPC";
             #binding-cells = <0>;
             bindings = <&lt 0 BSPC>, <&lm 0 RSHFT>;
         };
@@ -187,10 +187,10 @@
         base_layer {
             label = "Base";
             bindings = <
-&trans  &kp W  &kp E   &kp R      &trans  &trans          &trans  &trans    &kp U   &kp I      &kp O    &trans
-&kp A   &kp S  &kp D   &kp F      &kp G   &trans          &trans  &kp H     &kp J   &kp K      &kp L    &kp SEMI
-&trans  &kp X  &kp C   &kp V      &trans  &trans          &trans  &trans    &kp M   &kp COMMA  &kp DOT  &trans
-               &trans  &td_space  &trans  &trans  &trans  &trans  &td_bspc  &trans
+&trans  &kp W  &kp E   &kp R   &trans  &trans          &trans  &trans  &kp U   &kp I      &kp O    &trans
+&kp A   &kp S  &kp D   &kp F   &kp G   &trans          &trans  &kp H   &kp J   &kp K      &kp L    &kp SEMI
+&trans  &kp X  &kp C   &kp V   &trans  &trans          &trans  &trans  &kp M   &kp COMMA  &kp DOT  &trans
+               &trans  &space  &trans  &trans  &trans  &trans  &bspc   &trans
             >;
         };
 
@@ -199,7 +199,7 @@
 &trans           &kp LG(W)       &kp LG(L)       &kp LG(R)        &trans     &trans          &trans  &trans         &kp GRAVE        &kp LEFT_BRACE             &kp RIGHT_BRACE             &trans
 &mt LCTRL LG(A)  &mt LALT LG(S)  &mt LGUI LA(F)  &mt LSHFT LG(F)  &kp LG(G)  &trans          &trans  &kp BACKSLASH  &mt RSHFT MINUS  &mt RGUI LEFT_PARENTHESIS  &mt LALT RIGHT_PARENTHESIS  &mt RCTRL EQUAL
 &trans           &kp LG(X)       &kp LG(C)       &kp LG(V)        &trans     &trans          &trans  &trans         &kp SQT          &kp LBKT                   &kp RBKT                    &trans
-                                 &trans          &kp X            &trans     &trans  &trans  &trans  &trans         &trans
+                                 &trans          &trans           &trans     &trans  &trans  &trans  &trans         &trans
             >;
 
             label = "LOWER";
@@ -210,7 +210,7 @@
 &trans     &kp N1       &kp N2       &kp N3        &trans  &trans          &trans  &trans  &kp LA(LEFT)    &kp UP         &kp LA(RIGHT)   &trans
 &kp LCTRL  &mt LALT N4  &mt LGUI N5  &mt LSHFT N6  &trans  &trans          &trans  &trans  &mt RSHFT LEFT  &mt RGUI DOWN  &mt LALT RIGHT  &kp RCTRL
 &trans     &kp N7       &kp N8       &kp N9        &trans  &trans          &trans  &trans  &trans          &trans         &trans          &trans
-                        &trans       &kp N0        &trans  &trans  &trans  &trans  &kp X   &trans
+                        &trans       &kp N0        &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "RAISE";
@@ -219,10 +219,10 @@
         bluetooth_layer {
             label = "BLT";
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none         &none  &none  &none  &none  &none  &none
-&none  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none  &none         &none  &none  &none  &none  &none  &none
-&none  &none         &none         &bt BT_CLR    &none  &none         &none  &none  &none  &none  &none  &none
-                     &none         &kp X         &none  &none  &none  &none  &kp X  &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none  &none         &none  &none   &none  &none  &none  &none
+&none  &bt BT_SEL 3  &bt BT_SEL 4  &none         &none  &none         &none  &none   &none  &none  &none  &none
+&none  &none         &none         &bt BT_CLR    &none  &none         &none  &none   &none  &none  &none  &none
+                     &none         &trans        &none  &none  &none  &none  &trans  &none
             >;
         };
     };
