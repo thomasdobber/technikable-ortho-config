@@ -99,9 +99,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+ LEFT
   - UP
-  - {t: ▽, type: trans}
+  - Alt+ RIGHT
   - {t: ▽, type: trans}
   - LCTRL
   - {t: '4', h: LALT}
