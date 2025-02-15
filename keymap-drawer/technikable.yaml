@@ -271,9 +271,9 @@ layers:
   - ''
   - {t: X, type: held}
 combos:
-- p: [14, 15, 16]
+- p: [15, 16, 38]
   k: ESC
-- p: [20, 19, 21]
+- p: [20, 19, 41]
   k: ENTER
 - p: [16, 15]
   k: TAB
