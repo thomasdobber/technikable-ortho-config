@@ -281,3 +281,7 @@ combos:
   k: BSPC
 - p: [16, 19]
   k: '&caps_word'
+- p: [16, 38]
+  k: LSHFT
+- p: [19, 41]
+  k: RSHFT
