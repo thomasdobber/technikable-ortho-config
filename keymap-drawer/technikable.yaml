@@ -16,12 +16,12 @@ layers:
   - A
   - S
   - D
-  - {t: F, h: LSHFT}
+  - F
   - G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - H
-  - {t: RSHFT, h: J}
+  - J
   - K
   - L
   - ;
@@ -37,15 +37,15 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LOWER}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - GUI
+  - SPACE
+  - LOWER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RAISE
-  - {t: ▽, type: trans}
-  LOWER:
+  - PWR
+  - BLT
+  GUI:
   - Gui+ Q
   - Gui+ W
   - Gui+ L
@@ -53,11 +53,11 @@ layers:
   - Gui+ T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
+  - Sft+ Y
+  - Sft+ U
+  - Sft+ I
+  - Sft+ O
+  - Sft+ P
   - {t: Gui+ A, h: LCTRL}
   - {t: Gui+ S, h: LALT}
   - {t: Alt+ F, h: LGUI}
@@ -65,16 +65,61 @@ layers:
   - Gui+ G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: '-', h: RSHFT}
-  - {t: (, h: RGUI}
-  - {t: ), h: LALT}
-  - {t: '=', h: RCTRL}
+  - Sft+ H
+  - Sft+ J
+  - Sft+ K
+  - Sft+ L
+  - Sft+ ;
   - Gui+ Z
   - Gui+ X
   - Gui+ C
   - Gui+ V
   - Gui+ B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+ N
+  - Sft+ M
+  - Sft+ ,
+  - Sft+ .
+  - Sft+ /
+  - {t: X, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  LOWER:
+  - Gui+Sft+ Q
+  - Gui+Sft+ W
+  - Gui+Sft+ L
+  - Gui+Sft+ R
+  - Gui+Sft+ T
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - '{'
+  - '}'
+  - DEL
+  - {t: Gui+Sft+ A, h: LCTRL}
+  - {t: Gui+Sft+ S, h: LALT}
+  - {t: Alt+Sft+ F, h: LGUI}
+  - {t: Gui+Sft+ F, h: LSHFT}
+  - Gui+Sft+ G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - (
+  - )
+  - '='
+  - Gui+Sft+ Z
+  - Gui+Sft+ X
+  - Gui+Sft+ C
+  - Gui+Sft+ V
+  - Gui+Sft+ B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -83,8 +128,8 @@ layers:
   - ']'
   - \
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -132,25 +177,72 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: X, type: held}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  PWR:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&caps_word'
+  - BSPC
+  - TAB
+  - ENTER
+  - ESC
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: X, type: held}
   - {t: ▽, type: trans}
   BLT:
+  - Sft+ Q
+  - Sft+ W
+  - Sft+ E
+  - Sft+ R
+  - Sft+ T
   - ''
+  - {t: ▽, type: trans}
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
+  - Sft+ A
+  - Sft+ S
+  - Sft+ D
+  - Sft+ F
+  - Sft+ G
   - ''
   - ''
   - ''
@@ -158,9 +250,11 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Sft+ Z
+  - Sft+ X
+  - Sft+ C
+  - Sft+ V
+  - Sft+ B
   - ''
   - ''
   - BT CLR
@@ -169,21 +263,17 @@ layers:
   - ''
   - ''
   - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: X, type: held}
 combos:
 - p: [15, 14, 13]
   k: ESC
-- p: [20, 21, 22]
+- p: [20, 21, 22, 23]
   k: ENTER
 - p: [15, 14]
   k: TAB
@@ -191,3 +281,5 @@ combos:
   k: BSPC
 - p: [15, 20]
   k: '&caps_word'
+- p: [20, 21, 22]
+  k: Sft+ ENTER
