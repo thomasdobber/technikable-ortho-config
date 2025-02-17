@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
-  Base:
-  - {t: ESC, h: LCTRL}
+  BASE:
+  - ESC
   - Q
   - W
   - E
@@ -39,19 +39,14 @@ layers:
   - RET
   - LALT
   - LGUI
-  - {t: SPACE, h: GUI}
+  - {t: SPACE, h: LMD}
   - SYM
   - NUM
-  - ARR
-  - {t: ▽, type: trans}
-  - BT
-  GUI:
+  - {t: BSPC, h: ARR}
+  - RCTRL
+  - BLT
+  LMD:
   - DEL
-  - Gui+ Q
-  - Gui+ W
-  - Gui+ L
-  - Gui+ R
-  - Gui+ T
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -59,11 +54,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+ A, h: LCTRL}
-  - {t: Gui+ S, h: LALT}
-  - {t: Alt+ F, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
-  - Gui+ G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Alt+ BSPC
+  - {t: ▽, type: trans}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
+  - {t: D, h: LGUI}
+  - {t: F, h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,11 +70,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ Z
-  - Gui+ X
-  - Gui+ C
-  - Gui+ V
-  - Gui+ B
+  - '&caps_word'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -92,40 +92,40 @@ layers:
   - {t: ▽, type: trans}
   SYM:
   - DEL
-  - Gui+Sft+ Q
-  - Gui+Sft+ W
-  - Gui+Sft+ L
-  - Gui+Sft+ R
-  - Gui+Sft+ T
-  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '`'
   - '{'
   - '}'
-  - +
+  - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
-  - {t: Gui+Sft+ A, h: LCTRL}
-  - {t: Gui+Sft+ S, h: LALT}
-  - {t: Alt+Sft+ F, h: LGUI}
-  - {t: Gui+Sft+ F, h: LSHFT}
-  - Gui+Sft+ G
-  - _
+  - LCTRL
+  - LALT
+  - LGUI
+  - LSHFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '-'
   - (
   - )
   - '='
   - {t: ▽, type: trans}
+  - '&caps_word'
   - {t: ▽, type: trans}
-  - Gui+Sft+ Z
-  - Gui+Sft+ X
-  - Gui+Sft+ C
-  - Gui+Sft+ V
-  - Gui+Sft+ B
-  - '"'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''''
   - '['
   - ']'
-  - \
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -143,9 +143,9 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Sft+ LEFT
-  - Sft+ UP
-  - Alt+Sft+ RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
@@ -155,12 +155,12 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Sft+ LEFT, h: RSHFT}
-  - {t: Sft+ DOWN, h: RGUI}
-  - {t: Sft+ RIGHT, h: LALT}
+  - RSHFT
+  - RGUI
+  - LALT
   - RCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -181,6 +181,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   ARR:
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,9 +189,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ LEFT
   - UP
-  - Alt+ RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Alt+ BSPC
   - {t: ▽, type: trans}
@@ -205,7 +205,7 @@ layers:
   - {t: RIGHT, h: LALT}
   - RCTRL
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&caps_word'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -225,13 +225,13 @@ layers:
   - {t: X, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  BT:
+  BLT:
   - ''
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '4'}
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -240,7 +240,7 @@ layers:
   - BT CLR
   - ''
   - {t: ▽, type: trans}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -264,24 +264,20 @@ layers:
   - ''
   - ''
   - ''
-  - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
   - ''
   - {t: X, type: held}
 combos:
-- p: [15, 16, 38, 14]
-  k: ESC
-- p: [20, 19, 41, 21]
-  k: ENTER
+- p: [16, 19]
+  k: '&caps_word'
 - p: [16, 15]
   k: TAB
 - p: [19, 20]
   k: BSPC
-- p: [16, 19]
-  k: '&caps_word'
-- p: [16, 38]
-  k: LSHFT
-- p: [19, 41]
-  k: RSHFT
+- p: [19, 20, 21]
+  k: Sft+ ENTER
+- p: [14, 15, 16]
+  k: Ctl+ C
