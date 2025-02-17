@@ -91,9 +91,9 @@
 
         power_layer {
             bindings = <
-&trans     &trans    &kp LA(C)     &kp LS(TAB)    &trans      &trans          &trans  &trans      &kp LA(BSPC)    &kp ENTER           &trans    &trans
+&trans     &trans    &kp LC(C)     &kp LS(TAB)    &trans      &trans          &trans  &trans      &kp LA(BSPC)    &kp ENTER           &trans    &trans
 &kp LCTRL  &kp LALT  &mt LGUI ESC  &mt LSHFT TAB  &caps_word  &trans          &trans  &caps_word  &mt LSHFT BSPC  &mt RGUI LS(ENTER)  &kp LALT  &kp LCTRL
-&trans     &trans    &trans        &trans         &trans      &trans          &trans  &trans      &trans          &trans              &trans    &trans
+&trans     &trans    &trans        &trans         &trans      &trans          &trans  &trans      &kp DEL         &trans              &trans    &trans
                      &trans        &kp X          &trans      &trans  &trans  &trans  &kp X       &trans
             >;
 
