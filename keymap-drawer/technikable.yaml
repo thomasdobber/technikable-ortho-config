@@ -228,7 +228,7 @@ layers:
   PWR:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+ C
+  - Ctl+ C
   - Sft+ TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -258,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
