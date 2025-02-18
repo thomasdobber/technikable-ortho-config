@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: X, type: held}
@@ -126,7 +126,7 @@ layers:
   - '['
   - ']'
   - /
-  - {t: ▽, type: trans}
+  - Sft+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -171,7 +171,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
@@ -216,7 +216,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -278,6 +278,6 @@ combos:
 - p: [19, 20]
   k: BSPC
 - p: [19, 20, 21]
-  k: Sft+ ENTER
+  k: ENTER
 - p: [14, 15, 16]
-  k: Ctl+ C
+  k: ESC
