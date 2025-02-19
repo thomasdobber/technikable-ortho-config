@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '-'
-  - {t: ESC, h: LCTRL}
+  - LCTRL
   - A
   - S
   - D
