@@ -40,8 +40,8 @@ layers:
   - LALT
   - LGUI
   - SPACE
-  - {t: ▽, type: trans}
-  - BLT
+  - '['
+  - ']'
   - SYM
   - RGUI
   - LALT
@@ -78,8 +78,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,7 +131,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
