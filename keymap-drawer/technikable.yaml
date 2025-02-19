@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: technikable, layout_name: LAYOUT_technikable_4x12}
 layers:
   BASE:
-  - ESC
+  - TAB
   - Q
   - W
   - E
@@ -13,19 +13,19 @@ layers:
   - O
   - P
   - BSPC
-  - TAB
+  - {t: ESC, h: LCTRL}
   - A
   - S
   - D
-  - F
+  - {t: F, h: LSHFT}
   - G
   - H
-  - J
+  - {t: J, h: RSHFT}
   - K
   - L
   - ;
   - ''''
-  - LSHFT
+  - '`'
   - Z
   - X
   - C
@@ -36,131 +36,41 @@ layers:
   - ','
   - .
   - /
-  - RET
+  - \
   - LALT
   - LGUI
-  - {t: SPACE, h: LMD}
-  - SYM
-  - NUM
-  - {t: BSPC, h: ARR}
-  - RCTRL
-  - BLT
-  LMD:
-  - DEL
+  - SPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
-  - {t: D, h: LGUI}
-  - {t: F, h: LSHFT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&caps_word'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  SYM:
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '`'
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - LCTRL
+  - ARR
+  - RGUI
   - LALT
-  - LGUI
-  - LSHFT
+  ARR:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - (
-  - )
-  - '='
-  - {t: ▽, type: trans}
-  - '&caps_word'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - '['
-  - ']'
-  - /
-  - Sft+ ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NUM:
-  - DEL
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '-'
+  - UP
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
-  - '6'
+  - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RSHFT
-  - RGUI
-  - LALT
-  - RCTRL
+  - {t: LEFT, h: RSHFT}
+  - DOWN
+  - RIGHT
   - {t: ▽, type: trans}
-  - '&caps_word'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -168,58 +78,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '['
+  - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
-  - {t: ▽, type: trans}
-  - {t: X, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  ARR:
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+ BSPC
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
-  - {t: RIGHT, h: LALT}
-  - RCTRL
-  - {t: ▽, type: trans}
-  - '&caps_word'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+ ENTER
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: X, type: held}
@@ -269,7 +134,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: X, type: held}
+  - {t: ▽, type: trans}
 combos:
 - p: [16, 19]
   k: '&caps_word'
