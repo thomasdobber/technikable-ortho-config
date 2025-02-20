@@ -73,10 +73,10 @@
 
         sym_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4        &kp N5          &trans  &trans          &kp UP    &trans     &trans  &trans
-&trans  &kp N6  &kp N7  &kp N8  &mt LSHFT N9  &kp N0          &trans  &mt RSHFT LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans  &trans        &trans          &trans  &trans          &trans    &trans     &trans  &trans
-                &trans  &trans  &trans        &trans  &trans  &trans  &trans          &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3        &trans          &trans  &trans          &kp UP    &trans     &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &mt LSHFT N6  &trans          &trans  &mt RSHFT LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans  &trans  &kp N7  &kp N8  &kp N9        &trans          &trans  &trans          &trans    &trans     &trans  &trans
+                &trans  &trans  &kp N0        &trans  &trans  &trans  &trans          &trans
             >;
 
             label = "SYM";
