@@ -39,13 +39,13 @@ layers:
   - {t: \, h: RSHFT}
   - LALT
   - LGUI
-  - SPACE
+  - {t: SPACE, h: SYM}
   - '['
   - ']'
-  - SYM
+  - {t: BSPC, h: NUM}
   - RGUI
   - LALT
-  SYM:
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
@@ -59,14 +59,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
+  - LCTRL
+  - {t: '4', h: LALT}
+  - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: LEFT, h: RSHFT}
-  - DOWN
+  - {t: DOWN, h: RGUI}
   - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -87,7 +87,52 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: X, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM:
+  - {t: ▽, type: trans}
+  - Gui+ Q
+  - Gui+ W
+  - Gui+ L
+  - Gui+ R
+  - Gui+ T
+  - {t: ▽, type: trans}
+  - '-'
+  - UP
+  - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Gui+ A, h: LCTRL}
+  - {t: Gui+ S, h: LALT}
+  - {t: Alt+ F, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
+  - Gui+ G
+  - {t: ▽, type: trans}
+  - {t: LEFT, h: RSHFT}
+  - DOWN
+  - RIGHT
+  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+ Z
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
+  - Gui+ B
+  - {t: ▽, type: trans}
+  - '`'
+  - '['
+  - ']'
+  - \
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: X, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
