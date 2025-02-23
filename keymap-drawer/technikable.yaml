@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - Y
   - U
   - I
@@ -18,8 +18,8 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: RGUI}
@@ -30,29 +30,29 @@ layers:
   - C
   - V
   - B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - N
   - M
   - ','
   - .
   - /
   - ESC
-  - {t: SPACE, h: MDL}
+  - {t: SPACE, h: SYM}
   - TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - RET
-  - {t: BSPC, h: MDR}
+  - {t: BSPC, h: NUM}
   - DEL
-  MDL:
+  SYM:
   - Gui+ Q
   - Gui+ W
   - Gui+Sft+ L
   - Gui+Sft+ R
   - Gui+ T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '-'
   - UP
@@ -63,8 +63,8 @@ layers:
   - {t: Alt+Sft+ F, h: LGUI}
   - {t: Gui+ F, h: LSHFT}
   - Gui+ G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - LEFT
   - DOWN
@@ -75,8 +75,8 @@ layers:
   - Gui+ C
   - Gui+ V
   - Gui+ B
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - '`'
   - '['
@@ -85,19 +85,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: X, type: held}
   - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  MDR:
+  NUM:
   - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP
@@ -108,8 +108,8 @@ layers:
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: LEFT, h: RSHFT}
   - {t: DOWN, h: RGUI}
@@ -120,8 +120,8 @@ layers:
   - '8'
   - '9'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,8 +130,8 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: X, type: held}
   - {t: ▽, type: trans}
