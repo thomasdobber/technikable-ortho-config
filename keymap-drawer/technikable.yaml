@@ -138,3 +138,5 @@ layers:
 combos:
 - p: [15, 20]
   k: '&caps_word'
+- p: [21, 20]
+  k: BSPC
