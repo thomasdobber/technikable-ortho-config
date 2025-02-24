@@ -39,10 +39,10 @@ layers:
   - /
   - ''
   - {t: SPACE, h: SYM}
-  - TAB
+  - {t: ▽, type: trans}
   - ''
   - ''
-  - RET
+  - {t: ▽, type: trans}
   - NUM
   - ''
   SYM:
@@ -142,3 +142,11 @@ combos:
   k: BSPC
 - p: [13, 14, 15]
   k: ESC
+- p: [22, 21, 20]
+  k: ENTER
+- p: [14, 13]
+  k: TAB
+- p: [15, 14]
+  k: SPACE
+- p: [22, 21]
+  k: DEL
