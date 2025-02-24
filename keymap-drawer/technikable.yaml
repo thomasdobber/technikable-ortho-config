@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
@@ -136,5 +136,5 @@ layers:
   - {t: X, type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [16, 19]
+- p: [15, 20]
   k: '&caps_word'
