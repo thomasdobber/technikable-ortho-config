@@ -41,12 +41,7 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
-        };
-
-        space {
-            bindings = <&kp SPACE>;
-            key-positions = <15 14>;
+            key-positions = <14 15>;
         };
 
         del {
