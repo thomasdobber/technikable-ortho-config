@@ -22,6 +22,11 @@
             bindings = <&caps_word>;
             key-positions = <15 20>;
         };
+
+        bspc {
+            bindings = <&kp BSPC>;
+            key-positions = <21 20>;
+        };
     };
 
     behaviors {
