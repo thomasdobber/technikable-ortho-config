@@ -37,14 +37,14 @@ layers:
   - ','
   - .
   - /
-  - ESC
+  - ''
   - {t: SPACE, h: SYM}
   - TAB
   - ''
   - ''
   - RET
-  - {t: BSPC, h: NUM}
-  - DEL
+  - NUM
+  - ''
   SYM:
   - Gui+ Q
   - Gui+ W
@@ -53,11 +53,11 @@ layers:
   - Gui+ T
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - '-'
   - UP
   - '='
-  - {t: ▽, type: trans}
+  - ''
   - {t: Gui+ A, h: LCTRL}
   - {t: Gui+ S, h: LALT}
   - {t: Alt+Sft+ F, h: LGUI}
@@ -65,7 +65,7 @@ layers:
   - Gui+ G
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - {t: LEFT, h: RSHFT}
   - {t: DOWN, h: RGUI}
   - {t: RIGHT, h: LALT}
@@ -77,66 +77,68 @@ layers:
   - Gui+ B
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
   - '`'
   - '['
   - ']'
   - \
-  - {t: ▽, type: trans}
+  - ''
   - {t: X, type: held}
   - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   NUM:
-  - {t: ▽, type: trans}
+  - ''
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '-'
   - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '='
+  - ''
   - LCTRL
   - {t: '4', h: LALT}
   - {t: '5', h: LGUI}
   - {t: '6', h: LSHFT}
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - {t: LEFT, h: RSHFT}
   - {t: DOWN, h: RGUI}
   - {t: RIGHT, h: LALT}
-  - RCTRL
-  - {t: ▽, type: trans}
+  - {t: '''', h: RCTRL}
+  - ''
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - '`'
+  - '['
+  - ']'
+  - /
+  - ''
   - '0'
   - {t: ▽, type: trans}
   - ''
   - ''
   - {t: ▽, type: trans}
   - {t: X, type: held}
-  - {t: ▽, type: trans}
+  - ''
 combos:
 - p: [15, 20]
   k: '&caps_word'
 - p: [21, 20]
   k: BSPC
+- p: [13, 14, 15]
+  k: ESC
