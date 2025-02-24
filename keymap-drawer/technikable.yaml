@@ -66,10 +66,10 @@ layers:
   - ''
   - ''
   - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - ''''
+  - {t: LEFT, h: RSHFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: LALT}
+  - {t: '''', h: RCTRL}
   - Gui+ Z
   - Gui+ X
   - Gui+ C
