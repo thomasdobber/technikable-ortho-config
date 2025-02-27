@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: LCTRL}
-  - {t: S, h: LALT}
+  - A
+  - S
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
@@ -39,7 +39,7 @@ layers:
   - /
   - ''
   - {t: SPACE, h: SYM}
-  - '&lm 1 LSHIFT'
+  - '&lm 1 LSHFT'
   - ''
   - ''
   - '&lm 2 RSHIFT'
@@ -55,21 +55,21 @@ layers:
   - ''
   - ''
   - '-'
+  - UP
   - '='
   - ''
-  - ''
-  - {t: Gui+ A, h: LCTRL}
-  - {t: Gui+ S, h: LALT}
-  - {t: Alt+ F, h: LGUI}
-  - {t: Gui+ F, h: LSHFT}
+  - Gui+ A
+  - Gui+ S
+  - Alt+ F
+  - Gui+ F
   - Gui+ G
   - ''
   - ''
   - ''
-  - {t: '[', h: RSHFT}
-  - {t: ']', h: RGUI}
-  - {t: '''', h: LALT}
-  - RCTRL
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''''
   - Gui+ Z
   - Gui+ X
   - Gui+ C
@@ -79,9 +79,9 @@ layers:
   - ''
   - ''
   - '`'
+  - '['
+  - ']'
   - \
-  - ''
-  - ''
   - ''
   - {type: held}
   - {t: ▽, type: trans}
@@ -102,19 +102,19 @@ layers:
   - Alt+ LEFT
   - UP
   - Alt+ RIGHT
+  - Gui+ LEFT
   - ''
-  - LCTRL
-  - {t: '4', h: LALT}
-  - {t: '5', h: LGUI}
-  - {t: '6', h: LSHFT}
+  - '4'
+  - '5'
+  - '6'
   - ''
   - ''
   - ''
   - Gui+ DOWN
-  - {t: LEFT, h: RSHFT}
-  - {t: DOWN, h: RGUI}
-  - {t: RIGHT, h: LALT}
-  - RCTRL
+  - LEFT
+  - DOWN
+  - RIGHT
+  - Gui+ RIGHT
   - ''
   - '7'
   - '8'
@@ -123,9 +123,9 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+ LEFT
   - ''
-  - Gui+ RIGHT
+  - ''
+  - ''
   - ''
   - ''
   - '0'
