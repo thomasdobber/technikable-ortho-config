@@ -13,8 +13,8 @@ layers:
   - I
   - O
   - P
-  - A
-  - S
+  - {t: A, h: LCTRL}
+  - {t: S, h: LALT}
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
@@ -58,10 +58,10 @@ layers:
   - UP
   - '='
   - ''
-  - Gui+ A
-  - Gui+ S
-  - Alt+ F
-  - Gui+ F
+  - {t: Gui+ A, h: LCTRL}
+  - {t: Gui+ S, h: LALT}
+  - {t: Alt+ F, h: LGUI}
+  - {t: Gui+ F, h: LSHFT}
   - Gui+ G
   - ''
   - ''
@@ -111,10 +111,10 @@ layers:
   - ''
   - ''
   - Gui+ DOWN
-  - LEFT
-  - DOWN
-  - RIGHT
-  - Gui+ RIGHT
+  - {t: LEFT, h: RSHIFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: LALT}
+  - {t: Gui+ RIGHT, h: Gui+ RCTRL}
   - ''
   - '7'
   - '8'
