@@ -121,21 +121,12 @@
             >;
         };
 
-        layer_3 {
+        num_layer {
             bindings = <
 &trans  &trans           &kp LG(C)        &trans                &trans  &trans          &trans  &trans  &kp N1  &kp N2  &kp N3  &trans
 &trans  &hml LALT LG(Z)  &hml LGUI LG(V)  &hml LSHFT LG(LS(Z))  &trans  &trans          &trans  &trans  &kp N4  &kp N5  &kp N6  &trans
 &trans  &trans           &trans           &trans                &trans  &trans          &trans  &trans  &kp N7  &kp N8  &kp N9  &trans
                          &kp UNDERSCORE   &trans                &trans  &trans  &trans  &trans  &kp N0  &trans
-            >;
-        };
-
-        num_layer {
-            bindings = <
-&trans  &trans           &kp LG(C)        &trans                &trans  &trans          &trans  &trans  &kp LBKT   &kp LBKT   &kp RBKT  &kp RBKT
-&trans  &hml LALT LG(Z)  &hml LGUI LG(V)  &hml LSHFT LG(LS(Z))  &trans  &trans          &trans  &trans  &kp MINUS  &kp N9     &kp N0    &kp EQUAL
-&trans  &trans           &trans           &trans                &trans  &trans          &trans  &trans  &kp GRAVE  &kp COMMA  &kp DOT   &kp BACKSLASH
-                         &trans           &kp UNDERSCORE        &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "NUM";
@@ -143,13 +134,24 @@
 
         sym_layer {
             bindings = <
+&trans  &trans           &kp LG(C)        &trans                &trans  &trans          &trans  &trans  &kp SINGLE_QUOTE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans
+&trans  &hml LALT LG(Z)  &hml LGUI LG(V)  &hml LSHFT LG(LS(Z))  &trans  &trans          &trans  &trans  &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
+&trans  &trans           &trans           &trans                &trans  &trans          &trans  &trans  &kp GRAVE         &kp LBKT              &kp RBKT               &kp BACKSLASH
+                         &trans           &kp UNDERSCORE        &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            label = "SYM";
+        };
+
+        nav_layer {
+            bindings = <
 &trans  &trans           &kp LG(C)        &trans                &trans          &trans          &trans  &trans  &trans    &kp UP    &trans     &trans
 &trans  &hml LALT LG(Z)  &hml LGUI LG(V)  &hml LSHFT LG(LS(Z))  &trans          &trans          &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &trans  &trans           &trans           &trans                &trans          &trans          &trans  &trans  &trans    &trans    &trans     &trans
                          &trans           &trans                &kp UNDERSCORE  &trans  &trans  &trans  &trans  &trans
             >;
 
-            label = "SYM";
+            label = "NAV";
         };
     };
 };
