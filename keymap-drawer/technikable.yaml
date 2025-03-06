@@ -37,18 +37,18 @@ layers:
   - ','
   - .
   - /
-  - NUM
-  - SYM
-  - NAV
+  - {t: ESC, h: NUM}
+  - SPACE
+  - {t: TAB, h: SYM}
   - ''
   - ''
   - {t: ▽, type: trans}
-  - SPACE
+  - BSPC
   - ''
   NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ C
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -59,8 +59,8 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+ Z, h: LALT}
-  - {t: Gui+ V, h: LGUI}
+  - {t: ▽, type: trans}
+  - {t: Gui+ Z, h: LGUI}
   - {t: Gui+Sft+ Z, h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -71,9 +71,9 @@ layers:
   - '6'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+ X
+  - Gui+ C
+  - Gui+ V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,28 +93,28 @@ layers:
   SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+ C
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''''
-  - '{'
-  - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Gui+ Z, h: LALT}
-  - {t: Gui+ V, h: LGUI}
-  - {t: Gui+Sft+ Z, h: LSHFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - (
-  - )
+  - UP
   - '='
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -126,59 +126,14 @@ layers:
   - '`'
   - '['
   - ']'
-  - \
-  - {t: ▽, type: trans}
-  - {t: _, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  NAV:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+ C
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Gui+ Z, h: LALT}
-  - {t: Gui+ V, h: LGUI}
-  - {t: Gui+Sft+ Z, h: LSHFT}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: _, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ENTER
   - {t: ▽, type: trans}
 combos:
 - p: [15, 20]
