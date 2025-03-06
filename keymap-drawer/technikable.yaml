@@ -37,15 +37,15 @@ layers:
   - ','
   - .
   - /
-  - '3'
   - NUM
   - SYM
+  - NAV
   - ''
   - ''
   - {t: ▽, type: trans}
   - SPACE
   - ''
-  '3':
+  NUM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+ C
@@ -90,7 +90,7 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
-  NUM:
+  SYM:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+ C
@@ -99,10 +99,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - '['
-  - ']'
-  - ']'
+  - ''''
+  - '{'
+  - '}'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Gui+ Z, h: LALT}
   - {t: Gui+ V, h: LGUI}
@@ -112,8 +112,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
-  - '9'
-  - '0'
+  - (
+  - )
   - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -124,8 +124,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - ','
-  - .
+  - '['
+  - ']'
   - \
   - {t: ▽, type: trans}
   - {t: _, type: held}
@@ -135,7 +135,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  SYM:
+  NAV:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+ C
