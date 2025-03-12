@@ -88,10 +88,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-&kp Q         &kp W        &kp E        &kp R         &kp T      &none         &none   &kp Y     &kp U         &kp I        &kp O        &kp P
-&hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G      &none         &none   &kp H     &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
-&kp Z         &kp X        &kp C        &kp V         &kp B      &none         &none   &kp N     &kp M         &kp COMMA    &kp DOT      &kp FSLH
-                           &kp ESC      &lt 1 SPACE   &lt 2 TAB  &none  &none  &trans  &kp BSPC  &none
+&kp Q         &kp W        &kp E         &kp R         &kp T      &none         &none   &kp Y           &kp U         &kp I        &kp O        &kp P
+&hml LCTRL A  &hml LALT S  &hml LGUI D   &hml LSHFT F  &kp G      &none         &none   &kp H           &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
+&kp Z         &kp X        &kp C         &kp V         &kp B      &none         &none   &kp N           &kp M         &kp COMMA    &kp DOT      &kp FSLH
+                           &mt LGUI ESC  &lt 1 SPACE   &lt 2 TAB  &none  &none  &trans  &lt 3 LA(BSPC)  &none
             >;
         };
 
@@ -115,6 +115,17 @@
             >;
 
             label = "NUM";
+        };
+
+        del_layer {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans           &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &hml RSHFT BSPC  &hmr RGUI DEL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans           &trans         &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &trans
+            >;
+
+            label = "DEL";
         };
     };
 };
