@@ -37,13 +37,13 @@ layers:
   - ','
   - .
   - /
-  - ESC
+  - {t: ESC, h: LGUI}
   - {t: SPACE, h: SYM}
   - {t: TAB, h: NUM}
   - ''
   - ''
   - {t: ▽, type: trans}
-  - BSPC
+  - {t: Alt+ BSPC, h: DEL}
   - ''
   SYM:
   - {t: ▽, type: trans}
@@ -134,6 +134,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
+  - {t: ▽, type: trans}
+  DEL:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BSPC, h: RSHFT}
+  - {t: DEL, h: RGUI}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: _, type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [15, 20]
