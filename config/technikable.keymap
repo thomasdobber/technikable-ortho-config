@@ -97,9 +97,9 @@
 
         sym_layer {
             bindings = <
-&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &trans    &kp UP    &trans     &trans
-&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &kp LEFT  &kp DOWN  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &trans    &trans    &trans     &trans
+&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &kp MINUS  &kp UP            &kp EQUAL          &trans
+&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &kp LEFT   &kp DOWN          &kp RIGHT          &kp SINGLE_QUOTE
+&trans  &trans  &trans  &trans     &trans  &trans          &trans  &trans     &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
                 &trans  &kp UNDER  &trans  &trans  &trans  &trans  &kp ENTER  &trans
             >;
 
@@ -119,10 +119,10 @@
 
         del_layer {
             bindings = <
-&trans  &kp BACKSLASH     &kp MINUS             &kp EQUAL              &trans  &trans          &trans  &trans          &trans           &trans         &trans  &trans
-&trans  &kp SINGLE_QUOTE  &kp LBKT              &kp RBKT               &trans  &trans          &trans  &trans          &hml RSHFT BSPC  &hmr RGUI DEL  &trans  &trans
-&trans  &kp GRAVE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans          &trans  &trans          &trans           &trans         &trans  &trans
-                          &trans                &trans                 &trans  &trans  &trans  &trans  &kp UNDERSCORE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans    &trans   &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &kp BSPC  &kp DEL  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans          &trans    &trans   &trans  &trans
+                &trans  &trans  &trans  &trans  &trans  &trans  &kp UNDERSCORE  &trans
             >;
 
             label = "DEL";
