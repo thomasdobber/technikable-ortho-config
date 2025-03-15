@@ -39,7 +39,7 @@ layers:
   - /
   - {t: ESC, h: LGUI}
   - {t: SPACE, h: SYM}
-  - TAB
+  - {t: TAB, h: BT}
   - ''
   - ''
   - ''
@@ -129,7 +129,7 @@ layers:
   - ''
   - ''
   - ''
-  - _
+  - {t: _, type: held}
   - ''
   - ''
   - ''
