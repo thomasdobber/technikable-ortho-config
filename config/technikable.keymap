@@ -33,22 +33,22 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <3 2>;
+            key-positions = <14 13>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <8 9>;
+            key-positions = <21 22>;
         };
 
         esc {
             bindings = <&kp ESC>;
-            key-positions = <27 26>;
+            key-positions = <13 14 15>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <32 33>;
+            key-positions = <20 21 22>;
         };
     };
 
@@ -116,19 +116,19 @@
         base_layer {
             label = "BASE";
             bindings = <
-&kp Q         &kp W        &kp E         &kp R         &kp T      &none         &none  &kp Y       &kp U         &kp I        &kp O        &kp P
-&hml LCTRL A  &hml LALT S  &hml LGUI D   &hml LSHFT F  &kp G      &none         &none  &kp H       &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
-&kp Z         &kp X        &kp C         &kp V         &kp B      &none         &none  &kp N       &kp M         &kp COMMA    &kp DOT      &kp FSLH
-                           &mt LGUI ESC  &lt 1 SPACE   &lt 2 TAB  &none  &none  &none  &lt 1 BSPC  &none
+&kp Q         &kp W        &kp E        &kp R         &kp T  &none         &none  &kp Y        &kp U         &kp I        &kp O        &kp P
+&hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G  &none         &none  &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
+&kp Z         &kp X        &kp C        &kp V         &kp B  &none         &none  &kp N        &kp M         &kp COMMA    &kp DOT      &kp FSLH
+                           &none        &lt 1 SPACE   &none  &none  &none  &none  &lt 1 SPACE  &none
             >;
         };
 
         sym_layer {
             bindings = <
-&trans                &kp N1  &kp N2  &kp N3  &trans                 &trans          &trans  &trans     &kp MINUS         &kp UP            &kp EQUAL          &trans
-&kp LEFT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &kp RIGHT_PARENTHESIS  &trans          &trans  &kp GRAVE  &kp LEFT          &kp DOWN          &kp RIGHT          &kp BACKSLASH
-&trans                &kp N7  &kp N8  &kp N9  &trans                 &trans          &trans  &trans     &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                              &trans  &kp N0  &trans                 &trans  &trans  &trans  &kp RET    &trans
+&trans                &kp N1  &kp N2  &kp N3  &trans                 &trans          &trans  &trans       &kp MINUS         &kp UP            &kp EQUAL          &trans
+&kp LEFT_PARENTHESIS  &kp N4  &kp N5  &kp N6  &kp RIGHT_PARENTHESIS  &trans          &trans  &kp GRAVE    &kp LEFT          &kp DOWN          &kp RIGHT          &kp BACKSLASH
+&trans                &kp N7  &kp N8  &kp N9  &trans                 &trans          &trans  &trans       &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+                              &trans  &kp N0  &trans                 &trans  &trans  &trans  &lt 2 SPACE  &trans
             >;
 
             label = "SYM";
@@ -136,10 +136,10 @@
 
         bluetooth_layer {
             bindings = <
-&none  &none  &none  &none  &none      &none         &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none  &none  &none  &none  &none      &none         &none  &bt BT_CLR    &none         &none         &none         &none
-&none  &none  &none  &none  &none      &none         &none  &none         &none         &none         &none         &none
-              &none  &none  &kp UNDER  &none  &none  &none  &none         &none
+&none  &none  &none  &none  &none  &none         &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none  &none  &none  &none  &none  &none         &none  &bt BT_CLR    &none         &none         &none         &none
+&none  &none  &none  &none  &none  &none         &none  &none         &none         &none         &none         &none
+              &none  &none  &none  &none  &none  &none  &none         &none
             >;
 
             label = "BT";
