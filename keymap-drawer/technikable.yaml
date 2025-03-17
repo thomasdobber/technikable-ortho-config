@@ -43,7 +43,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: SPACE, h: SYM}
+  - {t: BSPC, h: SYM}
   - ''
   SYM:
   - {t: ▽, type: trans}
@@ -58,18 +58,18 @@ layers:
   - UP
   - '='
   - {t: ▽, type: trans}
-  - (
-  - '4'
-  - '5'
-  - '6'
+  - {t: (, h: LCTRL}
+  - {t: '4', h: LALT}
+  - {t: '5', h: LGUI}
+  - {t: '6', h: LSHFT}
   - )
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '`'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - \
+  - {t: LEFT, h: RSHIFT}
+  - {t: DOWN, h: RGUI}
+  - {t: RIGHT, h: LALT}
+  - {t: \, h: RCTRL}
   - {t: ▽, type: trans}
   - '7'
   - '8'
@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, h: BT}
+  - {t: BSPC, h: BT}
   - {t: ▽, type: trans}
   BT:
   - ''
