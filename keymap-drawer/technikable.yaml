@@ -1,50 +1,50 @@
 layout: {zmk_keyboard: technikable, layout_name: ortho_transform}
 layers:
   BASE:
+  - {t: ▽, type: trans}
   - Q
   - W
   - E
   - R
   - T
-  - ''
-  - ''
   - Y
   - U
   - I
   - O
   - P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
-  - ''
-  - ''
   - H
-  - {t: J, h: RSHFT}
+  - {t: J, h: LSHFT}
   - {t: K, h: RGUI}
   - {t: L, h: LALT}
   - {t: ;, h: RCTRL}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
   - V
   - B
-  - ''
-  - ''
   - N
   - M
   - ','
   - .
   - /
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: SPACE, h: SYM}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BSPC, h: SYM}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: BACKSPACE, h: SYM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - '1'
@@ -83,8 +83,8 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', type: held}
-  - {t: ▽, type: trans}
+  - '0'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -128,8 +128,8 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''
