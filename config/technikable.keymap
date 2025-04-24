@@ -125,10 +125,10 @@
 
         sym_layer {
             bindings = <
-&trans                       &kp N1        &kp N2        &kp N3         &trans                 &trans          &trans  &trans      &kp MINUS         &kp UP            &kp EQUAL          &trans
-&hml LCTRL LEFT_PARENTHESIS  &hml LALT N4  &hml LGUI N5  &hml LSHFT N6  &kp RIGHT_PARENTHESIS  &trans          &trans  &kp GRAVE   &hmr RSHIFT LEFT  &hmr RGUI DOWN    &hmr LALT RIGHT    &hmr RCTRL BACKSLASH
-&trans                       &kp N7        &kp N8        &kp N9         &trans                 &trans          &trans  &trans      &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-                                           &trans        &kp N0         &trans                 &trans  &trans  &trans  &lt 2 BSPC  &trans
+&trans  &trans                       &kp N1        &kp N2        &kp N3         &trans                         &trans     &kp MINUS         &kp UP            &kp EQUAL          &trans                &trans
+&trans  &hml LCTRL LEFT_PARENTHESIS  &hml LALT N4  &hml LGUI N5  &hml LSHFT N6  &kp RIGHT_PARENTHESIS          &kp GRAVE  &hmr RSHFT LEFT   &hmr RGUI DOWN    &hmr LALT RIGHT    &hmr RCTRL BACKSLASH  &trans
+&trans  &trans                       &kp N7        &kp N8        &kp N9         &trans                         &trans     &kp SINGLE_QUOTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans                &trans
+                                     &trans        &trans        &kp N0         &trans                 &trans  &trans     &lt 2 BSPC        &trans
             >;
 
             label = "SYM";
