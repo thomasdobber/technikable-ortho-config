@@ -88,7 +88,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BSPC, h: BT}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   BT:
   - ''
@@ -129,11 +129,11 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
+  - ''
   - ''
 combos:
 - p: [16, 19]
