@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: technikable, layout_name: ortho_transform}
 layers:
   BASE:
-  - {t: ▽, type: trans}
+  - Q
   - Q
   - W
   - E
@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
+  - P
   - {t: ▽, type: trans}
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
