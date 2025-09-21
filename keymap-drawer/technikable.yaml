@@ -1,50 +1,50 @@
 layout: {zmk_keyboard: technikable, layout_name: ortho_transform}
 layers:
   BASE:
-  - Q
+  - {t: ▽, type: trans}
   - W
   - E
   - R
   - T
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Y
   - U
   - I
   - O
-  - P
+  - {t: ▽, type: trans}
   - {t: A, h: LCTRL}
   - {t: S, h: LALT}
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: RGUI}
   - {t: L, h: LALT}
   - {t: ;, h: RCTRL}
-  - Z
+  - {t: ▽, type: trans}
   - X
   - C
   - V
-  - B
-  - ''
-  - ''
-  - N
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - M
   - ','
   - .
-  - /
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: SPACE, h: SYM}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BSPC, h: SYM}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: SYM}
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - '1'
@@ -93,11 +93,23 @@ layers:
 combos:
 - p: [15, 20]
   k: '&caps_word'
-- p: [14, 13]
+- p: [14, 15]
   k: TAB
-- p: [21, 22]
+- p: [21, 20]
   k: BSPC
 - p: [13, 14, 15]
   k: ESC
 - p: [20, 21, 22]
   k: ENTER
+- p: [1, 2]
+  k: Q
+- p: [25, 26]
+  k: Z
+- p: [10, 9]
+  k: P
+- p: [34, 33]
+  k: \
+- p: [26, 27]
+  k: B
+- p: [33, 32]
+  k: N
