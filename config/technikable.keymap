@@ -25,12 +25,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <14 15>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         esc {
@@ -41,6 +41,36 @@
         ent {
             bindings = <&kp ENTER>;
             key-positions = <20 21 22>;
+        };
+
+        q {
+            bindings = <&kp Q>;
+            key-positions = <1 2>;
+        };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <25 26>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <10 9>;
+        };
+
+        bsls {
+            bindings = <&kp BSLH>;
+            key-positions = <34 33>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <26 27>;
+        };
+
+        n {
+            bindings = <&kp N>;
+            key-positions = <33 32>;
         };
     };
 
@@ -108,10 +138,10 @@
         base_layer {
             label = "BASE";
             bindings = <
-&kp Q         &kp W        &kp E        &kp R         &kp T  &none         &none  &kp Y       &kp U         &kp I        &kp O        &kp P
-&hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G  &none         &none  &kp H       &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
-&kp Z         &kp X        &kp C        &kp V         &kp B  &none         &none  &kp N       &kp M         &kp COMMA    &kp DOT      &kp FSLH
-                           &none        &lt 1 SPACE   &none  &none  &none  &none  &lt 1 BSPC  &none
+&trans        &kp W        &kp E        &kp R         &kp T   &trans          &trans  &kp Y        &kp U         &kp I        &kp O        &trans
+&hml LCTRL A  &hml LALT S  &hml LGUI D  &hml LSHFT F  &kp G   &trans          &trans  &kp H        &hmr RSHFT J  &hmr RGUI K  &hmr LALT L  &hmr RCTRL SEMI
+&trans        &kp X        &kp C        &kp V         &trans  &trans          &trans  &trans       &kp M         &kp COMMA    &kp DOT      &trans
+                           &trans       &lt 1 SPACE   &trans  &trans  &trans  &trans  &lt 1 SPACE  &trans
             >;
         };
 
