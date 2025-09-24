@@ -6,8 +6,8 @@ layers:
   - E
   - R
   - T
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Y
   - U
   - I
@@ -18,8 +18,8 @@ layers:
   - {t: D, h: LGUI}
   - {t: F, h: LSHFT}
   - G
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - H
   - {t: J, h: RSHFT}
   - {t: K, h: RGUI}
@@ -30,21 +30,21 @@ layers:
   - C
   - V
   - B
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
   - .
   - /
-  - ''
+  - Sft+ LEFT GUI
+  - LEFT GUI
   - {t: SPACE, h: SYM}
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: BSPC, h: SYM}
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: SYM}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
   - '1'
@@ -83,8 +83,8 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: '0', type: held}
-  - {t: ▽, type: trans}
+  - '0'
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,9 +93,9 @@ layers:
 combos:
 - p: [15, 20]
   k: '&caps_word'
-- p: [14, 13]
+- p: [14, 15]
   k: TAB
-- p: [21, 22]
+- p: [21, 20]
   k: BSPC
 - p: [13, 14, 15]
   k: ESC
