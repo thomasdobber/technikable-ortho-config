@@ -25,12 +25,12 @@
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <14 13>;
+            key-positions = <14 15>;
         };
 
         bspc {
             bindings = <&kp BSPC>;
-            key-positions = <21 22>;
+            key-positions = <21 20>;
         };
 
         esc {
