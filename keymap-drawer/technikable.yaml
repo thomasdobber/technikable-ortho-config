@@ -37,13 +37,13 @@ layers:
   - ','
   - .
   - /
-  - Sft+ LEFT GUI
-  - LEFT GUI
-  - {t: SPACE, h: SYM}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: SPACE, h: SYM}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: SYM}
   - {t: ▽, type: trans}
   SYM:
   - {t: ▽, type: trans}
@@ -83,8 +83,8 @@ layers:
   - ']'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - {type: held}
+  - {t: '0', type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -93,11 +93,11 @@ layers:
 combos:
 - p: [15, 20]
   k: '&caps_word'
-- p: [14, 15]
+- p: [3, 2]
   k: TAB
-- p: [21, 20]
+- p: [8, 9]
   k: BSPC
-- p: [13, 14, 15]
+- p: [26, 27]
   k: ESC
-- p: [20, 21, 22]
+- p: [32, 33]
   k: ENTER
